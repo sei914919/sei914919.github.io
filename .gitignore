@@ -7,3 +7,6 @@
 *.swp
 
 **/*.quarto_ipynb
+
+# local installers
+*.deb
