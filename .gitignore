@@ -10,3 +10,6 @@
 
 # local installers
 *.deb
+
+# local installers
+*.deb
