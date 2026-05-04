@@ -1,0 +1,57 @@
+---
+title: ""
+pagetitle: "Sei Shishido / 宍戸聖"
+description-meta: "成蹊大学法学部准教授・宍戸聖のウェブサイト。競争法、デジタル市場規制、自社優遇に関する研究。"
+page-layout: full
+toc: false
+listing:
+  - id: recent-works
+    contents: publications/items
+    type: table
+    fields: [date, title, venue]
+    field-display-names:
+      date: "日付"
+      title: "タイトル"
+      venue: "媒体"
+    sort: "date desc"
+    max-items: 5
+    table-striped: false
+    table-hover: false
+  - id: recent-blog
+    contents: blog/posts
+    type: default
+    sort: "date desc"
+    max-items: 3
+    fields: [date, title, description]
+    feed: true
+---
+
+::: hero
+[SS — 成蹊 / 法]{.specimen-mark}
+
+::: name
+Sei Shishido [宍戸　聖]{.jp}
+:::
+
+::: role
+Associate Professor — Competition Law — Seikei University
+:::
+
+::: lede
+独占禁止法・競争法を中心に、デジタル市場規制と日米欧比較の観点から研究を行っています。プラットフォームの自社優遇、アドテック、アルゴリズムによる競争への影響などが現在の主たる関心です。
+:::
+:::
+
+[Recent Works]{.section-label}
+
+::: {#recent-works}
+:::
+
+[全業績を見る →](publications/index.qmd)
+
+[Recent Posts]{.section-label}
+
+::: {#recent-blog}
+:::
+
+[ブログ一覧 →](blog/index.qmd)

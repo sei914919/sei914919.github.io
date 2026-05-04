@@ -1,0 +1,78 @@
+---
+title: "Projects"
+description: "研究と日常を支えるために自作したシステム・ツール"
+toc: true
+toc-location: right
+---
+
+研究・教育の周辺で自分用に組み立てたシステムやツールをまとめています。法学研究者から見て「こうなっていれば便利」と思える形を、自分で作って使っています。
+
+::: project-grid
+
+::: project-card
+### JADE / CLERK
+
+研究文献用ローカルRAGシステム。Ubuntu上で Ollama + AnythingLLM + Gradio を動かし、Obsidian vault と PDF を Syncthing 経由で同期して、オフライン環境でも文献横断検索・要約・比較分析が行えるよう構成。三法域（日米欧）比較を自動で構造化する独自の思考アルゴリズム（Anchor Analysis → Tri-Region Comparison → RAG-Synthesis）を組み込み済み。
+
+::: stack
+Ubuntu · Ollama · qwen3.5 · AnythingLLM · Docker · Gradio
+:::
+:::
+
+::: project-card
+### Arca
+
+Telegram で双方向に対話できる自律エージェント。OpenClaw を基盤に、systemd ユーザサービスとして常駐。Ollama (qwen3.5:35b) をローカルで使い、Cloudflare Worker 経由でスマートグラス（Even Realities G2）にも応答を流す構成。
+
+::: stack
+OpenClaw · Ollama · Telegram Bot API · Cloudflare Workers · systemd
+:::
+:::
+
+::: project-card
+### 研究会音声書き起こしパイプライン
+
+競争法研究会の録音から、Whisper + pyannote.audio による話者分離つきの議事録を生成するパイプライン。書き起こし後に Ollama (qwen2.5-coder:32b) で誤字訂正・整形を行う2段構成。マルチトラック録音（DJI Mic 3）に対応した v2 を設計中。
+
+::: stack
+Whisper · pyannote.audio 4 · Ollama · Python · CUDA
+:::
+:::
+
+::: project-card
+### 出張書類自動生成
+
+科研費の支出申請・出張申請書類を、定型項目だけ書けば openpyxl と python-docx で自動生成するスクリプト。年に何度も書く同じ書類のために時間を溶かさないために。
+
+::: stack
+Python · openpyxl · python-docx
+:::
+:::
+
+::: project-card
+### 独占禁止法史ダッシュボード
+
+戦後日本の独禁法改正・主要判例を年代別に追えるインタラクティブダッシュボード。React 単体（外部依存なし）で構築。サイドバー固定、4カテゴリフィルタ、キーワード検索、ランドマーク事件のハイライト機能つき。
+
+::: stack
+React · Vanilla CSS
+:::
+:::
+
+::: project-card
+### Obsidian LIFELOG
+
+Whisper による発話の自動書き起こしを Obsidian vault に流し込み、YAML frontmatter で `epistemic_status` や `evolved_into` を管理することで、思考の発展史を RAG で追跡可能にする外部記憶システム。Self-hosted LiveSync で Windows / macOS / Ubuntu / iOS をリアルタイム同期。
+
+::: stack
+Obsidian · LiveSync · CouchDB · Whisper · YAML
+:::
+:::
+
+:::
+
+::: {.callout-tip}
+## 共通する設計思想
+
+これらはどれも、**「研究室の机のうえで自分が毎週やっていること」を、外部サービスに依存しないかたちで組み直した**ものです。サバティカルや出張で一時的にネットワークが弱くなっても止まらないこと、データが自分の手元から離れないこと、そしてLLMやAIエージェントを「研究の協働相手」として組み込めること、をいずれも要件にしています。
+:::

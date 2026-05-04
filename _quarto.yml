@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "assets/"
+    - "CNAME"  # 将来カスタムドメインを使う場合に備えて
+
+website:
+  title: "Sei Shishido"
+  description: "Competition law researcher | Seikei University"
+  site-url: "https://sei914919.github.io"
+  repo-url: "https://github.com/sei914919/sei914919.github.io"
+  favicon: assets/favicon.svg
+  open-graph: true
+  twitter-card:
+    creator: "@sei_shishido"
+    card-style: summary
+
+  navbar:
+    pinned: true
+    left:
+      - text: "Works"
+        href: publications/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - text: "JP / EN"
+        menu:
+          - text: "日本語"
+            href: index.qmd
+          - text: "English"
+            href: en/index.qmd
+      - icon: github
+        href: https://github.com/sei914919
+        aria-label: GitHub
+      - icon: twitter-x
+        href: https://twitter.com/sei_shishido
+        aria-label: X / Twitter
+
+  page-footer:
+    border: false
+    left: |
+      © 2026 Sei Shishido
+    right: |
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/theme-light.scss]
+      dark: [cosmo, assets/theme-dark.scss]
+    css: assets/styles.css
+    toc: false
+    page-layout: article
+    fontsize: 1rem
+    linestretch: 1.7
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    code-copy: true
+    anchor-sections: true
+
+bibliography: publications/references.bib

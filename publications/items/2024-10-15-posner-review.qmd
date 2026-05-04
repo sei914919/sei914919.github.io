@@ -1,0 +1,8 @@
+---
+title: "Eric A. Posner, How Antitrust Failed Workers"
+date: "2024-10-15"
+type: "文献紹介"
+venue: ""
+categories: [文献紹介]
+external-url: https://sei-shishido.themedia.jp/posts/56397279?categoryIds=505654
+---

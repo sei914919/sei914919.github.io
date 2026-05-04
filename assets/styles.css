@@ -1,0 +1,210 @@
+/* ──────────────────────────────────────────────────────────────
+   Sei Shishido — site styles
+   Aesthetic: editorial / mechanical-precision / hairline rules
+   ────────────────────────────────────────────────────────────── */
+
+:root {
+  --max-content: 760px;
+  --max-wide: 980px;
+}
+
+/* ── Page width ─────────────────────────────────────────────── */
+main.content {
+  max-width: var(--max-content);
+}
+
+.quarto-listing {
+  max-width: var(--max-wide);
+}
+
+/* ── Hero (front page) ──────────────────────────────────────── */
+.hero {
+  padding: 4rem 0 2.5rem;
+  border-bottom: 1px solid var(--bs-border-color);
+  margin-bottom: 3rem;
+}
+
+.hero .name {
+  font-family: "Crimson Pro", serif;
+  font-size: clamp(2.5rem, 5vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.05;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.hero .name .jp {
+  display: block;
+  font-size: 0.45em;
+  font-weight: 400;
+  color: var(--bs-secondary-color, #6B6B6B);
+  margin-top: 0.4rem;
+  letter-spacing: 0.08em;
+}
+
+.hero .role {
+  font-family: "IBM Plex Sans JP", sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--bs-secondary-color, #6B6B6B);
+  margin-bottom: 1.5rem;
+}
+
+.hero .lede {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.25rem;
+  line-height: 1.55;
+  font-style: italic;
+  max-width: 36em;
+  color: var(--bs-body-color);
+}
+
+/* ── Section labels (small caps) ────────────────────────────── */
+.section-label {
+  font-family: "IBM Plex Sans JP", sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--bs-secondary-color, #6B6B6B);
+  border-top: 1px solid var(--bs-border-color);
+  padding-top: 0.6rem;
+  margin: 3rem 0 1.2rem;
+  display: block;
+}
+
+/* ── Publications listing: tabular ─────────────────────────── */
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-list li {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--bs-border-color);
+  align-items: baseline;
+}
+
+.pub-list li:last-child {
+  border-bottom: none;
+}
+
+.pub-date {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color, #6B6B6B);
+  font-variant-numeric: tabular-nums;
+}
+
+.pub-title {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.pub-tag {
+  display: inline-block;
+  font-family: "IBM Plex Sans JP", sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 2px;
+  color: var(--bs-secondary-color, #6B6B6B);
+  vertical-align: 0.1em;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: var(--bs-secondary-color, #6B6B6B);
+  font-size: 0.9rem;
+}
+
+/* ── Quarto's default listing tweaks ───────────────────────── */
+.list .quarto-post {
+  border-bottom: 1px solid var(--bs-border-color);
+  padding: 1.5rem 0;
+}
+
+.list .quarto-post .listing-title {
+  font-family: "Crimson Pro", serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.list .quarto-post .listing-date,
+.list .quarto-post .listing-categories {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.listing-category {
+  border: 1px solid var(--bs-border-color) !important;
+  border-radius: 2px !important;
+  background: transparent !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.12em !important;
+  padding: 0.1rem 0.5rem !important;
+}
+
+/* ── Project cards ─────────────────────────────────────────── */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  border: 1px solid var(--bs-border-color);
+  padding: 1.5rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.project-card:hover {
+  border-color: var(--bs-link-color);
+  transform: translateY(-2px);
+}
+
+.project-card h3 {
+  font-size: 1.15rem;
+  margin: 0 0 0.5rem;
+}
+
+.project-card .stack {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--bs-secondary-color, #6B6B6B);
+  margin-top: 0.8rem;
+}
+
+/* ── Decorative "specimen mark" used on hero ───────────────── */
+.specimen-mark {
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--bs-secondary-color, #6B6B6B);
+  border: 1px solid var(--bs-border-color);
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ── Mobile tweaks ─────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .hero { padding: 2.5rem 0 1.5rem; }
+  .pub-list li {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}

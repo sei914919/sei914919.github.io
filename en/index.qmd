@@ -1,0 +1,38 @@
+---
+title: ""
+pagetitle: "Sei Shishido"
+description-meta: "Sei Shishido — Associate Professor of Law at Seikei University, specializing in competition law and digital market regulation."
+page-layout: full
+toc: false
+---
+
+::: hero
+[SS — SEIKEI / LAW]{.specimen-mark}
+
+::: name
+Sei Shishido [宍戸　聖]{.jp}
+:::
+
+::: role
+Associate Professor — Competition Law — Seikei University
+:::
+
+::: lede
+I research competition law with a focus on digital market regulation — self-preferencing by platforms, adtech, and algorithmic conduct — across the Japanese, U.S., and EU jurisdictions.
+:::
+:::
+
+[Selected Works](../publications/index.qmd) · [Projects](../projects/index.qmd) · [Blog](../blog/index.qmd) · [日本語](../index.qmd)
+
+## Research interests
+
+- Self-preferencing and exclusionary conduct by digital platforms
+- Application of competition law to adtech markets
+- Algorithmic collusion and predatory conduct
+- The interface between ex-ante and ex-post regulation in digital markets
+
+## Contact
+
+- Affiliation: Faculty of Law, Seikei University
+- X / Twitter: [\@sei_shishido](https://twitter.com/sei_shishido)
+- GitHub: [\@sei914919](https://github.com/sei914919)

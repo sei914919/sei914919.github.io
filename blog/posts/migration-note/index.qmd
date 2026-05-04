@@ -1,0 +1,21 @@
+---
+title: "サイトを Quarto + GitHub Pages に移行しました"
+description: "Ameba Ownd から Quarto への移行の記録"
+date: "2026-05-05"
+categories: [announcement, infrastructure]
+---
+
+長らく Ameba Ownd でホストしていた本サイトを、[Quarto](https://quarto.org) + GitHub Pages に移行しました。
+
+## なぜ移行したか
+
+- 無料プランのページ数制限が窮屈になってきた
+- マイページにログインするたびにエラーが出て、更新そのものが億劫になっていた
+- バイブコーディングで作ったツールやシステムを並べる場所がほしかった
+- ブログをもう少し気軽に書きたかった
+
+## 新しい構成
+
+普段使っている Obsidian と地続きの Markdown でそのまま書けて、GitHub に push すれば自動でビルドされる。研究業績は YAML frontmatter で構造化されているので、後でフィルタや並べ替えがいくらでもきく。CMS のログインに悩まされない。
+
+ブログも Projects ページも、これからゆっくり育てていきます。

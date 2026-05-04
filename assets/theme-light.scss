@@ -1,0 +1,117 @@
+/*-- scss:defaults --*/
+
+// ── Typography: Serif headings + clean sans body ──────────────
+$font-family-sans-serif: "IBM Plex Sans JP", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+$font-family-serif: "Crimson Pro", "Source Serif Pro", "Hiragino Mincho ProN", "Yu Mincho", Georgia, serif;
+$font-family-monospace: "JetBrains Mono", "SF Mono", Consolas, "Liberation Mono", monospace;
+
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 500;
+$headings-line-height: 1.25;
+
+// ── Color palette: ink, paper, brass accent ──────────────────
+$paper:        #FBFAF6;   // warm off-white (paper)
+$ink:          #1B1F23;   // near-black ink
+$ink-soft:     #3F4750;
+$rule:         #C8C2B4;   // hairline rule (faded brass)
+$brass:        #8C6E3D;   // accent: brass / patina
+$brass-deep:   #6D5328;
+$muted:        #6B6B6B;
+
+$body-bg:      $paper;
+$body-color:   $ink;
+$link-color:   $brass-deep;
+$link-hover-color: $ink;
+
+$navbar-bg:    $paper;
+$navbar-fg:    $ink;
+$navbar-hl:    $brass-deep;
+
+$footer-bg:    $paper;
+$footer-fg:    $muted;
+
+$border-color: $rule;
+
+/*-- scss:rules --*/
+
+// ── Web fonts ────────────────────────────────────────────────
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+JP:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+body {
+  font-feature-settings: "palt" 1, "kern" 1;
+  letter-spacing: 0.01em;
+}
+
+// Headings: serif, slight tracking
+h1, h2, h3, h4, h5 {
+  letter-spacing: -0.005em;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+// ── Navbar: editorial, no-shadow, hairline border ────────────
+.navbar {
+  border-bottom: 1px solid #{$rule};
+  box-shadow: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: #{$font-family-sans-serif};
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+}
+
+.navbar-brand {
+  font-family: #{$font-family-serif};
+  font-weight: 500;
+  font-size: 1.15rem;
+  letter-spacing: 0;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+}
+
+// ── Links: subtle underline ──────────────────────────────────
+a {
+  text-decoration: underline;
+  text-decoration-color: rgba($brass, 0.35);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+a:hover {
+  text-decoration-color: $brass;
+}
+
+// Navbar links: no underline
+.navbar a {
+  text-decoration: none;
+}
+
+// ── Hairline rules everywhere ────────────────────────────────
+hr {
+  border-top: 1px solid $rule;
+  opacity: 1;
+}
+
+// ── Footer ───────────────────────────────────────────────────
+.nav-footer {
+  border-top: 1px solid $rule;
+  font-size: 0.85rem;
+  padding: 2rem 0;
+}
