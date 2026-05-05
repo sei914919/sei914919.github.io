@@ -1,4 +1,4 @@
-# sei914919.github.io
+# sei-shishido.github.io
 
 宍戸聖（成蹊大学法学部）の個人サイト。Quarto + GitHub Pages で構築。
 
