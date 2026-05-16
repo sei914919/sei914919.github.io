@@ -1,0 +1,11 @@
+---
+title: "単独かつ直接の取引拒絶の規制根拠と課題"
+title-en: "The Regulatory Basis for a Unilateral Refusals to Deal in Japan"
+date: "2021-01"
+type: "論文（査読あり）"
+venue: "阪大法学 = Osaka law review vol.70 no.5 pp.1017–1082"
+categories: ["論文（査読あり）"]
+external-url: "https://researchmap.jp/sei_shishido/published_papers/31824727/attachment_file.pdf"
+---
+
+*The Regulatory Basis for a Unilateral Refusals to Deal in Japan*

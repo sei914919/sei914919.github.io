@@ -17,47 +17,125 @@ main.content {
   max-width: var(--max-wide);
 }
 
-/* ── Hero (front page) ──────────────────────────────────────── */
-.hero {
-  padding: 4rem 0 2.5rem;
+/* ── Hero: Monocle-style magazine grid ──────────────────────── */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  padding: 4rem 0 3.5rem;
   border-bottom: 1px solid var(--bs-border-color);
   margin-bottom: 3rem;
+  max-width: var(--max-wide);
 }
 
-.hero .name {
+.hero-text .issue-mark {
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--bs-secondary-color, #6B6B6B);
+  border-top: 1px solid var(--bs-border-color);
+  border-bottom: 1px solid var(--bs-border-color);
+  padding: 0.4rem 0;
+  margin-bottom: 1.8rem;
+  width: 100%;
+}
+
+.hero-text .name {
   font-family: "Crimson Pro", serif;
-  font-size: clamp(2.5rem, 5vw, 3.6rem);
+  font-size: clamp(2.4rem, 4.5vw, 3.4rem);
   font-weight: 500;
   line-height: 1.05;
   margin: 0 0 0.5rem;
   letter-spacing: -0.01em;
 }
 
-.hero .name .jp {
+.hero-text .name .jp {
   display: block;
-  font-size: 0.45em;
+  font-size: 0.42em;
   font-weight: 400;
   color: var(--bs-secondary-color, #6B6B6B);
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
   letter-spacing: 0.08em;
 }
 
-.hero .role {
+.hero-text .role {
   font-family: "IBM Plex Sans JP", sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--bs-secondary-color, #6B6B6B);
-  margin-bottom: 1.5rem;
+  margin: 1.2rem 0 1.8rem;
 }
 
-.hero .lede {
+.hero-text .lede {
   font-family: "Crimson Pro", serif;
-  font-size: 1.25rem;
+  font-size: 1.18rem;
   line-height: 1.55;
   font-style: italic;
-  max-width: 36em;
   color: var(--bs-body-color);
+}
+
+/* Photo grid: 2x2 of squares ─────────────────────────────────── */
+.hero-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.hero-photos .photo-cell {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.hero-photos .photo-cell figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-photos .photo-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  /* Force monochrome — works whether the source is color or B&W */
+  filter: grayscale(100%) contrast(1.04);
+  transition: filter 0.4s ease, transform 0.6s ease;
+}
+
+.hero-photos .photo-cell:hover img {
+  transform: scale(1.02);
+}
+
+/* Quarto wraps images in <figure> with auto-generated <figcaption>. Hide those. */
+.hero-photos .photo-cell figcaption {
+  display: none;
+}
+
+.hero-photos .photo-caption {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: #FBFAF6;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Mobile: stack text above photos, photos as a single row of 4 → 2x2 */
+@media (max-width: 800px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2.5rem 0 2rem;
+  }
 }
 
 /* ── Section labels (small caps) ────────────────────────────── */
@@ -146,6 +224,14 @@ main.content {
   letter-spacing: 0.1em;
 }
 
+/* Monochrome treatment for blog listing thumbnails */
+.list .quarto-post .thumbnail-image,
+.quarto-post img,
+.quarto-grid-item img {
+  filter: grayscale(100%) contrast(1.04);
+  transition: filter 0.4s ease;
+}
+
 .listing-category {
   border: 1px solid var(--bs-border-color) !important;
   border-radius: 2px !important;
@@ -165,13 +251,42 @@ main.content {
 
 .project-card {
   border: 1px solid var(--bs-border-color);
-  padding: 1.5rem;
+  padding: 0;
   transition: border-color 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
   border-color: var(--bs-link-color);
   transform: translateY(-2px);
+}
+
+.project-card .project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.project-card .project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%) contrast(1.04);
+  transition: transform 0.6s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.03);
+}
+
+.project-card .project-body {
+  padding: 1.4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card h3 {
@@ -185,7 +300,40 @@ main.content {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--bs-secondary-color, #6B6B6B);
-  margin-top: 0.8rem;
+  margin-top: auto;
+  padding-top: 0.8rem;
+}
+
+/* ── About: portrait, floats right on wide screens ─────────── */
+.about-portrait-wrap {
+  float: right;
+  width: 240px;
+  margin: 0 0 1.5rem 2rem;
+  shape-outside: margin-box;
+}
+
+.about-portrait-wrap figure {
+  margin: 0;
+}
+
+.about-portrait-wrap figcaption {
+  display: none;
+}
+
+.about-portrait {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(100%) contrast(1.04);
+}
+
+@media (max-width: 700px) {
+  .about-portrait-wrap {
+    float: none;
+    width: 60%;
+    max-width: 240px;
+    margin: 0 auto 2rem;
+  }
 }
 
 /* ── Decorative "specimen mark" used on hero ───────────────── */

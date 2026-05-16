@@ -1,0 +1,7 @@
+---
+title: "文献紹介 Eric A. Posner, How Antitrust Failed Workers"
+date: "2024-10"
+type: "その他"
+venue: "日本国際経済法学会年報 pp.247–251"
+categories: ["その他"]
+---

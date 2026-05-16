@@ -1,0 +1,11 @@
+---
+title: "独占禁止法における「自己優遇」の実態と課題"
+title-en: "'Self-Preferencing' under the Japanese Anti-monopoly Act"
+date: "2023-06"
+type: "論説"
+venue: "成蹊法学 no.98 pp.171–202"
+categories: ["論説"]
+external-url: "https://researchmap.jp/sei_shishido/published_papers/42757714/attachment_file.pdf"
+---
+
+*'Self-Preferencing' under the Japanese Anti-monopoly Act*

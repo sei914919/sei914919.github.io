@@ -8,8 +8,8 @@ project:
 website:
   title: "Sei Shishido"
   description: "Competition law researcher | Seikei University"
-  site-url: "https://sei-shishido.github.io"
-  repo-url: "https://github.com/sei914919/sei-shishido.github.io"
+  site-url: "https://sei914919.github.io"
+  repo-url: "https://github.com/sei914919/sei914919.github.io"
   favicon: assets/favicon.svg
   open-graph: true
   twitter-card:
@@ -64,4 +64,3 @@ format:
     code-copy: true
     anchor-sections: true
 
-bibliography: publications/references.bib

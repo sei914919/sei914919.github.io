@@ -1,6 +1,6 @@
 ---
 title: "Works"
-description: "論文・評釈・報告等の研究業績"
+description: "論文・評釈・著書・解説等の研究業績"
 page-layout: full
 listing:
   - id: all-works
@@ -9,20 +9,24 @@ listing:
     fields: [date, type, title, venue]
     field-display-names:
       date: "Date"
-      type: "Type"
-      title: "Title"
-      venue: "Venue"
+      type: "種別"
+      title: "タイトル"
+      venue: "掲載誌・出版社"
     sort: "date desc"
     categories: numbered
     filter-ui: true
     sort-ui: [date, title, type]
-    page-size: 30
+    page-size: 50
     table-striped: false
     table-hover: true
     feed: true
 ---
 
-研究業績の一覧です。種別（[論説] / [評釈] / [報告] / [文献紹介] / [解説] / [コラム]）でフィルタできます。
+研究業績の一覧です。種別（**著書** / **論文（査読あり）** / **論説・評釈** / **解説・紹介** / **その他**）でフィルタできます。
 
 ::: {#all-works}
 :::
+
+---
+
+researchmap: [https://researchmap.jp/sei_shishido](https://researchmap.jp/sei_shishido)

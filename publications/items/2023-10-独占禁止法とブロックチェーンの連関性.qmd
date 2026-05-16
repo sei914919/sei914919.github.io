@@ -1,0 +1,10 @@
+---
+title: "独占禁止法とブロックチェーンの連関性"
+title-en: "Interplay of Japanese Antit-monopoly Act and Blockchain"
+date: "2023-10"
+type: "論説・評釈"
+venue: "NBL no.1252 pp.4–14"
+categories: ["論説・評釈"]
+---
+
+*Interplay of Japanese Antit-monopoly Act and Blockchain*

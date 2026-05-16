@@ -3,6 +3,8 @@ title: "サイトを Quarto + GitHub Pages に移行しました"
 description: "Ameba Ownd から Quarto への移行の記録"
 date: "2026-05-05"
 categories: [announcement, infrastructure]
+image: header.jpg
+image-alt: "新しいサイトのヘッダ"
 ---
 
 長らく Ameba Ownd でホストしていた本サイトを、[Quarto](https://quarto.org) + GitHub Pages に移行しました。

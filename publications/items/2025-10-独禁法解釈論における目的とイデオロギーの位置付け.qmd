@@ -1,0 +1,11 @@
+---
+title: "独禁法解釈論における目的とイデオロギーの位置付け"
+title-en: "Goals, Ideology, and the Interpretation of Competition Law"
+date: "2025-10-24"
+type: "論説・評釈"
+venue: "CPRC ディスカッションペーパー no.CPDP-102-J pp.1–31"
+categories: ["論説・評釈"]
+external-url: "https://www.jftc.go.jp/cprc/reports/disucussionpapers/r7/index_files/CPDP-102-J.pdf"
+---
+
+*Goals, Ideology, and the Interpretation of Competition Law*

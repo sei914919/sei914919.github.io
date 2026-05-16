@@ -10,6 +10,10 @@ toc-location: right
 ::: project-grid
 
 ::: project-card
+::: project-image
+![](../assets/images/projects/projects-jade-server.jpg){fig-alt="JADEサーバ筐体"}
+:::
+::: project-body
 ### JADE / CLERK
 
 研究文献用ローカルRAGシステム。Ubuntu上で Ollama + AnythingLLM + Gradio を動かし、Obsidian vault と PDF を Syncthing 経由で同期して、オフライン環境でも文献横断検索・要約・比較分析が行えるよう構成。三法域（日米欧）比較を自動で構造化する独自の思考アルゴリズム（Anchor Analysis → Tri-Region Comparison → RAG-Synthesis）を組み込み済み。
@@ -18,8 +22,10 @@ toc-location: right
 Ubuntu · Ollama · qwen3.5 · AnythingLLM · Docker · Gradio
 :::
 :::
+:::
 
 ::: project-card
+::: project-body
 ### Arca
 
 Telegram で双方向に対話できる自律エージェント。OpenClaw を基盤に、systemd ユーザサービスとして常駐。Ollama (qwen3.5:35b) をローカルで使い、Cloudflare Worker 経由でスマートグラス（Even Realities G2）にも応答を流す構成。
@@ -28,8 +34,10 @@ Telegram で双方向に対話できる自律エージェント。OpenClaw を�
 OpenClaw · Ollama · Telegram Bot API · Cloudflare Workers · systemd
 :::
 :::
+:::
 
 ::: project-card
+::: project-body
 ### 研究会音声書き起こしパイプライン
 
 競争法研究会の録音から、Whisper + pyannote.audio による話者分離つきの議事録を生成するパイプライン。書き起こし後に Ollama (qwen2.5-coder:32b) で誤字訂正・整形を行う2段構成。マルチトラック録音（DJI Mic 3）に対応した v2 を設計中。
@@ -38,8 +46,10 @@ OpenClaw · Ollama · Telegram Bot API · Cloudflare Workers · systemd
 Whisper · pyannote.audio 4 · Ollama · Python · CUDA
 :::
 :::
+:::
 
 ::: project-card
+::: project-body
 ### 出張書類自動生成
 
 科研費の支出申請・出張申請書類を、定型項目だけ書けば openpyxl と python-docx で自動生成するスクリプト。年に何度も書く同じ書類のために時間を溶かさないために。
@@ -48,8 +58,10 @@ Whisper · pyannote.audio 4 · Ollama · Python · CUDA
 Python · openpyxl · python-docx
 :::
 :::
+:::
 
 ::: project-card
+::: project-body
 ### 独占禁止法史ダッシュボード
 
 戦後日本の独禁法改正・主要判例を年代別に追えるインタラクティブダッシュボード。React 単体（外部依存なし）で構築。サイドバー固定、4カテゴリフィルタ、キーワード検索、ランドマーク事件のハイライト機能つき。
@@ -58,14 +70,17 @@ Python · openpyxl · python-docx
 React · Vanilla CSS
 :::
 :::
+:::
 
 ::: project-card
+::: project-body
 ### Obsidian LIFELOG
 
 Whisper による発話の自動書き起こしを Obsidian vault に流し込み、YAML frontmatter で `epistemic_status` や `evolved_into` を管理することで、思考の発展史を RAG で追跡可能にする外部記憶システム。Self-hosted LiveSync で Windows / macOS / Ubuntu / iOS をリアルタイム同期。
 
 ::: stack
 Obsidian · LiveSync · CouchDB · Whisper · YAML
+:::
 :::
 :::
 
@@ -75,4 +90,8 @@ Obsidian · LiveSync · CouchDB · Whisper · YAML
 ## 共通する設計思想
 
 これらはどれも、**「研究室の机のうえで自分が毎週やっていること」を、外部サービスに依存しないかたちで組み直した**ものです。サバティカルや出張で一時的にネットワークが弱くなっても止まらないこと、データが自分の手元から離れないこと、そしてLLMやAIエージェントを「研究の協働相手」として組み込めること、をいずれも要件にしています。
+:::
+
+::: {.callout-note}
+プロジェクトごとに代表となる写真を `assets/images/projects/` に追加していくと、各カード上部に画像が表示されます（現在は JADE のみ）。画像の指定がないカードは、そのまま本文だけで表示されます。
 :::

@@ -1,0 +1,8 @@
+---
+title: "Distribution agreement"
+date: "2024-03"
+type: "解説・紹介"
+venue: "Global Dictionary of Competition Law, Concurrences, Art. N° 86010"
+categories: ["解説・紹介"]
+external-url: "https://www.concurrences.com/en/dictionary/distribution-agreement"
+---
