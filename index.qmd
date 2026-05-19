@@ -29,8 +29,6 @@ listing:
 ::: {.hero-grid}
 
 ::: {.hero-text}
-[Issue 01 — Tōgane, May 2026]{.issue-mark}
-
 ::: name
 Sei Shishido [宍戸　聖]{.jp}
 :::
@@ -46,19 +44,19 @@ Associate Professor — Competition Law — Seikei University
 
 ::: {.hero-photos}
 ::: {.photo-cell .cell-1}
-![研究室の書架](assets/images/hero/hero-01-shelf.jpg){fig-alt="研究室の書架"}
+![研究室の書架](/assets/images/hero/hero-01-shelf.jpg){fig-alt="研究室の書架"}
 [01 / SHELF]{.photo-caption}
 :::
 ::: {.photo-cell .cell-2}
-![Tissot ムーブメント](assets/images/hero/hero-02-mechanism.jpg){fig-alt="Tissot 機械式時計のムーブメント"}
+![Tissot ムーブメント](/assets/images/hero/hero-02-mechanism.jpg){fig-alt="Tissot 機械式時計のムーブメント"}
 [02 / MECHANISM]{.photo-caption}
 :::
 ::: {.photo-cell .cell-3}
-![Even Realities G2 スマートグラス](assets/images/hero/hero-03-tools.jpg){fig-alt="Even Realities G2 スマートグラスとリング"}
+![Even Realities G2 スマートグラス](/assets/images/hero/hero-03-tools.jpg){fig-alt="Even Realities G2 スマートグラスとリング"}
 [03 / TOOLS]{.photo-caption}
 :::
 ::: {.photo-cell .cell-4}
-![研究室の書架（全景）](assets/images/hero/hero-04-stacks.jpg){fig-alt="研究室の書架全景"}
+![研究室の書架（全景）](/assets/images/hero/hero-04-stacks.jpg){fig-alt="研究室の書架全景"}
 [04 / STACKS]{.photo-caption}
 :::
 :::

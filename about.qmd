@@ -5,7 +5,7 @@ toc-location: right
 ---
 
 ::: {.about-portrait-wrap}
-![Sei Shishido](assets/images/about/about-portrait.jpg){.about-portrait fig-alt="Sei Shishido portrait"}
+![Sei Shishido](/assets/images/about/about-portrait.jpg){.about-portrait fig-alt="Sei Shishido portrait"}
 :::
 
 ## プロフィール
@@ -64,6 +64,7 @@ toc-location: right
 
 - 所属：成蹊大学法学部
 - researchmap: [sei_shishido](https://researchmap.jp/sei_shishido)
+- X / Twitter: [@SeiShishido](https://twitter.com/SeiShishido)
 - GitHub: [@sei914919](https://github.com/sei914919)
 
 ## このサイトについて
