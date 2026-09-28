@@ -1,18 +1,24 @@
 ---
 title: "Projects"
 description: "Systems and tools I built to support my research and daily work"
-toc: true
-toc-location: right
+toc: false
+page-layout: full
 ---
 
 Systems and tools I have built for myself around research and teaching. They are what a legal scholar thinks would be convenient, built and used by that same scholar.
 
+```{=html}
+<div class="project-filter" role="group">
+  <button type="button" class="active" data-filter="all">All</button>
+  <button type="button" data-filter="infra">Research infrastructure</button>
+  <button type="button" data-filter="auto">Assistant & automation</button>
+  <button type="button" data-filter="code">Research in code</button>
+</div>
+```
+
 ::: project-grid
 
-::: project-card
-::: project-image
-![](/assets/images/projects/projects-jade-server.jpg){fig-alt="The server that runs JADE"}
-:::
+::: {.project-card data-cat="infra" data-cat-label="Research infrastructure" data-status="Redesigning"}
 ::: project-body
 ### JADE
 
@@ -24,7 +30,7 @@ Ollama · qwen3.6 · ChromaDB · Python · MCP
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="auto" data-cat-label="Assistant & automation" data-status="Running"}
 ::: project-body
 ### Arca
 
@@ -36,7 +42,7 @@ OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="auto" data-cat-label="Assistant & automation" data-status="In design"}
 ::: project-body
 ### Secretary
 
@@ -48,7 +54,7 @@ Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · 
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="infra" data-cat-label="Research infrastructure" data-status="Running"}
 ::: project-body
 ### Research meeting transcription pipeline
 
@@ -60,7 +66,7 @@ Whisper · pyannote.audio 4 · Ollama · Python · CUDA
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="auto" data-cat-label="Assistant & automation" data-status="Running"}
 ::: project-body
 ### Travel document generator
 
@@ -72,7 +78,7 @@ Python · openpyxl · python-docx
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="code" data-cat-label="Research in code" data-status="Live"}
 ::: project-body
 ### Japanese antimonopoly law history dashboard
 
@@ -86,7 +92,7 @@ React · Vanilla CSS
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="code" data-cat-label="Research in code" data-status="Prototype"}
 ::: project-body
 ### Complichain
 
@@ -98,7 +104,7 @@ Hyperledger Fabric · Go (chaincode) · Node.js · Docker
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="infra" data-cat-label="Research infrastructure" data-status="In use"}
 ::: project-body
 ### Japanese–English antimonopoly glossary
 
@@ -110,7 +116,7 @@ Markdown · Claude Code
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="infra" data-cat-label="Research infrastructure" data-status="Running"}
 ::: project-body
 ### Obsidian LIFELOG
 
@@ -129,3 +135,22 @@ Obsidian · LiveSync · CouchDB · Whisper · YAML
 
 Each of these **rebuilds something I do every week at my office desk as a system that runs on my own machines**. Core data and processing — literature and manuscripts — stay on my own machines as far as possible, and external services are used only where needed, such as for a point of contact or for calendar and email integration. The core of my research should keep running even when the network is weak during a sabbatical or a trip. And LLMs and AI agents should be built in as collaborators in research. These are the requirements they all share.
 :::
+
+```{=html}
+<script>
+// 分類ボタンで絞り込む（該当しないカードを隠すと、残りが自動で詰め直される）
+document.addEventListener("DOMContentLoaded", function () {
+  var buttons = document.querySelectorAll(".project-filter button");
+  var cards = document.querySelectorAll(".project-card");
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      var f = b.getAttribute("data-filter");
+      buttons.forEach(function (x) { x.classList.toggle("active", x === b); });
+      cards.forEach(function (c) {
+        c.classList.toggle("is-hidden", f !== "all" && c.getAttribute("data-cat") !== f);
+      });
+    });
+  });
+});
+</script>
+```

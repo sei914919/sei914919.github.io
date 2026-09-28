@@ -1,18 +1,24 @@
 ---
 title: "Projects"
 description: "研究と日常を支えるために自作したシステム・ツール"
-toc: true
-toc-location: right
+toc: false
+page-layout: full
 ---
 
 研究・教育の周辺で自分用に組み立てたシステムやツールをまとめています。法学研究者から見て「こうなっていれば便利」と思える形を、自分で作って使っています。
 
+```{=html}
+<div class="project-filter" role="group">
+  <button type="button" class="active" data-filter="all">すべて</button>
+  <button type="button" data-filter="infra">研究基盤</button>
+  <button type="button" data-filter="auto">秘書・自動化</button>
+  <button type="button" data-filter="code">研究の実装</button>
+</div>
+```
+
 ::: project-grid
 
-::: project-card
-::: project-image
-![](../assets/images/projects/projects-jade-server.jpg){fig-alt="JADEを動かすサーバ筐体"}
-:::
+::: {.project-card data-cat="infra" data-cat-label="研究基盤" data-status="再設計中"}
 ::: project-body
 ### JADE
 
@@ -24,7 +30,7 @@ Ollama · qwen3.6 · ChromaDB · Python · MCP
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="auto" data-cat-label="秘書・自動化" data-status="稼働中"}
 ::: project-body
 ### Arca
 
@@ -36,7 +42,7 @@ OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="auto" data-cat-label="秘書・自動化" data-status="設計中"}
 ::: project-body
 ### Secretary（秘書機能）
 
@@ -48,7 +54,7 @@ Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · 
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="infra" data-cat-label="研究基盤" data-status="稼働中"}
 ::: project-body
 ### 研究会音声書き起こしパイプライン
 
@@ -60,7 +66,7 @@ Whisper · pyannote.audio 4 · Ollama · Python · CUDA
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="auto" data-cat-label="秘書・自動化" data-status="稼働中"}
 ::: project-body
 ### 出張書類自動生成
 
@@ -72,7 +78,7 @@ Python · openpyxl · python-docx
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="code" data-cat-label="研究の実装" data-status="公開中"}
 ::: project-body
 ### 独占禁止法史ダッシュボード
 
@@ -86,7 +92,7 @@ React · Vanilla CSS
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="code" data-cat-label="研究の実装" data-status="試作"}
 ::: project-body
 ### Complichain
 
@@ -98,7 +104,7 @@ Hyperledger Fabric · Go（chaincode） · Node.js · Docker
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="infra" data-cat-label="研究基盤" data-status="運用中"}
 ::: project-body
 ### 日英独禁法用語対照表
 
@@ -110,7 +116,7 @@ Markdown · Claude Code
 :::
 :::
 
-::: project-card
+::: {.project-card data-cat="infra" data-cat-label="研究基盤" data-status="稼働中"}
 ::: project-body
 ### Obsidian LIFELOG
 
@@ -129,3 +135,22 @@ Obsidian · LiveSync · CouchDB · Whisper · YAML
 
 これらはどれも、**「研究室の机のうえで自分が毎週やっていること」を、自分の手元で動く仕組みとして組み直した**ものです。文献や原稿といった中核のデータと処理はできるかぎり手元のマシンに置き、外部のサービスは連絡の窓口や予定・メールとの連携など、必要なところに限って使うこと。サバティカルや出張で一時的にネットワークが弱くなっても研究の中核が止まらないこと。そして LLM や AI エージェントを「研究の協働相手」として組み込めること。これらを共通の要件にしています。
 :::
+
+```{=html}
+<script>
+// 分類ボタンで絞り込む（該当しないカードを隠すと、残りが自動で詰め直される）
+document.addEventListener("DOMContentLoaded", function () {
+  var buttons = document.querySelectorAll(".project-filter button");
+  var cards = document.querySelectorAll(".project-card");
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      var f = b.getAttribute("data-filter");
+      buttons.forEach(function (x) { x.classList.toggle("active", x === b); });
+      cards.forEach(function (c) {
+        c.classList.toggle("is-hidden", f !== "all" && c.getAttribute("data-cat") !== f);
+      });
+    });
+  });
+});
+</script>
+```
