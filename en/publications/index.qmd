@@ -1,7 +1,6 @@
 ---
 title: "Works"
 description: "Books, articles, case notes, commentaries, and presentations"
-page-layout: full
 listing:
   - id: all-works
     contents: "../blog/posts/*/index.qmd"

@@ -459,3 +459,29 @@ main.content {
   color: var(--bs-secondary-color, #6B6B6B);
 }
 .translation-note p { margin: 0; }
+
+/* ── Works table on wider screens: fit the body column, keep short columns on one line ── */
+@media (min-width: 577px) {
+  .quarto-listing-container-table,
+  .quarto-listing-table {
+    max-width: 100%;
+  }
+  .quarto-listing-table {
+    width: 100%;
+    table-layout: auto;
+  }
+  .quarto-listing-table td,
+  .quarto-listing-table a {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .quarto-listing-table td:has(> .listing-date),
+  .quarto-listing-table td:has(> .listing-type) {
+    white-space: nowrap;
+  }
+  .quarto-listing-table td:has(> .listing-venue) {
+    min-width: 11em;
+    font-size: 0.9rem;
+    color: var(--bs-secondary-color, #6B6B6B);
+  }
+}

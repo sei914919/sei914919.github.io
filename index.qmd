@@ -6,7 +6,9 @@ page-layout: full
 toc: false
 listing:
   - id: recent-works
-    contents: blog/posts
+    contents:
+      - "blog/posts/*/index.qmd"
+      - "!en/**"
     include:
       work: true
     type: table
@@ -23,7 +25,9 @@ listing:
     table-striped: false
     table-hover: false
   - id: recent-blog
-    contents: blog/posts
+    contents:
+      - "blog/posts/*/index.qmd"
+      - "!en/**"
     type: default
     sort: "date desc"
     max-items: 3

@@ -1,7 +1,6 @@
 ---
 title: "Works"
 description: "論文・評釈・著書・解説等の研究業績"
-page-layout: full
 listing:
   - id: all-works
     contents: "../blog/posts/*/index.qmd"
@@ -10,7 +9,7 @@ listing:
     type: table
     fields: [date, type, title, venue]
     field-display-names:
-      date: "Date"
+      date: "日付"
       type: "種別"
       title: "タイトル"
       venue: "掲載誌・出版社"
