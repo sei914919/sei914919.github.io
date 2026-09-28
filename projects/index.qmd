@@ -66,6 +66,8 @@ Python · openpyxl · python-docx
 
 戦後日本の独禁法改正・主要判例を年代別に追えるインタラクティブダッシュボード。React 単体（外部依存なし）で構築。サイドバー固定、4カテゴリフィルタ、キーワード検索、ランドマーク事件のハイライト機能つき。
 
+[最新版（2025年タイムライン）を見る →](https://www.mcompl.org/timeline/2025)
+
 ::: stack
 React · Vanilla CSS
 :::
