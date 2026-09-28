@@ -56,7 +56,7 @@ Associate Professor — Competition Law — Seikei University
 [03 / TOOLS]{.photo-caption}
 :::
 ::: {.photo-cell .cell-4}
-![研究室の書架（全景）](/assets/images/hero/hero-04-stacks.jpg){fig-alt="研究室の書架全景"}
+![大学図書館の夕景](/assets/images/hero/hero-04-stacks.jpg){fig-alt="夕暮れの大学図書館、ガラス張りのファサード"}
 [04 / STACKS]{.photo-caption}
 :::
 :::
