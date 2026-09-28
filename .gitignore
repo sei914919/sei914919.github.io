@@ -7,3 +7,6 @@
 *.swp
 
 **/*.quarto_ipynb
+
+# Claude Code のローカル設定・スキル（公開しない）
+.claude/
