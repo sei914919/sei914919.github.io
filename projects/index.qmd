@@ -90,7 +90,7 @@ React · Vanilla CSS
 ::: project-body
 ### Complichain
 
-競争法の執行を支えるブロックチェーンの試作。企業の取引データを各社専用のチャネルで互いに秘匿したまま記録し、法的な介入が必要になったときだけ、マルチシグの承認によって公正取引委員会などの規制当局に期限付きのアクセス権を与える。期限切れのアクセス権は自動で失効し、すべての操作は改ざんできない監査証跡として残る。当局が事後に証拠を探し回る調査（data hunt）から、事業者が取引を前もって共有台帳に記録し、当局は条件を満たしたときだけ参照する仕組み（data vault）への転換を、2026年1月に IICAH Hawaii 2026 で「From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance」として報告した。その提案を実際に動く形で確かめるための試作で、出発点は論説「[独占禁止法とブロックチェーンの連関性](../blog/posts/2023-10-15-51493881/index.qmd)」（NBL 1252号）。
+競争法の執行を支えるブロックチェーンの試作。企業の取引データを各社専用のチャネルで互いに秘匿したまま記録し、法的な介入が必要になったときだけ、マルチシグの承認によって公正取引委員会などの規制当局に期限付きのアクセス権を与える。期限切れのアクセス権は自動で失効し、すべての操作は改ざんできない監査証跡として残る。当局が事後に証拠を探し回る調査（data hunt）から、事業者が取引を前もって共有台帳に記録し、当局は条件を満たしたときだけ参照する仕組み（data vault）への転換を、2026年1月に IICAH Hawaii 2026 で「[From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance](../blog/posts/2026-01-04-iicah-hawaii/index.qmd)」として報告した。その提案を実際に動く形で確かめるための試作で、出発点は論説「[独占禁止法とブロックチェーンの連関性](../blog/posts/2023-10-15-51493881/index.qmd)」（NBL 1252号）。
 
 ::: stack
 Hyperledger Fabric · Go（chaincode） · Node.js · Docker
