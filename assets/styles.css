@@ -323,7 +323,6 @@ main.content {
   width: 100%;
   height: auto;
   display: block;
-  filter: grayscale(100%) contrast(1.04);
 }
 
 @media (max-width: 700px) {
