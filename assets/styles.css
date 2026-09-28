@@ -284,7 +284,6 @@ main.content {
   flex-wrap: wrap;
   gap: 0.5rem;
   margin: 1.5rem auto 0.5rem;
-  max-width: 1240px;
 }
 .project-filter button {
   font-family: "IBM Plex Sans JP", sans-serif;
@@ -309,7 +308,6 @@ main.content {
   columns: 280px;
   column-gap: 1.25rem;
   margin: 1.5rem auto 2rem;
-  max-width: 1240px;
 }
 
 .project-card {
@@ -391,16 +389,14 @@ main.content {
   border-top: 1px dashed var(--bs-border-color);
 }
 
-/* the board page is not held to the 760px reading width */
+/* the board page uses the full screen band (not Quarto's page column),
+   capped so that at most four 280px columns fit */
 main.content:has(.project-grid) {
+  grid-column: screen-start-inset / screen-end-inset;
   max-width: none;
 }
-
-/* page intro and the closing note share the board width */
-.page-layout-full #quarto-document-content:has(.project-grid) > p,
-.page-layout-full #quarto-document-content:has(.project-grid) > .callout,
-.page-layout-full #quarto-document-content:has(.project-grid) > #title-block-header {
-  max-width: 1240px;
+main.content:has(.project-grid) > * {
+  max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
 }
