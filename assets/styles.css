@@ -554,3 +554,37 @@ main.content:has(.project-grid) > * {
     color: var(--bs-secondary-color, #6B6B6B);
   }
 }
+
+/* ── Wide screens: let listing pages (home, works, blog) grow ──
+   Only pages that contain a listing are widened; single posts keep
+   the comfortable reading width. The margin column stays for the
+   Works category list. */
+@media (min-width: 1400px) {
+  #quarto-content.page-columns:has(.quarto-listing) {
+    grid-template-columns:
+      [screen-start] 1.5em [screen-start-inset] 1fr
+      [page-start] 35px [page-start-inset] minmax(0px, 145px)
+      [body-start-outset] 35px [body-start] 1.5em
+      [body-content-start] minmax(500px, 1080px) [body-content-end]
+      1.5em [body-end] 50px [body-end-outset] minmax(0px, 220px)
+      [page-end-inset] 35px [page-end] 1fr [screen-end-inset] 1.5em [screen-end];
+  }
+  #quarto-content:has(.quarto-listing) main.content,
+  #quarto-content:has(.quarto-listing) .quarto-listing {
+    max-width: none;
+  }
+  /* home: hero and listings share one width */
+  #quarto-content main.content:has(.hero-grid) > *,
+  #quarto-content main.content:has(.hero-grid) .quarto-listing {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* blog list: date column only as wide as it needs, thumbnail capped */
+  div.quarto-post .metadata {
+    flex: 0 0 9rem;
+  }
+  div.quarto-post .thumbnail {
+    flex: 0 0 220px;
+  }
+}
