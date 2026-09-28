@@ -12,11 +12,11 @@ toc-location: right
 
 Associate Professor, Department of Law, Faculty of Law, Seikei University. I specialize in economic law (antimonopoly and competition law). I received my LL.B. from Aoyama Gakuin University, my LL.M. from the Graduate School of Law at Aoyama Gakuin University (Private Law), and completed the doctoral program at the Graduate School of Law, Kyoto University (Legal and Political Theory). Ph.D. in Law.
 
-My research is organized around a question that competition law is forced to ask anew every time a new technology or business model appears: what is it that harms competition? I follow the latest developments around digital platforms and AI (self-preferencing by platforms, data lock-in, ex ante regulation, and more) through comparison of Japan, the United States, and the EU, and examine the foundational theory of competition law behind them — in particular the relationship between economic analysis and legal judgment — from the perspective of the goals and interpretation of competition law (formalism, neo-Brandeisianism, and others).
+My research is organized around a question that competition law is forced to ask anew every time a new technology or business model appears: what is it that harms competition? I follow the latest developments around digital platforms and AI (self-preferencing by platforms, data lock-in, ex ante regulation, and more) through comparison of Japan, the United States, and the EU, and examine the foundational theory of competition law behind them — in particular the relationship between economic analysis and legal judgment — from the perspective of the goals and interpretation of competition law (formalism and the effects-based approach, among others).
 
 ## Research interests
 
-Antimonopoly law, U.S. antitrust law and EU competition law; digital platforms; self-preferencing; the goals of competition law (formalism, neo-Brandeisianism); private monopolization; unfair trade practices; blockchain and antimonopoly law; the intersection of labor markets and antimonopoly law; refusal to deal; predatory pricing
+Antimonopoly law, U.S. antitrust law and EU competition law; digital platforms; self-preferencing; the goals of competition law (formalism and the effects-based approach); private monopolization; unfair trade practices; blockchain and antimonopoly law; the intersection of labor markets and antimonopoly law; refusal to deal; predatory pricing
 
 ## Employment
 
