@@ -43,7 +43,7 @@ Associate Professor — Competition Law — Seikei University
 :::
 
 ::: lede
-I work on antitrust and competition law, with a focus on digital market regulation from a comparative Japan–U.S.–EU perspective. My current interests include self-preferencing by platforms, adtech, and the effects of algorithms on competition.
+I study antimonopoly and competition law. Every time a new technology or business model appears, competition law is forced to ask anew what it is that harms competition. Following the latest developments around digital platforms and AI through comparison of Japan, the United States, and the EU, I think about the foundational theory of competition law behind them — in particular, the relationship between economic analysis and legal judgment.
 :::
 :::
 
