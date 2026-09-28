@@ -28,10 +28,22 @@ Ubuntu · Ollama · qwen3.5 · AnythingLLM · Docker · Gradio
 ::: project-body
 ### Arca
 
-Telegram で双方向に対話できる自律エージェント。OpenClaw を基盤に、systemd ユーザサービスとして常駐。Ollama (qwen3.5:35b) をローカルで使い、Cloudflare Worker 経由でスマートグラス（Even Realities G2）にも応答を流す構成。
+Telegram で双方向に対話できる自律エージェント。OpenClaw を基盤に、systemd ユーザサービスとして常駐。研究室の GPU 1枚で Ollama（qwen3.6:35b、軽い応答は qwen3.5:9b）をローカルに動かし、Tailscale 経由で開いた OpenAI 互換のエンドポイントから、スマートグラス（Even Realities G2）でも呼び出せる。機能を足すときは本体に手を入れず、独立した Python スクリプトとして横付けしていく。
 
 ::: stack
-OpenClaw · Ollama · Telegram Bot API · Cloudflare Workers · systemd
+OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Secretary（秘書機能）
+
+人を秘書として雇う代わりに、Telegram という一つの窓口で仕事と生活の段取りを肩代わりさせる仕組み（設計中）。引き受けた仕事から出張申請・経費書類・準備の締切を展開して書類の下書きまで作ること、仕事が重なったときにどこに力を置くかを一緒に判断することが中心。「見張る（メール・カレンダー）」「覚えておく（Notion の台帳）」「代わりに作る（事務書類・返信案）」「声をかける（朝夕のダイジェスト・期限前の催促）」の4つの機能を共通の土台にして、個々の業務はその上に設定として載せる。言葉の解釈は Claude Code、判断の要らない定期処理は Arca と役割を分け、支払いや大学への提出は最後まで下書きにとどめる。下の出張書類自動生成も、この事務書類担当に組み込んだ。
+
+::: stack
+Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · Gmail · Python
 :::
 :::
 :::
@@ -70,6 +82,30 @@ Python · openpyxl · python-docx
 
 ::: stack
 React · Vanilla CSS
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Complichain
+
+競争法の執行を支えるブロックチェーンの試作。企業の取引データを各社専用のチャネルで互いに秘匿したまま記録し、法的な介入が必要になったときだけ、マルチシグの承認によって公正取引委員会などの規制当局に期限付きのアクセス権を与える。期限切れのアクセス権は自動で失効し、すべての操作は改ざんできない監査証跡として残る。論説「[独占禁止法とブロックチェーンの連関性](../blog/posts/2023-10-15-51493881/index.qmd)」（NBL 1252号）と関心を同じくする、技術側からの試み。
+
+::: stack
+Hyperledger Fabric · Go（chaincode） · Node.js · Docker
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### 日英独禁法用語対照表
+
+日本の独禁法・競争政策の用語を英語でどう表すかを揃えるための対照表。日本語の見出しは代表的な体系書の事項索引に依拠し、英訳は自分の英語論稿（Kluwer Competition Law Blog の年次回顧など）や公取委の英訳資料と突き合わせて、典拠つきで管理している。論稿ごとに訳語が揺れている箇所や、まだ定まらない訳語には印を付けて判断を保留する。韓国での報告の英語版を作るのをきっかけに作り始め、今後の英語論稿・国際報告での共通の基準にしていく。
+
+::: stack
+Markdown · Claude Code
 :::
 :::
 :::
