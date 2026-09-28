@@ -1,8 +1,12 @@
 ---
-title: "［評釈］EUにおける取引拒絶規制の新展開─Slovak Telekom事件欧州司法裁判所判決─"
-date: "2022-04-20"
-description: "4月15日刊行の公正取引858号にEUのSlovak Telekom事件ECJ判決を題材に、EUの取引拒絶規制の最新動向と日本法への示唆を論じた評釈を掲載していただきました。諸事情により掲載が遅れてい…"
-categories: ["評釈"]
+title: 米国・EU独禁法判例研究(第140回)EUにおける取引拒絶規制の新展開─Slovak Telekom事件欧州司法裁判所判決─
+date: '2022-04-20'
+description: 4月15日刊行の公正取引858号にEUのSlovak Telekom事件ECJ判決を題材に、EUの取引拒絶規制の最新動向と日本法への示唆を論じた評釈を掲載していただきました。諸事情により掲載が遅れてい…
+work: true
+type: 評釈
+venue: 公正取引 no.858 pp.70–77
+categories:
+- 評釈
 original-url: https://sei-shishido.themedia.jp/posts/33868300
 ---
 

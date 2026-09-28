@@ -1,8 +1,13 @@
 ---
-title: "［論説］不当廉売規制の再検討ー私的独占の観点からー（4）"
-date: "2021-01-09"
-description: "今更ですが、法学論叢の連載最終回が2020年6月の号に掲載されました。論叢の刊行状況が遅れていたこともあり、私の手元に完成原稿が来たのが昨年10月頃でした。そのため、公正取引の文献月報等でも論叢の論文…"
-categories: ["論説"]
+title: 不当廉売規制の再検討ー私的独占の観点からー（4）
+subtitle: Regulating Predatory Pricing as a Form of Private Monopolization in Japan (4)
+date: '2021-01-09'
+description: 今更ですが、法学論叢の連載最終回が2020年6月の号に掲載されました。論叢の刊行状況が遅れていたこともあり、私の手元に完成原稿が来たのが昨年10月頃でした。そのため、公正取引の文献月報等でも論叢の論文…
+work: true
+type: 論文（査読あり）
+venue: 法学論叢 vol.187 no.3 pp.77–105
+categories:
+- 論文（査読あり）
 original-url: https://sei-shishido.themedia.jp/posts/12889521
 ---
 

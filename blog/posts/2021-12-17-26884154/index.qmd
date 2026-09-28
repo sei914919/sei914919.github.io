@@ -1,8 +1,12 @@
 ---
-title: "［評釈］エレコム対ブラザー工業事件"
-date: "2021-12-17"
-description: "TKCの新・判例解説Watchで「互換品の不当な抱き合わせ販売が認定された事例」が公表されました。https://www.tkc.jp/law/lawlibrary/commentary/ この評釈の…"
-categories: ["評釈"]
+title: 互換品の不当な抱き合わせ販売が認定された事例
+date: '2021-12-17'
+description: TKCの新・判例解説Watchで「互換品の不当な抱き合わせ販売が認定された事例」が公表されました。https://www.tkc.jp/law/lawlibrary/commentary/ この評釈の…
+work: true
+type: 評釈
+venue: 新・判例解説Watch（経済法）No.79
+categories:
+- 評釈
 original-url: https://sei-shishido.themedia.jp/posts/26884154
 ---
 

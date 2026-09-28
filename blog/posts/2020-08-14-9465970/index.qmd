@@ -1,8 +1,13 @@
 ---
-title: "［評釈］公正取引838号：Brooke判決以降の米国下級審における略奪的価格設定の事例ーSpirit Airline事件第6巡回区控訴裁判所判決ー"
-date: "2020-08-14"
-description: "今年2月に商事法務の独禁法研究会で報告した内容をもとにした原稿が公正取引に掲載されました。"
-categories: ["評釈"]
+title: 米国・EU独禁法判例研究(第133回)Brooke判決以降の米国下級審における略奪的価格設定の事例 -Spirit Airline事件第6巡回区控訴裁判所判決-
+subtitle: Spirit Airline Case; An Analysis of the Judgement by 6th Circuit.
+date: '2020-08-14'
+description: 今年2月に商事法務の独禁法研究会で報告した内容をもとにした原稿が公正取引に掲載されました。
+work: true
+type: 評釈
+venue: 公正取引 no.838 pp.91–98
+categories:
+- 評釈
 image: image-1.jpg
 original-url: https://sei-shishido.themedia.jp/posts/9465970
 ---

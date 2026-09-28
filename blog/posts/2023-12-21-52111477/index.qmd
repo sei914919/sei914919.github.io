@@ -1,8 +1,12 @@
 ---
-title: "[報告] 独占禁止法とブロックチェーンの連関性 @成蹊大学未来法学研究所"
-date: "2023-12-21"
-description: "成蹊大学の未来法学研究所で、10月にNBLに掲載された「独占禁止法とブロックチェーンの連関性」をベースにした報告を行いました。報告資料はこちら（https://researchmap.jp/sei_s…"
-categories: ["報告"]
+title: 独占禁止法とブロックチェーンの連関性
+date: '2023-12-21'
+description: 成蹊大学の未来法学研究所で、10月にNBLに掲載された「独占禁止法とブロックチェーンの連関性」をベースにした報告を行いました。報告資料はこちら（https://researchmap.jp/sei_s…
+work: true
+type: 報告
+venue: 成蹊大学未来法学研究所
+categories:
+- 報告
 original-url: https://sei-shishido.themedia.jp/posts/52111477
 ---
 

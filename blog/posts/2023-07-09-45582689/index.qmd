@@ -1,8 +1,14 @@
 ---
-title: "［論説］独占禁止法における「自己優遇」の実態と課題"
-date: "2023-07-09"
-description: "2023年6月末に発行された成蹊法学98号に「独占禁止法における「自己優遇」の実態と課題」というタイトルの論文を公表しました。論文の内容は2022年に入ってすぐに取り組み始めた研究で、2022年の冬頃…"
-categories: ["論説"]
+title: 独占禁止法における「自己優遇」の実態と課題
+subtitle: '''Self-Preferencing'' under the Japanese Anti-monopoly Act'
+date: '2023-07-09'
+description: 2023年6月末に発行された成蹊法学98号に「独占禁止法における「自己優遇」の実態と課題」というタイトルの論文を公表しました。論文の内容は2022年に入ってすぐに取り組み始めた研究で、2022年の冬頃…
+work: true
+type: 論説
+venue: 成蹊法学 no.98 pp.171–202
+external-url: https://researchmap.jp/sei_shishido/published_papers/42757714/attachment_file.pdf
+categories:
+- 論説
 image: image-1.jpg
 original-url: https://sei-shishido.themedia.jp/posts/45582689
 ---

@@ -1,8 +1,12 @@
 ---
-title: "[報告] How do we define illegal 'self-preferencing' under the Japanese Anti-monopoly Act? @AscolaAsia"
-date: "2023-12-01"
-description: "京都大学で開催されたAscola Asia 2023で、How do we define illegal 'self-preferencing' under the Japanese Anti-mon…"
-categories: ["報告"]
+title: How do we define illegal 'self-preferencing' under the Japanese Anti-monopoly Act?
+date: '2023-12-01'
+description: 京都大学で開催されたAscola Asia 2023で、How do we define illegal 'self-preferencing' under the Japanese Anti-mon…
+work: true
+type: 報告
+venue: ASCOLA Asia 2023（京都大学）
+categories:
+- 報告
 image: image-1.png
 original-url: https://sei-shishido.themedia.jp/posts/52110078
 ---

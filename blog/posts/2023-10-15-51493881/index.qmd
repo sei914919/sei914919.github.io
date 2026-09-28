@@ -1,8 +1,13 @@
 ---
-title: "［論説］独占禁止法とブロックチェーンの連関性"
-date: "2023-10-15"
-description: "NBL1252号に「独占禁止法とブロックチェーンの連関性」という論文が掲載されました。ブロックチェーンと独占禁止法を関連づけて論じるうえで踏まえておいたほうがよいのでは、と考えていた技術の思想・背景を…"
-categories: ["論説"]
+title: 独占禁止法とブロックチェーンの連関性
+subtitle: Interplay of Japanese Antit-monopoly Act and Blockchain
+date: '2023-10-15'
+description: NBL1252号に「独占禁止法とブロックチェーンの連関性」という論文が掲載されました。ブロックチェーンと独占禁止法を関連づけて論じるうえで踏まえておいたほうがよいのでは、と考えていた技術の思想・背景を…
+work: true
+type: 論説
+venue: NBL no.1252 pp.4–14
+categories:
+- 論説
 original-url: https://sei-shishido.themedia.jp/posts/51493881
 ---
 

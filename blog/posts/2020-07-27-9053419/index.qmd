@@ -1,8 +1,13 @@
 ---
-title: "［論説］不当廉売規制の再検討ー私的独占の観点からー（3）"
-date: "2020-07-27"
-description: "法学論叢に投稿した4回連載の論文の第三回が掲載されました。平均可変費用を上回る価格設定の不当性をどのように評価するのかについて、主にアメリカの学説を素材として検討した回です。"
-categories: ["論説"]
+title: 不当廉売規制の再検討ー私的独占の観点からー（3）
+subtitle: Regulating Predatory Pricing as a Form of Private Monopolization in Japan (3)
+date: '2020-07-27'
+description: 法学論叢に投稿した4回連載の論文の第三回が掲載されました。平均可変費用を上回る価格設定の不当性をどのように評価するのかについて、主にアメリカの学説を素材として検討した回です。
+work: true
+type: 論文（査読あり）
+venue: 法学論叢 vol.187 no.1 pp.104–119
+categories:
+- 論文（査読あり）
 image: image-1.jpg
 original-url: https://sei-shishido.themedia.jp/posts/9053419
 ---

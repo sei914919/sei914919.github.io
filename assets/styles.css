@@ -354,3 +354,19 @@ main.content {
     gap: 0.3rem;
   }
 }
+
+/* ── Work metadata line on work posts (assets/work-meta.lua) ── */
+.work-meta {
+  font-size: 0.9rem;
+  color: var(--bs-secondary-color, #6B6B6B);
+  border-top: 1px solid var(--bs-border-color);
+  border-bottom: 1px solid var(--bs-border-color);
+  padding: 0.6rem 0;
+  margin-bottom: 1.8rem;
+}
+.work-meta p { margin: 0; }
+.work-meta .work-type {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}

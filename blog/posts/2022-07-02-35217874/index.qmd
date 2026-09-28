@@ -1,8 +1,12 @@
 ---
-title: "［報告］Above Cost Predatory Pricing and Private Monopolization"
-date: "2022-07-02"
-description: "公益財団法人KDDI財団より海外学会等参加助成を受けて、ポルトガルのポルトにあるUniversidade Católica Portuguesaで開催されたASCOLA（academic societ…"
-categories: ["報告"]
+title: Above Cost Predatory Pricing and Private Monopolization
+date: '2022-07-02'
+description: 公益財団法人KDDI財団より海外学会等参加助成を受けて、ポルトガルのポルトにあるUniversidade Católica Portuguesaで開催されたASCOLA（academic societ…
+work: true
+type: 報告
+venue: ASCOLA 2022（Universidade Católica Portuguesa）
+categories:
+- 報告
 image: image-1.jpg
 original-url: https://sei-shishido.themedia.jp/posts/35217874
 ---

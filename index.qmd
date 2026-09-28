@@ -6,7 +6,9 @@ page-layout: full
 toc: false
 listing:
   - id: recent-works
-    contents: publications/items
+    contents: blog/posts
+    include:
+      work: true
     type: table
     fields: [date, title, venue]
     field-display-names:

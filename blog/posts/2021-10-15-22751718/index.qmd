@@ -1,8 +1,12 @@
 ---
-title: "［評釈］マージンスクイーズ及び取引拒絶が問題とされたEUの新事例―Slovak Telekom事件欧州司法裁判所判決―"
-date: "2021-10-15"
-description: "国際ビジネス法エグゼクティブ・サマリー（IBLES）に原稿が掲載されました。会員限定公開ですが、国際商事法務研究所（IBL）のHPからアクセスできます。https://www.ibltokyo.jp/"
-categories: ["評釈"]
+title: マージンスクイーズ及び取引拒絶が問題とされたEUの新事例―Slovak Telekom事件欧州司法裁判所判決―
+date: '2021-10-15'
+description: 国際ビジネス法エグゼクティブ・サマリー（IBLES）に原稿が掲載されました。会員限定公開ですが、国際商事法務研究所（IBL）のHPからアクセスできます。https://www.ibltokyo.jp/
+work: true
+type: 評釈
+venue: 国際ビジネス法エグゼクティブ・サマリー（IBLES） no.52
+categories:
+- 評釈
 original-url: https://sei-shishido.themedia.jp/posts/22751718
 ---
 

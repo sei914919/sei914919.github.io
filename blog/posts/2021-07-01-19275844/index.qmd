@@ -1,8 +1,12 @@
 ---
-title: "［評釈］総合格闘技団体による格闘家に対する独占力及び 買い手独占力の維持・拡大が問題とされた事例  (Le v. Zuffa LLC, 216 F. Supp. 3d 1154)"
-date: "2021-07-01"
-description: "国際ビジネス法エグゼクティブ・サマリー（IBLES）に原稿が掲載されました。会員限定公開ですが、国際商事法務研究所（IBL）のHPからアクセスできます。https://www.ibltokyo.jp/"
-categories: ["評釈"]
+title: 総合格闘技団体による格闘家に対する独占力及び 買い手独占力の維持・拡大が問題とされた事例 (Le v. Zuffa LLC, 216 F. Supp. 3d 1154)
+date: '2021-07-01'
+description: 国際ビジネス法エグゼクティブ・サマリー（IBLES）に原稿が掲載されました。会員限定公開ですが、国際商事法務研究所（IBL）のHPからアクセスできます。https://www.ibltokyo.jp/
+work: true
+type: 評釈
+venue: 国際ビジネス法エグゼクティブ・サマリー（IBLES） no.50
+categories:
+- 評釈
 original-url: https://sei-shishido.themedia.jp/posts/19275844
 ---
 

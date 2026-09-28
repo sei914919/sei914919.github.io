@@ -1,8 +1,14 @@
 ---
-title: "［論説］単独かつ直接の取引拒絶の規制根拠と課題"
-date: "2021-02-03"
-description: "1月29日刊行の阪大法学70巻5号に、単独の取引拒絶に関する論説論文が掲載されました。多少雑にはなってしまいますが論文の概要を簡潔に纏めると、単独かつ直接の取引拒絶の規制根拠はBork等が言うところの…"
-categories: ["論説"]
+title: 単独かつ直接の取引拒絶の規制根拠と課題
+subtitle: The Regulatory Basis for a Unilateral Refusals to Deal in Japan
+date: '2021-02-03'
+description: 1月29日刊行の阪大法学70巻5号に、単独の取引拒絶に関する論説論文が掲載されました。多少雑にはなってしまいますが論文の概要を簡潔に纏めると、単独かつ直接の取引拒絶の規制根拠はBork等が言うところの…
+work: true
+type: 論文（査読あり）
+venue: 阪大法学 = Osaka law review vol.70 no.5 pp.1017–1082
+external-url: https://researchmap.jp/sei_shishido/published_papers/31824727/attachment_file.pdf
+categories:
+- 論文（査読あり）
 original-url: https://sei-shishido.themedia.jp/posts/13966981
 ---
 

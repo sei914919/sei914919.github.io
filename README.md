@@ -10,13 +10,12 @@
 ├── index.qmd               # トップページ
 ├── about.qmd               # 自己紹介
 ├── publications/           # 研究業績
-│   ├── index.qmd           # 業績一覧
-│   ├── items/              # 業績エントリ（1ファイル＝1業績）
+│   ├── index.qmd           # 業績一覧（blog/posts の work: true を表示）
 │   └── references.bib      # BibTeX（任意）
 ├── projects/index.qmd      # ポートフォリオ
 ├── blog/
 │   ├── index.qmd           # ブログ一覧
-│   └── posts/              # 記事（1ディレクトリ＝1記事）
+│   └── posts/              # 記事（1ディレクトリ＝1記事。業績もここ）
 ├── assets/                 # CSS / SCSS / favicon
 └── .github/workflows/      # 自動デプロイ
 ```
@@ -37,20 +36,25 @@ quarto render          # _site/ に出力
 
 ## 業績を追加する
 
-`publications/items/YYYY-MM-DD-slug.qmd` を新規作成し、frontmatter のみ書く：
+業績も含め、すべてのコンテンツは `blog/posts/<slug>/index.qmd` の記事として管理する。
+frontmatter に `work: true` を付けると Works ページとトップの Recent Works にも載る。
 
 ```yaml
 ---
 title: "論文タイトル"
+subtitle: "English title（任意）"
 date: "2026-05-05"
+work: true
 type: "論説"
-venue: "公正取引"
+venue: "公正取引 no.900 pp.1–10"
+external-url: https://example.com/article.pdf   # 任意。記事冒頭に「本文を読む」リンクが出る
 categories: [論説]
-external-url: https://example.com/article-pdf
 ---
+
+（本文は任意。書誌情報は assets/work-meta.lua が記事冒頭に自動表示する）
 ```
 
-`type` には `論説 / 評釈 / 報告 / 文献紹介 / 解説 / コラム` を使用。
+`type` には `著書 / 論文（査読あり） / 論説 / 評釈 / 解説・紹介 / 報告 / 学位論文` を使用し、`categories` にも同じ値を入れる。
 
 ## ブログ記事を追加する
 

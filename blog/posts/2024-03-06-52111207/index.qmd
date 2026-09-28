@@ -1,8 +1,13 @@
 ---
-title: "[解説] Distribution agreement"
-date: "2024-03-06"
-description: "ConcurrencesのGlobal Dictionary of Competition Lawに「distribution agreement」の解説（commentary）を執筆しました。Glo…"
-categories: ["解説"]
+title: Distribution agreement
+date: '2024-03-06'
+description: ConcurrencesのGlobal Dictionary of Competition Lawに「distribution agreement」の解説（commentary）を執筆しました。Glo…
+work: true
+type: 解説・紹介
+venue: Global Dictionary of Competition Law, Concurrences, Art. N° 86010
+external-url: https://www.concurrences.com/en/dictionary/distribution-agreement
+categories:
+- 解説・紹介
 image: image-1.png
 original-url: https://sei-shishido.themedia.jp/posts/52111207
 ---

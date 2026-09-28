@@ -1,0 +1,10 @@
+---
+title: 独禁法解釈論における目的とイデオロギーの位置付け
+date: 2026-02
+description: 公正取引 no.904 p.45
+work: true
+type: 論説
+venue: 公正取引 no.904 p.45
+categories:
+- 論説
+---

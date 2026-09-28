@@ -1,8 +1,12 @@
 ---
-title: "［報告］選択的価格引下げの排除型濫用該当性が争われた事例"
-date: "2016-12-02"
-description: "比較法研究センター主催の独禁法研究会（12月分）において、「選択的価格引下げの排除型濫用該当性が争われた事例」としてEUのPost Danmark I事件を取り上げて報告を行いました。Citation…"
-categories: ["報告"]
+title: 選択的価格引下げの排除型濫用該当性が争われた事例
+date: '2016-12-02'
+description: 比較法研究センター主催の独禁法研究会（12月分）において、「選択的価格引下げの排除型濫用該当性が争われた事例」としてEUのPost Danmark I事件を取り上げて報告を行いました。Citation…
+work: true
+type: 報告
+venue: 比較法研究センター 独禁法研究会
+categories:
+- 報告
 original-url: https://sei-shishido.themedia.jp/posts/2046239
 ---
 

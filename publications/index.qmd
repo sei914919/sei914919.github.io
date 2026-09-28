@@ -4,7 +4,9 @@ description: "論文・評釈・著書・解説等の研究業績"
 page-layout: full
 listing:
   - id: all-works
-    contents: items
+    contents: "../blog/posts/*/index.qmd"
+    include:
+      work: true
     type: table
     fields: [date, type, title, venue]
     field-display-names:
@@ -22,7 +24,7 @@ listing:
     feed: true
 ---
 
-研究業績の一覧です。種別（**著書** / **論文（査読あり）** / **論説・評釈** / **解説・紹介** / **その他**）でフィルタできます。
+研究業績の一覧です。種別（**著書** / **論文（査読あり）** / **論説** / **評釈** / **解説・紹介** / **報告**）でフィルタできます。各項目は[ブログ](../blog/index.qmd)の記事として書かれています。
 
 ::: {#all-works}
 :::

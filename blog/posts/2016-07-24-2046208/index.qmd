@@ -1,8 +1,13 @@
 ---
-title: "［論説］排除型私的独占行為の認定における意図の役割 : 米国の単独行為規制からの示唆(1)"
-date: "2016-07-24"
-description: "修士論文での研究内容に関する公表論文ですが、力不足のため、勉強を重ねて修正していかなければならない点が多々あります。ご笑覧ください。"
-categories: ["論説"]
+title: '排除型私的独占行為の認定における意図の役割 : 米国の単独行為規制からの示唆(1)'
+subtitle: 'The Role of Intent for Identifying Exclusionary Conduct : A Comparative Analysis between the Japanese Antimonopoly Act and the U.S. Antitrust Law(1)'
+date: '2016-07-24'
+description: 修士論文での研究内容に関する公表論文ですが、力不足のため、勉強を重ねて修正していかなければならない点が多々あります。ご笑覧ください。
+work: true
+type: 論文（査読あり）
+venue: '青山ローフォーラム = Aoyama law forum : ALF vol.5 no.1 pp.79–112'
+categories:
+- 論文（査読あり）
 image: image-1.jpg
 original-url: https://sei-shishido.themedia.jp/posts/2046208
 ---

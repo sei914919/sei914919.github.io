@@ -56,6 +56,8 @@ format:
     css: assets/styles.css
     toc: false
     include-in-header: assets/google-verification.html
+    filters:
+      - assets/work-meta.lua
     page-layout: article
     fontsize: 1rem
     linestretch: 1.7

@@ -1,8 +1,9 @@
 ---
-title: "［予告］単著書籍が予約開始になりました。"
-date: "2022-04-02"
-description: "『私的独占における排除概念の再構成』が2022年4月8日に発売予定です。https://amzn.to/34ghxz6"
-categories: ["書籍"]
+title: ［予告］単著書籍が予約開始になりました。
+date: '2022-04-02'
+description: 『私的独占における排除概念の再構成』が2022年4月8日に発売予定です。https://amzn.to/34ghxz6
+categories:
+- 書籍
 image: image-1.jpg
 original-url: https://sei-shishido.themedia.jp/posts/32677717
 ---
