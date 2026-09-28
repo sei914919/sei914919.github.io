@@ -16,6 +16,9 @@ listing:
       title: "タイトル"
       venue: "媒体"
     sort: "date desc"
+    date-format: "YYYY.MM"
+    sort-ui: false
+    filter-ui: false
     max-items: 5
     table-striped: false
     table-hover: false

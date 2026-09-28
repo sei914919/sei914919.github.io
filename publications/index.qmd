@@ -15,6 +15,7 @@ listing:
       title: "タイトル"
       venue: "掲載誌・出版社"
     sort: "date desc"
+    date-format: "YYYY.MM"
     categories: numbered
     filter-ui: true
     sort-ui: [date, title, type]

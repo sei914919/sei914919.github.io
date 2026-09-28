@@ -128,12 +128,41 @@ main.content {
   pointer-events: none;
 }
 
-/* Mobile: stack text above photos, photos as a single row of 4 → 2x2 */
+/* Tablet: stack text above photos */
 @media (max-width: 800px) {
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
     padding: 2.5rem 0 2rem;
+  }
+}
+
+/* Phone: fit name, lede and photos into the first screen */
+@media (max-width: 576px) {
+  .hero-grid {
+    gap: 1.4rem;
+    padding: 1.2rem 0 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .hero-text .name {
+    font-size: 2.2rem;
+  }
+  .hero-text .role {
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    margin: 0.9rem 0 1.1rem;
+  }
+  .hero-text .lede {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  /* photos as a single row of 4 small squares */
+  .hero-photos {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+  }
+  .hero-photos .photo-caption {
+    display: none;
   }
 }
 
@@ -369,4 +398,54 @@ main.content {
   font-family: "JetBrains Mono", monospace;
   font-size: 0.78rem;
   letter-spacing: 0.04em;
+}
+
+/* ── Listing tables on phones: stack date / title / venue ──── */
+@media (max-width: 576px) {
+  .quarto-listing-table thead {
+    display: none;
+  }
+  .quarto-listing-table,
+  .quarto-listing-table tbody,
+  .quarto-listing-table tr,
+  .quarto-listing-table td {
+    display: block;
+    width: 100%;
+  }
+  .quarto-listing-table tr {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+  .quarto-listing-table td {
+    border: 0;
+    padding: 0;
+  }
+  /* date and type share one line */
+  .quarto-listing-table td:has(> .listing-date),
+  .quarto-listing-table td:has(> .listing-type) {
+    display: inline-block;
+    width: auto;
+    margin-right: 0.8rem;
+  }
+  .quarto-listing-table .listing-date,
+  .quarto-listing-table .listing-type {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--bs-secondary-color, #6B6B6B);
+  }
+  .quarto-listing-table td,
+  .quarto-listing-table a {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .quarto-listing-table .listing-title {
+    display: block;
+    margin: 0.2rem 0;
+    line-height: 1.5;
+  }
+  .quarto-listing-table .listing-venue {
+    font-size: 0.82rem;
+    color: var(--bs-secondary-color, #6B6B6B);
+  }
 }
