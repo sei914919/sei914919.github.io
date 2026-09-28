@@ -4,5 +4,7 @@ date: "2024-05-20"
 type: "評釈"
 venue: "重要判例解説"
 categories: [評釈]
-external-url: https://sei-shishido.themedia.jp/posts/54616116?categoryIds=505654
+external-url: /blog/posts/2024-05-20-54616116/
 ---
+
+[ブログ記事を読む →](/blog/posts/2024-05-20-54616116/)
