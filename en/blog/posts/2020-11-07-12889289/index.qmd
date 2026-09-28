@@ -1,0 +1,16 @@
+---
+title: The Basis and Challenges of Regulating Unilateral, Direct Refusals to Deal
+date: '2020-11-07'
+description: I presented at the Kansai Economic Law Study Group. An article of the same title will appear in Osaka Law Review vol.70 no.5.
+work: true
+type: Presentation
+venue: Kansai Economic Law Study Group
+categories:
+- Presentation
+---
+
+At the Kansai Economic Law Study Group (co-organized by the Kobe University innovation KAKENHI project), I gave a research presentation titled "The Basis and Challenges of Regulating Unilateral, Direct Refusals to Deal." An article of the same title is scheduled to appear in *Osaka Law Review* vol. 70, no. 5 in January 2021.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2020-11-07-12889289/).
+:::

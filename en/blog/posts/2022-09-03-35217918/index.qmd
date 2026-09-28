@@ -1,0 +1,18 @@
+---
+title: Reconstructing the Concept of Exclusion in Private Monopolization
+date: '2022-09-03'
+description: As a rehearsal for my conference presentation, I presented on my monograph at the Kansai Economic Law Study Group.
+work: true
+type: Presentation
+venue: Kansai Economic Law Study Group
+categories:
+- Presentation
+---
+
+At the Kansai Economic Law Study Group, I gave a research presentation of about an hour and a half on my book *Reconstructing the Concept of Exclusion in Private Monopolization*, as a rehearsal for my conference presentation.
+
+The conference itself is in October!
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-09-03-35217918/).
+:::

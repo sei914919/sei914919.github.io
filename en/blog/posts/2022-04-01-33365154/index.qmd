@@ -1,0 +1,18 @@
+---
+title: A Case Finding Unlawful Tying against Compatible Products
+date: '2022-04-01'
+description: My case note, recently published on TKC's website, has been included in the April issue of Shin Hanrei Kaisetsu Watch.
+work: true
+type: Case note
+venue: Hogaku Seminar special issue, Sokuho Hanrei Kaisetsu no.30
+categories:
+- Case note
+---
+
+"A Case Finding Unlawful Tying against Compatible Products," recently published on TKC's website, has been included in the April issue of *Shin Hanrei Kaisetsu Watch*.
+
+> **[Shin Hanrei Kaisetsu Watch (April 2022) | Nippon Hyoron Sha](https://www.nippyo.co.jp/shop/book/8747.html)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-04-01-33365154/).
+:::

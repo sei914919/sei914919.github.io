@@ -1,0 +1,18 @@
+---
+title: 'Book Review: Eric A. Posner, How Antitrust Failed Workers'
+date: '2024-10-15'
+description: I reviewed Eric Posner's book for the Japanese Yearbook of International Economic Law.
+work: true
+type: Commentary
+venue: Japanese Yearbook of International Economic Law pp.247–251
+categories:
+- Commentary
+---
+
+I wrote a review of Eric Posner's book for the *Japanese Yearbook of International Economic Law*.
+
+This, too, is a theme I have studied since around 2019; in the end I produced only a draft and a table of contents and have not published a single article on it to this day. The main line of the book is the application of the Sherman Act to employers' monopsony in labor markets. I have been thinking this problem is relevant in Japan too, but I have not found time to examine it properly. Meanwhile, study groups have been convened, a freelance act has been enacted, and the social situation has changed a great deal.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-10-15-56397279/).
+:::

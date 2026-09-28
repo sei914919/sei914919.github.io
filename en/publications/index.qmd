@@ -1,0 +1,35 @@
+---
+title: "Works"
+description: "Books, articles, case notes, commentaries, and presentations"
+page-layout: full
+listing:
+  - id: all-works
+    contents: "../blog/posts/*/index.qmd"
+    include:
+      work: true
+    type: table
+    fields: [date, type, title, venue]
+    field-display-names:
+      date: "Date"
+      type: "Type"
+      title: "Title"
+      venue: "Venue"
+    sort: "date desc"
+    date-format: "YYYY.MM"
+    categories: numbered
+    filter-ui: true
+    sort-ui: [date, title, type]
+    page-size: 50
+    table-striped: false
+    table-hover: true
+    feed: true
+---
+
+A list of my research output. You can filter by type (**Book** / **Peer-reviewed article** / **Article** / **Case note** / **Commentary** / **Presentation**). Each entry is a post on the [blog](../blog/index.qmd).
+
+::: {#all-works}
+:::
+
+---
+
+researchmap: [https://researchmap.jp/sei_shishido/?lang=en](https://researchmap.jp/sei_shishido/?lang=en)

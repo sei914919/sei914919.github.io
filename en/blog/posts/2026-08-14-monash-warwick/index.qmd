@@ -1,0 +1,30 @@
+---
+title: Rules, Standards and Observability under Japan's Mobile Software Competition Act
+date: '2026-08-14'
+description: At the Monash Warwick Alliance Digital Regulation Workshop, I presented on the design of ex ante regulation, drawing on seven months of Japan's smartphone act in operation.
+work: true
+type: Presentation
+venue: Monash Warwick Alliance Digital Regulation Workshop (Monash University)
+categories:
+- Presentation
+---
+
+I was too busy to publicize it in time, but on August 14 I gave a presentation titled "Rules, Standards and Observability under Japan's Mobile Software Competition Act" at the Monash Warwick Alliance Digital Regulation Workshop, held at Monash University in Australia. The other speakers were all there in person; I was the only one joining over Zoom.
+
+The workshop considered, from a competition law perspective, the future of ex ante regulation of digital markets in Australia in light of the experience of the EU, the UK, and elsewhere. Australia is in the middle of designing its own ex ante framework, and I was asked to talk about how Japan's experience might be drawn on.
+
+My material was the roughly seven months of operation of the Mobile Software Competition Act (the Act on Promotion of Competition for Specified Smartphone Software), which came fully into force in December 2025.
+
+Looking at the domestic debate since it came into force, the controversy is concentrated on the level and basis of Apple's and Google's fees. The argument over whether fees on alternative payments and external links effectively close off routes to competition takes almost the same shape as the tasks that have been considered hardest in ex post antimonopoly enforcement — justifying costs and assessing effects that exclude competitors. Having introduced ex ante regulation, the biggest dispute is being fought on the same ground as ex post enforcement.
+
+So in my presentation I sorted the Act's obligations not by "ex ante or ex post" but along two axes — whether an obligation is fully written as a rule, and whether compliance can be observed from outside — into three types. The first is obligations, such as the prohibition on compelling the use of a particular browser engine (Article 8(3)), that are clearly written as rules and whose compliance can be checked from outside. The second is obligations, such as the prohibition on the improper use of acquired data (Article 5), that are written as rules but whose violations take place entirely inside the firm and leave no outward trace. The third is obligations, such as those involving fees, where room for assessment as a standard effectively remains within the ex ante regime.
+
+Seen this way, my argument is that whether ex ante regulation works depends not on the dichotomy of ex ante versus ex post but on whether each obligation could be fully written as a rule, to whom its compliance is observable, and whether areas where standards remain are equipped with information mechanisms to support them (such as the granularity of compliance reports, and the allocation of disclosure of and accountability for the basis of fees). Rather than taking fee issues out of ex ante regulation, one should add devices that bring the information needed for analysis to the regulator's side — a point I think may be useful for Australia as it builds its own system.
+
+Debates on ex ante regulation tend to become debates about the strength of regulation: hard DMA-style rules or transparency-based co-regulation. What distinguishes this presentation is its focus on rather unglamorous design variables: rules versus standards, and observability.
+
+The discussion paper is still a draft, so I will revise it in light of the comments I received at the workshop and hope to turn it into an article eventually. My thanks to the organizers for inviting me.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2026-08-14-monash-warwick/).
+:::

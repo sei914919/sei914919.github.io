@@ -1,0 +1,20 @@
+---
+title: Regulating Predatory Pricing as a Form of Private Monopolization in Japan (4)
+date: '2021-01-09'
+description: The final installment of my series in Hogaku Ronso appeared in the June 2020 issue.
+work: true
+type: Peer-reviewed article
+venue: Hogaku Ronso vol.187 no.3 pp.77–105
+categories:
+- Peer-reviewed article
+---
+
+This is belated news, but the final installment of my series in *Hogaku Ronso* appeared in the June 2020 issue.
+
+Because publication of *Hogaku Ronso* had fallen behind, the finished copy only reached me around October last year. As a result, the articles have not been picked up in resources such as the monthly literature list in *Kosei Torihiki*, and it is a pity that they are hard to make known.
+
+I will be sending offprints, together with the article to be published in January 2021, to everyone in turn.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2021-01-09-12889521/).
+:::

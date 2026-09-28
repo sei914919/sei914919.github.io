@@ -1,0 +1,29 @@
+---
+title: How do we define illegal 'self-preferencing' under the Japanese Anti-monopoly Act?
+date: '2023-12-01'
+description: I presented on self-preferencing by digital platforms at ASCOLA Asia 2023, held at Kyoto University.
+work: true
+type: Presentation
+venue: ASCOLA Asia 2023 (Kyoto University)
+categories:
+- Presentation
+image: /blog/posts/2023-12-01-52110078/image-1.png
+---
+
+At ASCOLA Asia 2023, held at Kyoto University, I gave a presentation titled "How do we define illegal 'self-preferencing' under the Japanese Anti-monopoly Act?" It was about self-preferencing by digital platforms.
+
+2023 was the first year of the Asian edition, so I had no idea what it would be like; I thought of it as a regional chapter of ASCOLA, a casual conference for younger scholars. When it came to it, the level of the young participants was frighteningly high, and half of the presenters reported empirical work. It was an intensely stimulating conference.
+
+The level of participants from Singapore and elsewhere was especially high. One senior scholar there said, "When I imagine having to compete with them on the job market now, it gives me chills," which stuck with me.
+
+In Japan there are not that many antimonopoly scholars and competition is not fierce, so thinking of the future, I am glad I had this experience now. It may even have been a higher level than when I presented at the main ASCOLA conference, and I feel I now understand the level I need to aim for for the time being. I will be in training for a while.
+
+Note: As the image below shows, a video has been posted on YouTube, but I am not linking to it here because I do not think it went very well... (My apologies to the organizer who kindly posted it; as a small consolation, I am including the image.)
+
+![](/blog/posts/2023-12-01-52110078/image-1.png)
+
+> **[AscolaAsia2023 - ASCOLA ASIA](https://www.ascola-asia.com/ascolaasia2023)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-12-01-52110078/).
+:::

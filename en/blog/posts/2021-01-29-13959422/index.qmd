@@ -1,0 +1,16 @@
+---
+title: Research on the Place of the Concept of Economic Welfare and of Ideology in the Debate on the Goals of Competition Law
+date: '2021-01-29'
+description: I presented a research plan workshop at the JFTC's Competition Policy Research Center (CPRC).
+work: true
+type: Presentation
+venue: Competition Policy Research Center (CPRC), Japan Fair Trade Commission
+categories:
+- Presentation
+---
+
+At the Competition Policy Research Center (CPRC) of the Japan Fair Trade Commission, I gave the presentation above as a research plan workshop. From March, I will work on this research theme as a visiting researcher at the CPRC.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2021-01-29-13959422/).
+:::

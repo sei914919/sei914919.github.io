@@ -1,0 +1,22 @@
+---
+title: 'Antimonopoly Case Study Group (No. 78): A Case Holding that Restrictions by Fishery Cooperatives on Shipments outside the Cooperative System Constituted an Unfair Trade Practice'
+date: '2025-02-15'
+description: I wrote a case note in NBL on two cease-and-desist orders concerning restrictions on shipments outside the cooperative system imposed on nori producers.
+work: true
+type: Case note
+venue: NBL no.1284
+categories:
+- Case note
+---
+
+I wrote a case note in *NBL* on two cease-and-desist orders concerning restrictions imposed by fishery cooperatives and their federation along the Ariake Sea coast on nori producers' shipments outside the cooperative system.
+
+It is an interesting case in which the main issue was whether a "written pledge" on shipments outside the system, not backed by monitoring or sanctions, constitutes an unjust restriction. In the note I examine in particular the finding of a market foreclosure effect.
+
+The case is now being contested in the district court, and I hope that more detailed findings of fact, going beyond what is stated in the orders, will be made. I would like to write a more detailed analysis once the district court rules, but given the other articles I want to write, whether I can do so is uncertain...
+
+For now, I hope you enjoy it as a brief case note on the orders.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-02-15-56396703/).
+:::

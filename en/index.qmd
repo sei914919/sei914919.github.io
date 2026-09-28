@@ -1,14 +1,39 @@
 ---
 title: ""
 pagetitle: "Sei Shishido"
-description-meta: "Sei Shishido — Associate Professor of Law at Seikei University, specializing in competition law and digital market regulation."
+description-meta: "Sei Shishido — Associate Professor of Law at Seikei University, working on competition law, digital market regulation, and self-preferencing."
 page-layout: full
 toc: false
+listing:
+  - id: recent-works
+    contents: "blog/posts/*/index.qmd"
+    include:
+      work: true
+    type: table
+    fields: [date, title, venue]
+    field-display-names:
+      date: "Date"
+      title: "Title"
+      venue: "Venue"
+    sort: "date desc"
+    date-format: "YYYY.MM"
+    sort-ui: false
+    filter-ui: false
+    max-items: 5
+    table-striped: false
+    table-hover: false
+  - id: recent-blog
+    contents: blog/posts
+    type: default
+    sort: "date desc"
+    max-items: 3
+    fields: [date, title, description]
+    feed: true
 ---
 
-::: hero
-[SS — SEIKEI / LAW]{.specimen-mark}
+::: {.hero-grid}
 
+::: {.hero-text}
 ::: name
 Sei Shishido [宍戸　聖]{.jp}
 :::
@@ -18,21 +43,41 @@ Associate Professor — Competition Law — Seikei University
 :::
 
 ::: lede
-I research competition law with a focus on digital market regulation — self-preferencing by platforms, adtech, and algorithmic conduct — across the Japanese, U.S., and EU jurisdictions.
+I work on antitrust and competition law, with a focus on digital market regulation from a comparative Japan–U.S.–EU perspective. My current interests include self-preferencing by platforms, adtech, and the effects of algorithms on competition.
 :::
 :::
 
-[Selected Works](../publications/index.qmd) · [Projects](../projects/index.qmd) · [Blog](../blog/index.qmd) · [日本語](../index.qmd)
+::: {.hero-photos}
+::: {.photo-cell .cell-1}
+![Bookshelves in my office](/assets/images/hero/hero-01-shelf.jpg){fig-alt="Bookshelves in my office"}
+[01 / SHELF]{.photo-caption}
+:::
+::: {.photo-cell .cell-2}
+![Name badge from the Korea-Japan conference](/assets/images/hero/hero-02-seoul.jpg){fig-alt="Name badge from the 2026 Korea-Japan Competition Law Academic Research Conference"}
+[02 / SEOUL]{.photo-caption}
+:::
+::: {.photo-cell .cell-3}
+![Even Realities G2 smart glasses](/assets/images/hero/hero-03-tools.jpg){fig-alt="Even Realities G2 smart glasses and ring"}
+[03 / TOOLS]{.photo-caption}
+:::
+::: {.photo-cell .cell-4}
+![University library at dusk](/assets/images/hero/hero-04-stacks.jpg){fig-alt="The glass facade of a university library at dusk"}
+[04 / STACKS]{.photo-caption}
+:::
+:::
 
-## Research interests
+:::
 
-- Self-preferencing and exclusionary conduct by digital platforms
-- Application of competition law to adtech markets
-- Algorithmic collusion and predatory conduct
-- The interface between ex-ante and ex-post regulation in digital markets
+[Recent Works]{.section-label}
 
-## Contact
+::: {#recent-works}
+:::
 
-- Affiliation: Faculty of Law, Seikei University
-- X / Twitter: [@sei_shishido](https://twitter.com/sei_shishido)
-- GitHub: [@sei914919](https://github.com/sei914919)
+[All works →](publications/index.qmd)
+
+[Recent Posts]{.section-label}
+
+::: {#recent-blog}
+:::
+
+[ブログ一覧 →](blog/index.qmd)

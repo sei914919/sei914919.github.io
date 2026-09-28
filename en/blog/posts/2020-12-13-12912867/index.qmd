@@ -1,0 +1,18 @@
+---
+title: The Regulation of Exclusionary Private Monopolization and Economic Welfare
+date: '2020-12-13'
+description: I presented at the second meeting of the Contract and Equality Study Group.
+work: true
+type: Presentation
+venue: Contract and Equality Study Group
+categories:
+- Presentation
+---
+
+At the second meeting of the Contract and Equality Study Group, organized by Associate Professor Shinohara of Konan University, I gave a presentation titled "The Regulation of Exclusionary Private Monopolization and Economic Welfare."
+
+Many of the participants work in other fields such as civil law, administrative law, and constitutional law, so I heard questions from perspectives different from those of competition law scholars. It was a very valuable experience. Thank you.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2020-12-13-12912867/).
+:::

@@ -1,0 +1,30 @@
+<script>
+// JP / EN 切り替え: 今のページの対応ページへ飛ばし、英語ページではナビのリンクも /en/ 側へ向ける
+(function () {
+  function run() {
+    var path = window.location.pathname;
+    var isEn = /^\/en(\/|$)/.test(path);
+    var toEn = function (p) { return /^\/en(\/|$)/.test(p) ? p : "/en" + (p === "/" ? "/" : p); };
+    var toJa = function (p) { return p.replace(/^\/en(?=\/|$)/, "") || "/"; };
+    var header = document.getElementById("quarto-header");
+    if (!header) return;
+    header.querySelectorAll("a").forEach(function (a) {
+      var label = a.textContent.trim();
+      if (label === "日本語") { a.setAttribute("href", isEn ? toJa(path) : path); return; }
+      if (label === "English") { a.setAttribute("href", isEn ? path : toEn(path)); return; }
+      if (!isEn || a.classList.contains("dropdown-toggle")) return;
+      var raw = a.getAttribute("href");
+      if (!raw || raw.charAt(0) === "#") return;
+      var url = new URL(raw, window.location.href);
+      if (url.origin !== window.location.origin) return;
+      a.setAttribute("href", toEn(url.pathname) + url.hash);
+    });
+    document.documentElement.setAttribute("data-lang-switch", isEn ? "en" : "ja");
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run);
+  } else {
+    run();
+  }
+})();
+</script>

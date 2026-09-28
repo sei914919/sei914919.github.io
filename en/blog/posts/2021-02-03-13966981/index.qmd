@@ -1,0 +1,23 @@
+---
+title: The Regulatory Basis for Unilateral Refusals to Deal in Japan
+date: '2021-02-03'
+description: My article on unilateral refusals to deal appeared in Osaka Law Review vol.70 no.5, published on January 29.
+work: true
+type: Peer-reviewed article
+venue: Osaka Law Review vol.70 no.5 pp.1017–1082
+external-url: https://researchmap.jp/sei_shishido/published_papers/31824727/attachment_file.pdf
+categories:
+- Peer-reviewed article
+---
+
+My article on unilateral refusals to deal appeared in *Osaka Law Review* vol. 70, no. 5, published on January 29.
+
+To summarize it briefly, if somewhat roughly: the article argues that the basis for regulating unilateral, direct refusals to deal lies in a lack of economic rationality, explained by the concept of "predation" in the sense used by Bork and others, and that an assessment focusing on this point is essential.
+
+Two points strike me as particularly important. First, the article tries to give a theoretical account of the concept of "artificiality" (*jin'isei*) invoked by Japan's Supreme Court. Second, it identifies the difficulty of setting a baseline as a challenge in assessing the economic rationality of unilateral, direct refusals to deal.
+
+I am sure it has many shortcomings, but I hope you enjoy reading it.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2021-02-03-13966981/).
+:::

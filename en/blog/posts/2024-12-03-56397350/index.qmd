@@ -1,0 +1,23 @@
+---
+title: Content Platforms and the Antimonopoly Act
+date: '2024-12-03'
+description: I presented on content platforms and the Antimonopoly Act at the Committee for Improving the Status of Performers.
+work: true
+type: Presentation
+categories:
+- Presentation
+---
+
+At the Committee for Improving the Status of Performers, I gave a presentation titled "Content Platforms and the Antimonopoly Act."
+
+With adult content distribution platforms in mind, and drawing on information the committee provided about the market environment and the characteristics of competitive conduct, I introduced and examined antimonopoly concerns and the basic ways of thinking about them.
+
+As far as I know, there have been no antimonopoly violation cases in the adult content industry so far, and hearing about the contractual arrangements specific to the industry was very interesting. I expect that progress will come if the Japan Fair Trade Commission conducts a market study in the future.
+
+In particular, the share of revenue taken by distribution platforms (as has come out in past court cases, it is apparently not unusual for the producer's share to fall below 50%) is difficult to treat under antimonopoly law and looks likely to be an important subject of research.
+
+> **[The 6th meeting of the Committee for Improving the Status of Performers was held on December 3, 2024](https://jitsuensha.com/archives/407)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-12-03-56397350/).
+:::

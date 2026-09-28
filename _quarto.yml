@@ -55,7 +55,9 @@ format:
       dark: [cosmo, assets/theme-dark.scss]
     css: assets/styles.css
     toc: false
-    include-in-header: assets/google-verification.html
+    include-in-header:
+      - assets/google-verification.html
+      - assets/lang-switch.html
     filters:
       - assets/work-meta.lua
     page-layout: article

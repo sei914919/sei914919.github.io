@@ -1,0 +1,18 @@
+---
+title: 'Designing Remedies in Dynamic Markets: The District Court Decision of September 2, 2025 in United States v. Google LLC'
+date: '2025-11-01'
+description: At the Shojihomu Antimonopoly Law Study Group, I presented on designing remedies in dynamic markets, based on the September 2, 2025 remedies decision in the U.S. Google (search) case.
+work: true
+type: Presentation
+venue: Shojihomu Antimonopoly Law Study Group
+categories:
+- Presentation
+---
+
+At the Shojihomu Antimonopoly Law Study Group, I gave a presentation titled "Designing Remedies in Dynamic Markets: The District Court Decision of September 2, 2025 in United States v. Google LLC." It was based on the district court's September 2, 2025 decision on remedies in the U.S. Google (search) case.
+
+I later took up the question of remedy design again in [my presentation in Korea](/en/blog/posts/2026-09-18-korea-japan-conference/), comparing it with Japan's Google order and MC Data Plus order.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-11-01-google-remedies/).
+:::

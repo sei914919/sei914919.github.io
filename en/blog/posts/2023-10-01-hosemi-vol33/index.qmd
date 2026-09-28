@@ -1,0 +1,14 @@
+---
+title: A Case Holding that Disadvantageous Treatment of Customers because of Their Dealings with a Competitor Constituted Private Monopolization
+date: 2023-10
+description: Hogaku Seminar special issue, Sokuho Hanrei Kaisetsu no.33 pp.271–274
+work: true
+type: Case note
+venue: Hogaku Seminar special issue, Sokuho Hanrei Kaisetsu no.33 pp.271–274
+categories:
+- Case note
+---
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-10-01-hosemi-vol33/).
+:::

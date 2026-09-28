@@ -1,0 +1,22 @@
+---
+title: Reconstructing the Concept of Exclusion in Private Monopolization
+date: '2022-10-22'
+description: I presented on my monograph at the 2022 annual conference of the Japan Association of Economic Law, held at Kyoto University.
+work: true
+type: Presentation
+venue: Japan Association of Economic Law, 2022 Annual Conference
+categories:
+- Presentation
+---
+
+At the 2022 annual conference of the Japan Association of Economic Law, held at Kyoto University, I gave a presentation based on my book *Reconstructing the Concept of Exclusion in Private Monopolization*.
+
+Thank you for the many valuable questions.
+
+It was a pity there was no reception after I had finally given my presentation, but I enjoyed being back at Kyoto University after a long time.
+
+I think this settles my book-related work for now. All that remains is to write an article on a new theme before the end of the year.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-10-22-35217967/).
+:::

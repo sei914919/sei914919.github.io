@@ -1,0 +1,21 @@
+---
+title: Reconstructing the Concept of Exclusion in Private Monopolization
+date: '2022-04-08'
+description: Reconstructing the Concept of Exclusion in Private Monopolization was released by Shojihomu on April 8.
+work: true
+type: Book
+venue: Shojihomu (ix, 235 pp.)
+isbn: '9784785729387'
+categories:
+- Book
+---
+
+*Reconstructing the Concept of Exclusion in Private Monopolization* was released by Shojihomu on April 8.
+
+I had hoped to make a short explanatory video for a general audience, but I have been too busy to finish it.
+
+This is a theme I have worked on since around 2016, and it forms the foundation of the research I am doing now. As the fruit of my first research project it surely has shortcomings, but I would be glad if you took a look.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-04-08-33310806/).
+:::

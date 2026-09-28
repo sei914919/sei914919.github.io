@@ -1,0 +1,16 @@
+---
+title: Regulating Predatory Pricing as a Form of Private Monopolization in Japan
+date: '2019-11-16'
+description: At the Tokyo Economic Law Study Group, I presented on an article of the same title, to be published in installments from December.
+work: true
+type: Presentation
+venue: Tokyo Economic Law Study Group
+categories:
+- Presentation
+---
+
+At the Tokyo Economic Law Study Group, I gave a presentation based on an article of the same title (to be published in installments from December). The article reworks part of my doctoral dissertation.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2019-11-16-7303365/).
+:::

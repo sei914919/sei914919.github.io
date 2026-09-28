@@ -1,0 +1,16 @@
+---
+title: The Goals of Competition Law, Economic Welfare, and Ideology
+date: '2022-11-25'
+description: At the JFTC's CPRC, I reported on the progress of my research at an interim workshop.
+work: true
+type: Presentation
+venue: CPRC Interim Report Workshop
+categories:
+- Presentation
+---
+
+At the JFTC's Competition Policy Research Center (CPRC), I reported on the progress of my research at an interim report workshop. I received a great many valuable comments, not only from legal scholars but also from economists. What remains is to complete it as a discussion paper, and I will do my best to finish writing within the fiscal year if I can.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-11-25-39507429/).
+:::

@@ -1,0 +1,18 @@
+---
+title: 'U.S. and EU Antitrust Case Studies (No. 140): New Developments in the Regulation of Refusals to Deal in the EU — The Slovak Telekom Judgment of the Court of Justice'
+date: '2022-04-20'
+description: My case note on the Slovak Telekom judgment appeared in Kosei Torihiki no.858, published on April 15.
+work: true
+type: Case note
+venue: Kosei Torihiki no.858 pp.70–77
+categories:
+- Case note
+---
+
+*Kosei Torihiki* no. 858, published on April 15, carries my case note on the EU's Slovak Telekom judgment of the Court of Justice, discussing recent developments in EU refusal-to-deal law and their implications for Japanese law.
+
+Publication was delayed for various reasons, so I wrote it about six months ago, but the analysis takes into account the General Court's judgment in the Google case.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-04-20-33868300/).
+:::

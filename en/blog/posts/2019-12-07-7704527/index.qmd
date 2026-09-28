@@ -1,0 +1,16 @@
+---
+title: Revisiting the Regulation of Predatory Pricing
+date: '2019-12-07'
+description: I presented the research behind my Hogaku Ronso article in more detail at the Kansai Economic Law Study Group.
+work: true
+type: Presentation
+venue: Kansai Economic Law Study Group
+categories:
+- Presentation
+---
+
+I presented, in more detail, the research behind the *Hogaku Ronso* article that I had presented at the Tokyo Economic Law Study Group. The discussion went on for about two hours, and it was a very meaningful session for me. My sincere thanks to everyone who asked questions and offered comments.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2019-12-07-7704527/).
+:::

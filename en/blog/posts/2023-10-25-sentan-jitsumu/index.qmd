@@ -1,0 +1,18 @@
+---
+title: The Goals of Competition Law and Ideology
+date: '2023-10-25'
+description: I presented on the goals of competition law and ideology at the Advanced Competition Law Practice Study Group.
+work: true
+type: Presentation
+venue: Advanced Competition Law Practice Study Group
+categories:
+- Presentation
+---
+
+At the Advanced Competition Law Practice Study Group, I gave a presentation titled "The Goals of Competition Law and Ideology."
+
+I later brought this research together in the [CPRC discussion paper "Goals, Ideology, and the Interpretation of Competition Law"](/en/blog/posts/2025-10-24-cprc-dp102/).
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-10-25-sentan-jitsumu/).
+:::

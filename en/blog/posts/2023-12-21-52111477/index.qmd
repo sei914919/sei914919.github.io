@@ -1,0 +1,28 @@
+---
+title: Interplay of the Japanese Anti-monopoly Act and Blockchain
+date: '2023-12-21'
+description: At the Seikei University Institute for Future Law, I presented on my NBL article on the Antimonopoly Act and blockchain.
+work: true
+type: Presentation
+venue: Institute for Future Law, Seikei University
+categories:
+- Presentation
+---
+
+At the Institute for Future Law at Seikei University, I gave a presentation based on my article on the Antimonopoly Act and blockchain, published in *NBL* in October.
+
+The slides are here: <https://researchmap.jp/sei_shishido/presentations/44101585/attachment_file.pdf>
+
+I wrote that article not to discuss any detail in depth but to raise questions in the abstract.
+
+It may be a matter of taste, but I personally quite like writing of this kind. Still, I did not write it this way just because I like it; there is background closely connected to the problems I am working on now — "the goals of antimonopoly law, economic welfare, and ideology," "how antimonopoly law should be interpreted," and "self-preferencing by digital platforms" — and I wrote it this way deliberately.
+
+In this presentation I explained what I wanted to convey in the *NBL* article, with its connection to my research on "the goals of antimonopoly law, economic welfare, and ideology" as the main thread.
+
+I received comments from the perspectives of many fields — administrative law, civil procedure, commercial law, and legal hermeneutics — and I think the discussion was very lively.
+
+After the meeting, the discussion continued with colleagues I shared the elevator with, and before I knew it we had carried on the meeting in my office for more than an hour. I was moved by what a wonderful workplace this is. Seikei University is a really good university.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-12-21-52111477/).
+:::

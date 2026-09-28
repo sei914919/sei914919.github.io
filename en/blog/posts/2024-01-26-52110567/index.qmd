@@ -1,0 +1,24 @@
+---
+title: The Goals of Competition Law, Economic Welfare, and Ideology
+date: '2024-01-26'
+description: Invited by a University of Tokyo KAKENHI project, I presented on the goals of competition law, economic welfare, and ideology.
+work: true
+type: Presentation
+venue: University of Tokyo KAKENHI research meeting
+categories:
+- Presentation
+---
+
+I was invited to the University of Tokyo's KAKENHI (A) project, "Research on the Interaction of Law and Politics over the 'Public' in the Digital Age," and gave a presentation titled "The Goals of Competition Law, Economic Welfare, and Ideology," based on the CPRC discussion paper I am writing.
+
+> **[Digital Public KAKENHI — Research Output](https://sites.google.com/g.ecc.u-tokyo.ac.jp/digital/%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C)**
+
+Many people — scholars who always look after me, colleagues, and drinking buddies — took the trouble to attend despite what must be very busy schedules. I received valuable comments from scholars in a truly wide range of fields and learned a great deal. Thank you.
+
+Precisely because the theme and topics are broad, the discussion comes alive even at an interdisciplinary meeting, but honestly, I reflected that I do not yet have the ability to respond properly to all of it. Still, I never dreamed I would one day discuss Kaplow's articles with scholars of administrative law and commercial law, and it was great fun.
+
+A complete aside: the University of Tokyo's campus is vast even though it is in the middle of the city, and I now understand a little how the characters in *Kingdom* feel when they look at a huge castle town and say, "So this is the power of Qin..."
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-01-26-52110567/).
+:::

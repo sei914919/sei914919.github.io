@@ -1,0 +1,20 @@
+---
+title: Self-Preferencing by Digital Platforms and Competition Law
+date: '2022-12-03'
+description: At the Kansai Economic Law Study Group, I presented my research on self-preferencing by digital platforms.
+work: true
+type: Presentation
+venue: Kansai Economic Law Study Group
+categories:
+- Presentation
+---
+
+At the Kansai Economic Law Study Group (co-organized by the Kobe University platform KAKENHI project), I presented my research on self-preferencing by digital platforms.
+
+The presentation was based on an article in progress that I plan to finish by March 2023.
+
+Parts of the argument were not yet clear, so I will now revise the article substantially in light of the comments I received at the meeting.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-12-03-40425417/).
+:::

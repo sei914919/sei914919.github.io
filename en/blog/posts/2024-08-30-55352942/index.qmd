@@ -1,0 +1,22 @@
+---
+title: 'Excluding Competitors by Restricting Dealings with Rival Firms: The Minami Airport Service Case (Tokyo High Court, January 25, 2023)'
+date: '2024-08-30'
+description: My commentary on the Tokyo High Court judgment in the Minami Airport Service case was published in the third edition of the Hyakusen casebook on economic law.
+work: true
+type: Case note
+venue: Keizaiho Hanrei Shinketsu Hyakusen, 3rd ed. (Bessatsu Jurist) vol.60 no.2 pp.28–29
+categories:
+- Case note
+---
+
+My commentary on the High Court judgment in the Minami Airport Service case was published in the third edition of *Keizaiho Hanrei Shinketsu Hyakusen* (Leading Cases and Decisions in Economic Law). I studied with the first edition as an undergraduate and the second edition as a graduate student, so I was happy that my own piece was included.
+
+While I was writing the commentary last year, the Supreme Court dismissed Minami's appeal, so the case was settled by this judgment. I think the judgment raises various issues in how it states the legal norms for conduct of the trading-on-restrictive-terms or exclusive-dealing type, and in how the law is interpreted and applied, but I tried to keep the commentary as plain as possible so as not to confuse the intended readers.
+
+I would be glad if you picked it up.
+
+> **[Keizaiho Hanrei Shinketsu Hyakusen, 3rd ed. | Yuhikaku](https://www.yuhikaku.co.jp/books/detail/9784641115682)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-08-30-55352942/).
+:::

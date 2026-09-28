@@ -16,7 +16,8 @@ function Pandoc(doc)
   if str(m.venue) ~= "" then add({ pandoc.Str(str(m.venue)) }) end
   if str(m.isbn) ~= "" then add({ pandoc.Str("ISBN " .. str(m.isbn)) }) end
   if str(m["external-url"]) ~= "" then
-    add({ pandoc.Link("本文を読む ↗", str(m["external-url"])) })
+    local label = str(m.lang) == "en" and "Read the paper ↗" or "本文を読む ↗"
+    add({ pandoc.Link(label, str(m["external-url"])) })
   end
   if #parts > 0 then
     table.insert(doc.blocks, 1, pandoc.Div(pandoc.Para(parts), { class = "work-meta" }))

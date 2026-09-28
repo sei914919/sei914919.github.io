@@ -1,0 +1,72 @@
+---
+title: "About"
+toc: true
+toc-location: right
+---
+
+::: {.about-portrait-wrap}
+![Sei Shishido](/assets/images/about/about-portrait.jpg){.about-portrait fig-alt="Sei Shishido portrait"}
+:::
+
+## Profile
+
+Associate Professor, Department of Law, Faculty of Law, Seikei University. I specialize in economic law (antimonopoly and competition law). I received my LL.B. from Aoyama Gakuin University, my LL.M. from the Graduate School of Law at Aoyama Gakuin University (Private Law), and completed the doctoral program at the Graduate School of Law, Kyoto University (Legal and Political Theory). Ph.D. in Law.
+
+My research focuses on digital market regulation, in particular self-preferencing by platforms, adtech, and the regulation of competitive conduct mediated by algorithms, which I examine comparatively across Japan, the United States, and the EU. I also work on the goals and interpretation of competition law (formalism and competition law, neo-Brandeisianism).
+
+## Research interests
+
+Antimonopoly law, U.S. antitrust law and EU competition law; digital platforms; self-preferencing; the goals of competition law (formalism, neo-Brandeisianism); private monopolization; unfair trade practices; blockchain and antimonopoly law; the intersection of labor markets and antimonopoly law; refusal to deal; predatory pricing
+
+## Employment
+
+| Period | Position | Institution |
+|------|------|------|
+| Aug 2025– | Associate Professor | Department of Law, Faculty of Law, Seikei University |
+| Apr 2023– | Associate Professor | Faculty of Law, Seikei University |
+| Apr 2023– | Visiting Researcher | Competition Policy Research Center (CPRC), Japan Fair Trade Commission |
+| Oct 2021–Mar 2023 | Lecturer (tenure track, Faculty of Humanities and Social Sciences) | Institute of Arts and Sciences, Yamagata University |
+| Mar 2021–Feb 2023 | Visiting Researcher | Competition Policy Research Center (CPRC), Japan Fair Trade Commission |
+| Apr 2019–Sep 2021 | JSPS Research Fellow (PD) | Japan Society for the Promotion of Science (Osaka University) |
+| Apr 2017–Mar 2019 | JSPS Research Fellow (DC2) | Japan Society for the Promotion of Science (Kyoto University) |
+
+## Education
+
+| Period | Program | Institution |
+|------|------|------|
+| Apr 2016–Mar 2019 | Doctoral program, Legal and Political Theory, Graduate School of Law | Kyoto University |
+| Apr 2014–Mar 2016 | Master's program, Private Law, Graduate School of Law | Aoyama Gakuin University |
+| Sep 2012–Jul 2013 | Exchange student | University of Oregon |
+| Apr 2010–Mar 2014 | Department of Law, Faculty of Law | Aoyama Gakuin University |
+
+## Awards
+
+- **Yokota Masatoshi Memorial Award** (Japan Fair Trade Institute, April 2023) — for *Shiteki dokusen ni okeru haijo gainen no saikousei* [Reconstructing the Concept of Exclusion in Private Monopolization] (Shojihomu, 2022)
+- **Award for an outstanding doctoral dissertation, Graduate School of Law, Kyoto University** (March 2019)
+
+## Memberships
+
+- ASCOLA (Academic Society for Competition Law) (2019–)
+- Japan Association of Economic Law (2016–)
+
+## Committees
+
+- Ministry of Internal Affairs and Communications, Working Group on the Effective Use of Frequencies for Mobile Phones (April 2026–)
+- Ministry of Internal Affairs and Communications, Advisory Board on the Radio Spectrum Usage Survey (expert member) (April 2023–)
+
+## Current research projects
+
+**JSPS KAKENHI Grant-in-Aid for Early-Career Scientists**, "Self-preferencing by digital platforms and competition law" (Principal Investigator, No. 23K12380, April 2023–March 2026)
+
+**JSPS KAKENHI Grant-in-Aid for Scientific Research (S)**, "Creating a model competition law based on a Japanese antimonopoly law database open to the world" (Co-Investigator, No. 24H00013, April 2024–March 2029; Principal Investigator: Masako Wakui, Kyoto University)
+
+## Contact
+
+- Affiliation: Faculty of Law, Seikei University
+- researchmap: [sei_shishido](https://researchmap.jp/sei_shishido/?lang=en)
+- X / Twitter: [@SeiShishido](https://twitter.com/SeiShishido)
+- GitHub: [@sei914919](https://github.com/sei914919)
+
+## About this site
+
+Built with [Quarto](https://quarto.org) and hosted on GitHub Pages. The source is available on [GitHub](https://github.com/sei914919/sei-shishido.github.io).

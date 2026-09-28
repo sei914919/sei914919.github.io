@@ -1,0 +1,131 @@
+---
+title: "Projects"
+description: "Systems and tools I built to support my research and daily work"
+toc: true
+toc-location: right
+---
+
+Systems and tools I have built for myself around research and teaching. They are what a legal scholar thinks would be convenient, built and used by that same scholar.
+
+::: project-grid
+
+::: project-card
+::: project-image
+![](/assets/images/projects/projects-jade-server.jpg){fig-alt="The server that runs JADE"}
+:::
+::: project-body
+### JADE
+
+A local RAG research platform for comparative (Japan–U.S.–EU) competition law research (being redesigned). The corpus is split into three streams — textbooks and cases for factual reference, my own articles and case notes for style reference, and an inbox of unverified material — and the system drafts case notes on new decisions, supports thematic research, and answers questions over the corpus. Every search result carries page numbers so that it can support scholarly citation. Changes to retrieval quality are judged against measurements on an evaluation set, and everything is written in plain Python without frameworks. It is operated from Claude Code through an MCP server.
+
+::: stack
+Ollama · qwen3.6 · ChromaDB · Python · MCP
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Arca
+
+An autonomous agent I can talk to both ways over Telegram. Built on OpenClaw and running as a systemd user service. It runs Ollama (qwen3.6:35b, with qwen3.5:9b for light replies) locally on a single GPU in my office, and exposes an OpenAI-compatible endpoint over Tailscale so that it can also be called from smart glasses (Even Realities G2). New features are added as independent Python scripts alongside the core, without modifying it.
+
+::: stack
+OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Secretary
+
+A system that takes over the logistics of work and life through a single point of contact, Telegram, instead of hiring a human secretary (in design). Its core is to take a commitment I have accepted, expand it into travel requests, expense paperwork, and preparation deadlines, and draft the documents; and, when work piles up, to help decide where to put my effort. Four functions form a common base — watching (email and calendar), remembering (a ledger in Notion), producing (administrative documents and draft replies), and prompting (morning and evening digests, reminders before deadlines) — and individual tasks sit on top of it as configuration. Claude Code interprets what I say, Arca handles routine jobs that need no judgment, and payments and submissions to the university always stop at the draft stage. The travel-document generator below has been folded into its paperwork role.
+
+::: stack
+Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · Gmail · Python
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Research meeting transcription pipeline
+
+A pipeline that turns recordings of competition law research meetings into minutes with speaker diarization using Whisper and pyannote.audio. A second stage uses Ollama (qwen2.5-coder:32b) to correct typos and clean up the text. A v2 that supports multitrack recording (DJI Mic 3) is in design.
+
+::: stack
+Whisper · pyannote.audio 4 · Ollama · Python · CUDA
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Travel document generator
+
+Scripts that generate KAKENHI expense requests and business-trip applications with openpyxl and python-docx from just the required fields — so that I stop losing time to the same forms I fill in many times a year.
+
+::: stack
+Python · openpyxl · python-docx
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Japanese antimonopoly law history dashboard
+
+An interactive dashboard for following postwar amendments to Japan's Antimonopoly Act and major cases by period. Built with React alone (no external dependencies), with a fixed sidebar, four category filters, keyword search, and highlighting of landmark cases.
+
+[See the latest version (2025 timeline) →](https://www.mcompl.org/timeline/2025)
+
+::: stack
+React · Vanilla CSS
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Complichain
+
+A prototype blockchain to support competition law enforcement. Firms record transaction data on per-firm channels, kept confidential from one another, and only when legal intervention becomes necessary does a multisignature approval give a regulator such as the Japan Fair Trade Commission time-limited access. Expired access rights lapse automatically, and every operation is kept as a tamper-proof audit trail. I presented the shift from authorities hunting for evidence after the fact (data hunt) to firms recording transactions in advance on a shared ledger that the authority consults only when conditions are met (data vault) at IICAH Hawaii 2026 in January 2026, as "[From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance](../blog/posts/2026-01-04-iicah-hawaii/index.qmd)". This prototype tests that proposal in working form; its starting point was my article "[Interplay of the Japanese Anti-monopoly Act and Blockchain](../blog/posts/2023-10-15-51493881/index.qmd)" (NBL No. 1252).
+
+::: stack
+Hyperledger Fabric · Go (chaincode) · Node.js · Docker
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Japanese–English antimonopoly glossary
+
+A glossary for standardizing how Japanese antimonopoly and competition policy terms are rendered in English. Japanese headwords follow the subject indexes of leading treatises, and English renderings are checked against my own English writing (such as the annual review on the Kluwer Competition Law Blog) and the JFTC's English materials, with sources recorded for each entry. Where renderings differ between my texts or remain unsettled, the entry is flagged and the decision deferred. I started it while preparing the English version of my presentation in Korea, and it will serve as a common standard for future English writing and international presentations.
+
+::: stack
+Markdown · Claude Code
+:::
+:::
+:::
+
+::: project-card
+::: project-body
+### Obsidian LIFELOG
+
+An external memory system that feeds automatic Whisper transcriptions of what I say into an Obsidian vault and manages `epistemic_status` and `evolved_into` in YAML frontmatter, so that the development of my thinking can be traced with RAG. Synced in real time across Windows / macOS / Ubuntu / iOS with Self-hosted LiveSync.
+
+::: stack
+Obsidian · LiveSync · CouchDB · Whisper · YAML
+:::
+:::
+:::
+
+:::
+
+::: {.callout-tip}
+## Shared design principles
+
+Each of these **rebuilds something I do every week at my office desk as a system that runs on my own machines**. Core data and processing — literature and manuscripts — stay on my own machines as far as possible, and external services are used only where needed, such as for a point of contact or for calendar and email integration. The core of my research should keep running even when the network is weak during a sabbatical or a trip. And LLMs and AI agents should be built in as collaborators in research. These are the requirements they all share.
+:::

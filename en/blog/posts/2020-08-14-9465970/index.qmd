@@ -1,0 +1,19 @@
+---
+title: 'Spirit Airlines Case: An Analysis of the Judgment of the Sixth Circuit'
+date: '2020-08-14'
+description: A piece based on my February presentation at the Shojihomu Antimonopoly Law Study Group was published in Kosei Torihiki.
+work: true
+type: Case note
+venue: Kosei Torihiki no.838 pp.91–98
+categories:
+- Case note
+image: /blog/posts/2020-08-14-9465970/image-1.jpg
+---
+
+A piece based on what I presented at the Shojihomu Antimonopoly Law Study Group in February was published in *Kosei Torihiki*.
+
+![](/blog/posts/2020-08-14-9465970/image-1.jpg)
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2020-08-14-9465970/).
+:::

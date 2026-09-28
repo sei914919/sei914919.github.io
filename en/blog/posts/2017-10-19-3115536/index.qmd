@@ -1,0 +1,25 @@
+---
+title: 'Regulation of Selective Price Cuts under EU Competition Law: Post Danmark I'
+date: '2017-10-19'
+description: A case note based on my earlier presentation at the Antimonopoly Law Study Group was published in the August issue of Kosei Torihiki.
+work: true
+type: Case note
+venue: Kosei Torihiki no.802 pp.80–85
+categories:
+- Case note
+image: /blog/posts/2017-10-19-3115536/image-1.jpg
+---
+
+A case note based on what I presented earlier at the Antimonopoly Law Study Group was published in the August issue of *Kosei Torihiki*.
+
+The Post Danmark I judgment is very short, but its wording leaves a great deal of room for interpretation, which makes it a difficult judgment.
+
+It is also cited in the most recent Intel judgment of the Court of Justice, so working out how to read it matters for interpreting the latest case law on loyalty rebates as well. In that sense too, it is a significant judgment.
+
+![](/blog/posts/2017-10-19-3115536/image-1.jpg)
+
+> **[CiNii: U.S. and EU Antitrust Case Studies (No. 113)](http://ci.nii.ac.jp/naid/40021313354)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2017-10-19-3115536/).
+:::

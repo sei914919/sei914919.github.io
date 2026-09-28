@@ -1,0 +1,14 @@
+---
+title: A Case Holding that a Change in the Specifications of a Complementary Product Did Not Constitute an Unfair Trade Practice
+date: 2025-05
+description: Shin Hanrei Kaisetsu Watch (Economic Law) No.99
+work: true
+type: Commentary
+venue: Shin Hanrei Kaisetsu Watch (Economic Law) No.99
+categories:
+- Commentary
+---
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-05-01-watch-no99/).
+:::

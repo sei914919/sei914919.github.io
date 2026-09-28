@@ -1,0 +1,26 @@
+---
+title: This Site Has Moved to Quarto + GitHub Pages
+date: '2026-05-05'
+description: A record of the move from Ameba Ownd to Quarto.
+categories:
+- announcement
+- infrastructure
+image: /blog/posts/migration-note/header.jpg
+---
+
+I have moved this site, long hosted on Ameba Ownd, to [Quarto](https://quarto.org) + GitHub Pages.
+
+## Why I moved
+
+- The page limit on the free plan had become cramped
+- Every time I logged into my account I got an error, which made updating the site itself a chore
+- I wanted a place to show the tools and systems I have built with vibe coding
+- I wanted to be able to blog a bit more casually
+
+## The new setup
+
+I can write directly in Markdown, continuous with the Obsidian vault I use every day, and the site builds automatically when I push to GitHub. Research output is structured in YAML frontmatter, so it can be filtered and sorted however I like later. No more struggling with CMS logins.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/migration-note/).
+:::

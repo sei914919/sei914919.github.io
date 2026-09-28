@@ -1,0 +1,20 @@
+---
+title: A New EU Case on Margin Squeeze and Refusal to Deal — The Slovak Telekom Judgment of the Court of Justice
+date: '2021-10-15'
+description: A piece of mine was published in International Business Law Executive Summary (IBLES).
+work: true
+type: Case note
+venue: International Business Law Executive Summary (IBLES) no.52
+categories:
+- Case note
+---
+
+A piece of mine was published in *International Business Law Executive Summary* (IBLES).
+
+It is available to members only, through the website of the Institute of International Business Law and Practice (IBL).
+
+<https://www.ibltokyo.jp/>
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2021-10-15-22751718/).
+:::

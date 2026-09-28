@@ -1,0 +1,16 @@
+---
+title: An Overview of the Major Developments in Japan's Competition Law and Policy in 2025
+date: '2025-12-26'
+description: Invited to the 2025 Taiwan-Japan Economic Law Conference, I presented on the major developments in Japan's competition law and policy in 2025.
+work: true
+type: Presentation
+venue: 2025 Taiwan-Japan Economic Law Conference
+categories:
+- Presentation
+---
+
+I was invited to the 2025 Taiwan-Japan Economic Law Conference and presented on the major developments in Japan's competition law and policy in 2025, under the title "An Overview of the Major Developments in Japan's Competition Law and Policy in 2025."
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-12-26-taiwan-japan/).
+:::

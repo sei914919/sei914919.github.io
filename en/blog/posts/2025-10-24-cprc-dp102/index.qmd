@@ -1,0 +1,15 @@
+---
+title: Goals, Ideology, and the Interpretation of Competition Law
+date: '2025-10-24'
+description: CPRC Discussion Paper no.CPDP-102-J pp.1–31
+work: true
+type: Article
+venue: CPRC Discussion Paper no.CPDP-102-J pp.1–31 (in Japanese)
+external-url: https://www.jftc.go.jp/cprc/reports/disucussionpapers/r7/index_files/CPDP-102-J.pdf
+categories:
+- Article
+---
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-10-24-cprc-dp102/).
+:::

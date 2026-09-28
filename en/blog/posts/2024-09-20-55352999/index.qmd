@@ -1,0 +1,24 @@
+---
+title: Competition Law Dictionary
+date: '2024-09-20'
+description: My English commentary published earlier this year has been included in Concurrences' book, Competition Law Dictionary.
+work: true
+type: Commentary
+categories:
+- Commentary
+image: /blog/posts/2024-09-20-55352999/image-1.png
+---
+
+The English [commentary](/en/blog/posts/2024-03-06-52111207/) published earlier this year has been included in a book: Concurrences' *Competition Law Dictionary*.
+
+My entry, "distribution agreement," introduces vertical restraints with a focus on the application of the EU's VBER and U.S. case law, and, brief as it is, I also did my best to introduce Japanese law.
+
+I would be glad if you picked it up.
+
+> **[Competition Law Dictionary - Concurrences](https://www.concurrences.com/en/all-books/competition-law-dictionary)**
+
+![](/blog/posts/2024-09-20-55352999/image-1.png)
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-09-20-55352999/).
+:::

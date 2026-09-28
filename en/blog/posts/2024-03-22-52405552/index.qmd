@@ -1,0 +1,32 @@
+---
+title: Predatory Innovation and the Antimonopoly Act
+date: '2024-03-22'
+description: I took part in the annual conference of the Japan Competition Law Forum, as a presenter and panelist in a session analyzing three printer cases.
+work: true
+type: Presentation
+venue: Japan Competition Law Forum
+categories:
+- Presentation
+---
+
+I took part in the annual conference of the [Japan Competition Law Forum](http://www.jclf.jp/event.html), whose participants are mainly antimonopoly lawyers. The theme of the conference was "Issues at the Intersection of the Antimonopoly Act and Other Fields," and I presented in the first session, "An Analysis of Three Printer Cases, Including Ink Cartridges." The session consisted of individual presentations followed by a panel discussion, and it was my first time as a panelist at such a large meeting. The line-up was very impressive: 長澤哲也 as moderator, and 松田誠司 and 溝上武尊 for the presentations and the panel. Thank you all very much.
+
+I have posted the slides on researchmap. You can download them [here](https://researchmap.jp/sei_shishido/presentations/45883979/attachment_file.pdf).
+
+My presentation was titled "Predatory Innovation and the Antimonopoly Act," and it mainly introduced how design and specification changes to products are treated under antimonopoly law.
+
+Specifically, I went over the basic principles that competition law, including antimonopoly law, takes toward innovation, then — focusing on theory — what situations call for intervention contrary to those principles, and what legal assessment intervention requires.
+
+Using the printer consumables cases — Ricoh v. DS Japan, Elecom v. Brother, and Ecorica v. Canon — I presented, as far as I can currently think it through, why the necessity and rationality of design changes and the like should be assessed, what methods there are for assessing them, and under which requirement they are best assessed.
+
+Ultimately, this is an important question that will certainly bear on currently fashionable topics such as digital platforms, blockchain, and generative AI: how far antimonopoly law may intervene in conduct that on its face merely changes the design or specifications of one's own products, and, if it intervenes, what legal framework of assessment is possible given considerations such as what courts can manage.
+
+Personally, what I found most interesting in this presentation was the issue of recoupment in predatory innovation. I had had few chances to talk about it in public, so I was very grateful for the opportunity. It did not seem to go over very well, though...
+
+After the presentation everyone kindly told me "that was good" or "that was interesting," but in truth there are several interesting EU cases, and many other points discussed in foreign literature that would have been worth raising, which I could not introduce at all for lack of time. There was so much more I could have done... I will learn from it.
+
+Since I have the opportunity, I would like to follow up on the parts I could not cover this time and publish it as an article eventually.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-03-22-52405552/).
+:::

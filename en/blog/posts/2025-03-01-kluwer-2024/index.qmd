@@ -1,0 +1,15 @@
+---
+title: Main Developments in Competition Law and Policy 2024 – Japan
+date: 2025-03
+description: Kluwer Competition Law Blog
+work: true
+type: Commentary
+venue: Kluwer Competition Law Blog
+external-url: https://competitionlawblog.kluwercompetitionlaw.com/2025/03/03/main-developments-in-competition-law-and-policy-2024-japan/#:~:text=In%202024%2C%20Japan's%20competition%20law,fairness%20of%20the%20digital%20ecosystem.
+categories:
+- Commentary
+---
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-03-01-kluwer-2024/).
+:::

@@ -1,0 +1,24 @@
+---
+title: A Case Finding Unlawful Tying against Compatible Products
+date: '2021-12-17'
+description: My case note "A Case Finding Unlawful Tying against Compatible Products" was published in TKC's Shin Hanrei Kaisetsu Watch.
+work: true
+type: Case note
+venue: Shin Hanrei Kaisetsu Watch (Economic Law) No.79
+categories:
+- Case note
+---
+
+My case note "A Case Finding Unlawful Tying against Compatible Products" was published in TKC's *Shin Hanrei Kaisetsu Watch*.
+
+[https://www.tkc.jp/law/lawlibrary/commentary/](https://www.lawlibrary.jp/pdf/z18817009-00-120792105_tkc.pdf)
+
+The case discussed is a district court judgment handed down at the end of September this year.
+
+The court held that Brother's design change, which removed compatibility with third-party ink cartridges, constituted tying. Whether a mere change in product specifications can amount to tying has long been debated in the United States as "technological tying." Worldwide, the prevailing view is that technological tying is unlawful only in exceptional situations, yet no clear standard has been established. Against that background, this judgment is highly distinctive in that it expressly identified a situation in which such conduct constitutes tying.
+
+Space did not allow me to mention it, but this type of conduct is sometimes discussed under the heading of predatory innovation. In that sense the judgment is also important for dealing with an interesting issue that connects to recent debates about digital platforms.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2021-12-17-26884154/).
+:::

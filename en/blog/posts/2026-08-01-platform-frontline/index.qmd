@@ -1,0 +1,22 @@
+---
+title: 'Competition Policy in the Platform Era: At the Cutting Edge'
+date: '2026-08-01'
+description: I contributed commentaries on the Google cases, mergers, and market studies to Competition Policy in the Platform Era (Yuhikaku).
+work: true
+type: Book
+venue: Yuhikaku (eds. 稲葉僚太, 大泉玄之助, 伊永大輔, 中島菜子; contributed chapters)
+categories:
+- Book
+---
+
+The co-authored book *Competition Policy in the Platform Era: At the Cutting Edge* (*Dejitaru purattofōmu o meguru kyōsō seisaku no saizensen*), edited by 稲葉僚太, 大泉玄之助, 伊永大輔, and 中島菜子 (Yuhikaku), has been published.
+
+For each issue and case concerning digital platforms, the book sets practitioners' views side by side with commentaries by legal scholars. There are also chapters of commentary by economists.
+
+I wrote commentaries on the 2024 Google commitment case, the 2025 Google cease-and-desist order (co-authored with Professor Korenaga), the Google/Fitbit and Salesforce/Slack mergers, and four market study reports (digital advertising, mobile OS, news platforms, and connected TV).
+
+Some of the commentaries are written plainly with general readers in mind, but others go fairly deep, for example sorting out the relationship between antimonopoly law and problems that cannot be addressed by mandating opt-outs. I would be really glad if you read it.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2026-08-01-platform-frontline/).
+:::

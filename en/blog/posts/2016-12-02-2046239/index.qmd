@@ -1,0 +1,20 @@
+---
+title: A Case on Whether Selective Price Cuts Constitute an Exclusionary Abuse
+date: '2016-12-02'
+description: At the Antimonopoly Law Study Group of the Kyoto Comparative Law Center, I presented on the Post Danmark I case.
+work: true
+type: Presentation
+venue: Antimonopoly Law Study Group, Kyoto Comparative Law Center
+categories:
+- Presentation
+---
+
+At the Antimonopoly Law Study Group (December session) organized by the Kyoto Comparative Law Center, I gave a presentation on the EU's Post Danmark I case under the title "A Case on Whether Selective Price Cuts Constitute an Exclusionary Abuse."
+
+Citation: Case C‑209/10 Post Danmark A/S v Konkurrencerådet (Post Danmark I) \[2012\] ECR I-000.
+
+> **[Antimonopoly Law Study Group | Kyoto Comparative Law Center](http://www.kclc.or.jp/group/dokkinn/)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2016-12-02-2046239/).
+:::

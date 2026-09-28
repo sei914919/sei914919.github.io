@@ -1,0 +1,20 @@
+---
+title: Interplay of the Japanese Anti-monopoly Act and Blockchain
+date: '2023-10-15'
+description: My article on the interplay between the Antimonopoly Act and blockchain appeared in NBL no.1252.
+work: true
+type: Article
+venue: NBL no.1252 pp.4–14
+categories:
+- Article
+---
+
+My article on the interplay between the Antimonopoly Act and blockchain appeared in *NBL* no. 1252.
+
+The piece focuses on introducing the ideas and background of the technology that I thought should be taken into account when discussing blockchain in relation to antimonopoly law. So its style differs a little from my usual articles and its content is abstract, but I love this kind of topic and had a great time writing it.
+
+> **[Shojihomu | NBL No. 1252 (2023.10.15)](https://www.shojihomu.co.jp/publishing/subscription_detail?id=5363&category=2&sub_category=7&publish_id=5363&cd=801252)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-10-15-51493881/).
+:::

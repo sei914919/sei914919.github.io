@@ -1,0 +1,14 @@
+---
+title: Goals, Ideology, and the Interpretation of Competition Law
+date: 2026-02
+description: Kosei Torihiki no.904 p.45
+work: true
+type: Article
+venue: Kosei Torihiki no.904 p.45
+categories:
+- Article
+---
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2026-02-01-koseitorihiki-904/).
+:::

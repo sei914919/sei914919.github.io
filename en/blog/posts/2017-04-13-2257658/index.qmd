@@ -1,0 +1,21 @@
+---
+title: 'The Role of Intent for Identifying Exclusionary Conduct: A Comparative Analysis between the Japanese Antimonopoly Act and the U.S. Antitrust Law (2, final)'
+date: '2017-04-13'
+description: The second half of the article based on my master's thesis, published last year.
+work: true
+type: Peer-reviewed article
+venue: Aoyama Law Forum (ALF) vol.5 no.2 pp.235–268
+categories:
+- Peer-reviewed article
+image: /blog/posts/2017-04-13-2257658/image-1.jpg
+---
+
+This is the second half of the article based on my master's thesis, the first part of which was published last year. I actually wrote it around 2015, so there are many places I would especially like to fix. I will try to correct them in future articles; in the meantime, I hope you enjoy reading it.
+
+![](/blog/posts/2017-04-13-2257658/image-1.jpg)
+
+> **[CiNii: The Role of Intent for Identifying Exclusionary Conduct (2, final)](http://ci.nii.ac.jp/naid/120006028585)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2017-04-13-2257658/).
+:::

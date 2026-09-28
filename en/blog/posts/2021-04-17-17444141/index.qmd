@@ -1,0 +1,16 @@
+---
+title: The Basis and Challenges of Regulating Unilateral, Direct Refusals to Deal
+date: '2021-04-17'
+description: I presented my article on unilateral refusals to deal at the Tokyo Economic Law Study Group.
+work: true
+type: Presentation
+venue: Tokyo Economic Law Study Group
+categories:
+- Presentation
+---
+
+At the Tokyo Economic Law Study Group, I presented my article "The Basis and Challenges of Regulating Unilateral, Direct Refusals to Deal." The discussion made clear that challenges remain, including the implications for Japan's Toshiba Elevator case, and I learned a great deal.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2021-04-17-17444141/).
+:::

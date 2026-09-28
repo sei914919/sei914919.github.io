@@ -1,0 +1,26 @@
+---
+title: A Case Holding that Disadvantageous Treatment of Customers because of Their Dealings with a Competitor Constituted Private Monopolization
+date: '2023-06-16'
+description: My case note on the Tokyo High Court judgment in the Minami Airport Service case was published in TKC's Hanrei Kaisetsu Watch.
+work: true
+type: Case note
+venue: Shin Hanrei Kaisetsu Watch (Economic Law) No.88
+categories:
+- Case note
+---
+
+My case note on the Tokyo High Court judgment in the Minami Airport Service case was published in TKC's *Hanrei Kaisetsu Watch* under the title "A Case Holding that Disadvantageous Treatment of Customers because of Their Dealings with a Competitor Constituted Private Monopolization."
+
+It is meant as a commentary, but it also touches on the place of the "justification" put forward by the party and its relationship with the actor's intent and purpose.
+
+What some commentators, parties, and courts often call "justification" leaves a lot open to debate: what it is in the first place, under which requirement it is considered, whether it is a rebuttal or a justification, and so on. I myself wonder whether an interpretation different from that of this judgment and of the prevailing view is possible. Yet, particularly with respect to private monopolization, this topic seems to have received little research.
+
+Taking the analysis in this case note as a starting point, I would like to publish an article on justification in antimonopoly law, and in private monopolization in particular, by around next year.
+
+This is the second time I have written for *Hanrei Kaisetsu Watch*, and I am always impressed by how quickly everything is handled — not only editing and proofreading but all the other administrative steps as well. It makes me reflect on how I need to improve my own work. Thank you, as always.
+
+> **[Shin Hanrei Kaisetsu Watch](https://www.tkc.jp/law/lawlibrary/commentary/)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-06-16-44750558/).
+:::

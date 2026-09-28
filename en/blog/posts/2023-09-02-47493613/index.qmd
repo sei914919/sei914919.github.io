@@ -1,0 +1,23 @@
+---
+title: Reconstructing the Concept of Exclusion in Private Monopolization
+date: '2023-09-02'
+description: My presentation at the 2022 conference of the Japan Association of Economic Law has been published as an article in the association's annual journal.
+work: true
+type: Article
+venue: Annual Report of the Japan Association of Economic Law, "Theoretical Issues in Merger Control"
+categories:
+- Article
+image: /blog/posts/2023-09-02-47493613/image-1.jpg
+---
+
+The content of my individual presentation at the Japan Association of Economic Law conference held at Kyoto University in October 2022 has been published in the association's journal, *Theoretical Issues in Merger Control*, as an article titled "Reconstructing the Concept of Exclusion in Private Monopolization." It is based on my monograph of the same title, revised and expanded in light of the questions and answers at the conference.
+
+A belated memory of last year's conference: my time on the Kyoto University payroll was short, but I spent a long time on campus and have many memories there. By coincidence, the conference at which I gave my individual presentation was held at Kyoto University, which made me very happy. The night before, I went to the [Chinese restaurant](https://tabelog.com/kyoto/A2601/A260302/26027794/) I frequented as a graduate student; for lunch on the day, to the [set-meal restaurant](http://chotyoshi9.sakura.ne.jp/) where we graduate students from the shared office often had dinner; and in the evening I ate at ["Kureshima"](https://tabelog.com/kyoto/A2601/A260302/26011460/), where I was given a welcome party when I first came to Kyoto University. It was a very enjoyable conference.
+
+By some coincidence, [ASCOLA Asia](http://ascola-asia.com/ascolaasia2023) will also be held at Kyoto University this December, and I will give an individual presentation there. I am looking forward to being back in Kyoto after a while.
+
+![](/blog/posts/2023-09-02-47493613/image-1.jpg)
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-09-02-47493613/).
+:::

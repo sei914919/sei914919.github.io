@@ -1,0 +1,16 @@
+---
+title: Commentary on the MC Data Plus Case
+date: '2025-05-29'
+description: Invited to the Japan Competition Law Forum's unilateral conduct study group, I gave a commentary on the MC Data Plus cease-and-desist order.
+work: true
+type: Presentation
+venue: Japan Competition Law Forum (Unilateral Conduct Study Group)
+categories:
+- Presentation
+---
+
+I was invited to the unilateral conduct study group of the Japan Competition Law Forum and gave a commentary on the cease-and-desist order issued by the Japan Fair Trade Commission in the MC Data Plus case in December 2024. It was the first administrative order the JFTC issued concerning a cloud service.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-05-29-mc-data-plus/).
+:::

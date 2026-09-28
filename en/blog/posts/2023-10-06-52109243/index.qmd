@@ -1,0 +1,18 @@
+---
+title: Research on the Place of the Concept of Economic Welfare and of Ideology in the Debate on the Goals of Competition Law (Final Report)
+date: '2023-10-06'
+description: As a CPRC visiting researcher, I gave the final report on the discussion paper I am writing at a CPRC workshop.
+work: true
+type: Presentation
+venue: CPRC Final Report Workshop
+categories:
+- Presentation
+---
+
+On October 6, 2023, I gave the final report on the discussion paper I am writing as a visiting researcher at the CPRC, at a CPRC workshop. I received many helpful comments, not only from legal scholars but also from economists.
+
+It has taken me quite a long time and I need to finish it soon; I will do my best to complete it in the first half of fiscal 2024.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-10-06-52109243/).
+:::

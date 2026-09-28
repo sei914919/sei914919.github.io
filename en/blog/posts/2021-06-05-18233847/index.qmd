@@ -1,0 +1,16 @@
+---
+title: New Developments in the Regulation of Refusals to Deal in the EU — The Slovak Telekom Judgment of the Court of Justice
+date: '2021-06-05'
+description: At the Shojihomu Antimonopoly Law Study Group, I presented on recent developments in EU refusal-to-deal law through the Slovak Telekom judgment.
+work: true
+type: Presentation
+venue: Shojihomu Antimonopoly Law Study Group
+categories:
+- Presentation
+---
+
+At the Shojihomu Antimonopoly Law Study Group, I gave a presentation on recent developments in the EU's regulation of refusals to deal, using the Court of Justice's judgment in Slovak Telekom (Case C-165/19 P).
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2021-06-05-18233847/).
+:::

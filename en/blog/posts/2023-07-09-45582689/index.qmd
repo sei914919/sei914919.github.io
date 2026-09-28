@@ -1,0 +1,36 @@
+---
+title: '''Self-Preferencing'' under the Japanese Anti-monopoly Act'
+date: '2023-07-09'
+description: I published an article on self-preferencing under the Antimonopoly Act in Seikei Hogaku no.98, issued at the end of June 2023.
+work: true
+type: Article
+venue: Seikei Hogaku no.98 pp.171–202
+external-url: https://researchmap.jp/sei_shishido/published_papers/42757714/attachment_file.pdf
+categories:
+- Article
+image: /blog/posts/2023-07-09-45582689/image-1.jpg
+---
+
+I published an article titled "Self-Preferencing under the Antimonopoly Act: Realities and Challenges" in *Seikei Hogaku* no. 98, issued at the end of June 2023.
+
+The research began right at the start of 2022. I presented it several times through the winter of 2022, at the Kansai Economic Law Study Group, the Tohoku Economic Law Study Group, and elsewhere, and this article carves out part of it and polishes it into a paper.
+
+In fact, last year I wrote a draft of about 80,000 characters on the regulation of exclusionary conduct in digital platform businesses, and my presentations at the Kansai Economic Law Study Group and elsewhere were based on it. But the theme and the issues are so broad and varied that, as preparatory work for moving the overall research plan forward, I took up the issue of self-preferencing and published this article to lay out the state of the debate and frame the questions needed for future discussion.
+
+Going forward, I will publish several articles expanding on the original draft and eventually bring them together into a single body of research.
+
+In parallel with this research, I am also writing on "the complementarity of antimonopoly law and blockchain technology," "the interpretation of antimonopoly law from the standpoint of legal hermeneutics (with a particular focus on formalism)," and "the goals of antimonopoly law: economic welfare and ideology" (a CPRC discussion paper) (all working titles).
+
+Looking at this list of working titles, my interests may seem scattered in many directions, but I am deliberately working on them in parallel because I expect that, perhaps surprisingly, they will eventually converge in one direction.
+
+I am looking forward to seeing the research completed, if I may say so myself.
+
+![](/blog/posts/2023-07-09-45582689/image-1.jpg)
+
+Here is the link to the repository:
+
+> **[SEIKEI University Repository](http://repository.seikei.ac.jp/dspace/handle/10928/1620)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-07-09-45582689/).
+:::

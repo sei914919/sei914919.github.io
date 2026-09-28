@@ -449,3 +449,13 @@ main.content {
     color: var(--bs-secondary-color, #6B6B6B);
   }
 }
+
+/* ── Translation note on English posts ─────────────────────── */
+.translation-note {
+  margin-top: 2.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--bs-border-color);
+  font-size: 0.85rem;
+  color: var(--bs-secondary-color, #6B6B6B);
+}
+.translation-note p { margin: 0; }

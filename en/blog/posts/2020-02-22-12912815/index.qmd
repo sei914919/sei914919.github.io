@@ -1,0 +1,18 @@
+---
+title: The Role of Competition Law and Policy in Human Resources (Competition in Services Provided by Individuals)
+date: '2020-02-22'
+description: I presented at the 8th meeting of the International Economic Law and Policy Research Network.
+work: true
+type: Presentation
+venue: 8th meeting, International Economic Law and Policy Research Network
+categories:
+- Presentation
+---
+
+At the 8th meeting of the International Economic Law and Policy Research Network, I gave a presentation titled "The Role of Competition Law and Policy in Human Resources (Competition in Services Provided by Individuals)."
+
+This research was part of a joint research grant at Aoyama Gakuin University. There are no particular plans to publish this presentation as such, but I intend to build on it in articles on related topics.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2020-02-22-12912815/).
+:::

@@ -1,0 +1,28 @@
+---
+title: Distribution agreement
+date: '2024-03-06'
+description: I wrote the commentary on "distribution agreement" for Concurrences' Global Dictionary of Competition Law.
+work: true
+type: Commentary
+venue: Global Dictionary of Competition Law, Concurrences, Art. N° 86010
+external-url: https://www.concurrences.com/en/dictionary/distribution-agreement
+categories:
+- Commentary
+image: /blog/posts/2024-03-06-52111207/image-1.png
+---
+
+I wrote the commentary on "distribution agreement" for Concurrences' *Global Dictionary of Competition Law*.
+
+The *Global Dictionary of Competition Law* is a database that covers competition law terms in dictionary form. Each term's page carries not only a definition but also commentary by experts such as scholars and practitioners, which makes it very useful. Its content is published from time to time as a book series, but the database itself is freely available on the Concurrences website — a very welcome initiative, in that people like me who study competition law, as well as practitioners, can access it easily.
+
+My entry covers distribution agreements in general. Mainly in the context of vertical restraints, it explains when agreements imposing restrictions on distribution raise competition law problems in the EU, the United States, and Japan, and when they are permitted, for instance under the VBER. Selective distribution and exclusive distribution already have their own entries with detailed commentary, so I tried to keep my entry to an overview.
+
+I understand it will be published in print in the future (probably as a book), so I would be glad if you had a chance to pick it up.
+
+![](/blog/posts/2024-03-06-52111207/image-1.png)
+
+> **[Distribution agreement - Concurrences](https://www.concurrences.com/en/dictionary/distribution-agreement)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-03-06-52111207/).
+:::

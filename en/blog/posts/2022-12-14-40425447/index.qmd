@@ -1,0 +1,18 @@
+---
+title: '"New Exclusion" and the Antimonopoly Act'
+date: '2022-12-14'
+description: I presented at the Tohoku Economic Law Study Group on the research behind the article I presented at the Kansai Economic Law Study Group.
+work: true
+type: Presentation
+venue: Tohoku Economic Law Study Group
+categories:
+- Presentation
+---
+
+At the Tohoku Economic Law Study Group, I gave a research presentation as the title says. It concerns the research behind the unfinished article I presented at the Kansai Economic Law Study Group on December 3.
+
+This was the first time I presented the substantially revised version, reflecting the comments I received at the December 3 meeting. In broad outline, I expect to finish writing the article along the lines of this presentation by March 2023.
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-12-14-40425447/).
+:::

@@ -1,0 +1,21 @@
+---
+title: 'Reconstructing the Concept of Exclusion in Private Monopolization: Focusing on the Actor''s Intent'
+date: '2019-03-24'
+description: My doctoral oral examination is over, and I will complete the doctoral program.
+work: true
+type: Doctoral dissertation
+venue: Doctoral dissertation, Graduate School of Law, Kyoto University
+categories:
+- Doctoral dissertation
+image: /blog/posts/2019-03-24-7303426/image-1.jpg
+---
+
+My doctoral oral examination is over, and I am able to complete the doctoral program. The dissertation examines the role of the actor's intent in identifying unlawful exclusion as private monopolization, focusing on unilateral refusals to deal and predatory pricing.
+
+![](/blog/posts/2019-03-24-7303426/image-1.jpg)
+
+> **[Kyoto University Research Information Repository (KURENAI)](https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/242337)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2019-03-24-7303426/).
+:::

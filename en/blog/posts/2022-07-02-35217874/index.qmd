@@ -1,0 +1,39 @@
+---
+title: Above Cost Predatory Pricing and Private Monopolization
+date: '2022-07-02'
+description: With a KDDI Foundation grant, I presented on the legality of above-cost price cuts at the ASCOLA 2022 conference in Porto.
+work: true
+type: Presentation
+venue: ASCOLA 2022 (Universidade Católica Portuguesa)
+categories:
+- Presentation
+image: /blog/posts/2022-07-02-35217874/image-1.jpg
+---
+
+With a grant for participation in international conferences from the KDDI Foundation, I attended the 2022 conference of ASCOLA (Academic Society for Competition Law), held at Universidade Católica Portuguesa in Porto, Portugal, and presented my research on assessing the legality of price cuts that do not fall below cost.
+
+I had never given a so-called "conference presentation" even in Japanese, so I was nervous (then again, many people present at the Japan Association of Economic Law only once in their lives, so that may be a special case...). With the support of the panel and the audience, it went well. Thank you.
+
+Because this research analyzes U.S. and EU law without my ever having done research at a university abroad, I was worried about how it would be received when presented in Europe. So I was grateful to receive favorable comments from researchers there — that the work "takes on a challenging area while paying attention to economic analysis."
+
+Until now I had felt a certain unease about doing comparative analysis of foreign law in Japan from the literature alone, and writing articles in Japanese without review by researchers in those jurisdictions. Thanks to this experience, I feel I can once again have confidence in my research.
+
+Of course there is still a mountain of things to improve and things I have not yet tackled, and I must keep in mind that the fairly good reception probably owed something to my being a "young researcher." Still, I will take this as encouragement and push my research further.
+
+After the session, I was able to exchange views with many participants on how my research relates to algorithmic predation and on the treatment of the as-efficient-competitor test, and I received valuable information such as how the Canadian authority deals with price cuts that encourage oligopolistic coordination. It was a very rewarding three days at the conference. I am nothing but grateful to the KDDI Foundation for supporting my travel and accommodation. Thank you.
+
+In most years a few people from Japan attend ASCOLA, but this year — perhaps because of the pandemic — I was the only Japanese participant, and there were (probably) only two participants from all of Asia, including me.
+
+I often hear that the relative importance of Japanese law in global competition law research is declining year by year (perhaps it was never very high to begin with). Even so, I think it meant something that at least one person was there trying, in a small way, to make the case to European researchers for the value of studying Japanese law, and I am really glad I was able to attend from Japan.
+
+![](/blog/posts/2022-07-02-35217874/image-1.jpg)
+
+![](/blog/posts/2022-07-02-35217874/image-2.jpg)
+
+![](/blog/posts/2022-07-02-35217874/image-3.jpg)
+
+![](/blog/posts/2022-07-02-35217874/image-4.jpg)
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2022-07-02-35217874/).
+:::

@@ -1,0 +1,96 @@
+---
+title: Handy Research Gear on a Modest Budget (Under ¥100,000)
+date: '2023-08-29'
+description: A younger researcher asked me in passing, so — partly as a hobby — I put together research equipment a law graduate student can assemble for under ¥100,000.
+categories:
+- Miscellany
+image: /blog/posts/2023-08-29-47394621/image-1.jpg
+---
+
+A younger researcher asked me about this in passing, so, partly because it is a hobby of mine, I put together a set of research equipment that a law graduate student can easily assemble under the constraint of a ¥100,000 budget.
+
+Because the budget is limited, the premise is that you run everything from a laptop, without a desktop PC. (I am not a Mac person, so I assume a Windows environment, but most of these products should work fine with a Mac too.)
+
+Apart from the laptop and the scanner at the end, you should be able to get everything, including a monitor arm, for roughly ¥100,000. I am assuming you already have a desk and a chair!
+
+---
+
+**Monitor**
+
+In law we do almost all our work in PDFs and Word, so "screen area" is effectively the "size of your workspace," like the desk in an ordinary office. It is perfectly possible to finish a dissertation on a single small laptop screen, but there is no reason to do that to yourself. With a laptop, however, it is hard to set up multiple displays. So use a 34-inch or larger ultrawide monitor, which has recently become affordable. As an undergraduate I once poured all my part-time earnings into expanding to about five displays, but in the end I was distracted and my efficiency dropped. Having learned from that, I now use one ultrawide and one 27-inch monitor.
+
+> **[LG 34WP550-B 34-inch ultrawide monitor (Amazon.co.jp)](https://amzn.to/3qO68Sx)**
+
+When I received my JSPS research grant in the second year of my doctorate, the first thing I bought, for nearly ¥80,000, was an LG ultrawide display (a parallel import from Korea, and at the time ¥80,000 was a bargain). I remember squeezing it onto my narrow desk in the shared graduate office and being teased mercilessly for it.
+
+Now you can buy something far better than that for just over ¥30,000, and they are common enough that no one will tease you.
+
+A monitor arm also helps: your gaze does not drop, which eases stiff shoulders. The linked monitor weighs 6.8 kg, so an Amazon Basics arm for around ¥3,000 could probably hold it, but that is risky; it may be better to be prepared to spend close to ¥10,000. It is an important part that holds up your monitor, so if money is no object, Ergotron is the obvious choice...
+
+---
+
+**Input devices**
+
+For the keyboard, despite the modest budget, I recommend the Realforce R3.
+
+My second choice is the Logicool ERGO K860, but its keys are shallow and it tends to hurt your fingers if you type hard. This is partly personal preference, but I liked the G613: for its price it was easy on the fingers and pleasant to type on. I have used each for about two years, but compared with the R3, once my typing volume goes up I end up with trigger-finger symptoms and it gets painful. Writing a dissertation in law in particular involves a huge amount of typing, so I think it is worth spending as much of the budget as you can on the keyboard. For the record, I use the variable-weight model.
+
+> **[REALFORCE R3 keyboard (Amazon)](https://amzn.to/45LmZ7e)**
+
+> **[Logicool ERGO K860 split keyboard (Amazon.co.jp)](https://amzn.to/45uP0jR)**
+
+> **[Logicool G613 LIGHTSPEED wireless keyboard (Amazon.co.jp)](https://amzn.to/45OHkss)**
+
+As for the mouse, to prevent tendonitis I recommend using a trackball together with an ordinary mouse. A trackball may take some getting used to, but as your monitor gets bigger, moving the cursor with a mouse becomes tedious, so it is better to get used to one early.
+
+> **[Logicool M575S wireless trackball (Amazon.co.jp)](https://amzn.to/3L0DeWc)**
+
+The ordinary mouse can be cheap; a so-called ergonomic mouse reduces the strain on your wrist. This is the super-cheap mouse I actually used as an undergraduate. It has none of the advantages of a Logicool mouse, such as gesture functions, but thanks to it the pain in my right wrist eased considerably. The R3 I recommend has some radio interference over Bluetooth, but this mouse, cheap as it is, connects through a 2.4 GHz wireless dongle, so that is reassuring too.
+
+> **[Anker 2.4G vertical wireless mouse (Amazon.co.jp)](https://amzn.to/3PhQWXi)**
+
+---
+
+**Webcam and microphone**
+
+As a graduate student you will probably use a microphone only for Zoom. Online meeting software compresses both audio and video quite heavily, so as long as you have minimal audio and video quality, it is often enough for research presentations. One option, then, is to get the C920n, which offers decent video and audio for its price, and deliberately skip a separate microphone.
+
+> **[Logicool C920n webcam (Amazon)](https://amzn.to/45OYbvi)**
+
+---
+
+**Earphones and headphones**
+
+Listen to long Zoom research meetings through in-ear earphones and you will soon get an ear infection. At the height of the pandemic, within the first two months, I wore my AirPods Pro so much that a mysterious fluid would not stop coming out of my ears. I still suffer from the after-effects. These days, at home, I use a Victor bone-conduction headset that someone happened to give me, only for long online meetings.
+
+> **[JVC Kenwood Victor nearphones open-ear wireless earphones (Amazon.co.jp)](https://amzn.to/44tTmGy)**
+
+As you can see, though, this bone-conduction headset is expensive. So, for earphones that are not in-ear, connect reliably, and sound decent, I recommend Anker's Soundcore series. I keep a pair in my office and get through long faculty meetings with them.
+
+> **[Anker Soundcore Life Note 3S (Amazon.co.jp)](https://amzn.to/3YWPOv7)**
+
+---
+
+**Laptop and tablet**
+
+Above all, what matters in a doctoral student's life is writing the dissertation. Of course you can type on a tablet with an external keyboard, but it is important to have a proper PC first, in the sense of being able to use the desktop version of Word (meaning its cross-reference functions and so on actually work). Word is heavy on memory: use comments or track changes in a single file of more than 50,000 characters and it will freeze in a way that would astonish even Windows Me. If you plan to write a dissertation of 100,000 characters or more in Word, you should have at least around 16 GB of RAM. I have used Lenovo's X1 Carbon for about seven years since my second doctoral year (replacing it once with a newer version of the same model). The reasons are that I like the black chassis and that it is cheap. You can customize the specs on the official website, and it is always, mysteriously, heavily discounted. There is also a student store where you should be able to buy at a student price. It is far cheaper than comparable products from Asus, Apple, Microsoft, and others. Both times I chose roughly 16 GB of RAM, a 1 TB SSD, and an i7.
+
+Personally, if you have a reasonably capable smartphone, I think the best approach under a budget constraint is to take notes and read papers on your phone when you are out, and not to own a tablet. The Adobe Acrobat app now offers [Liquid Mode](https://www.adobe.com/devnet-docs/acrobat/android/jp/lmode.html), which reflows most PDF files so that they are easy to read even on a phone.
+
+Tablets are convenient for reading papers, but the idea is to decide once and for all that "the tool for writing papers is the PC," and spend the money on a keyboard and monitor instead, to raise your efficiency at home and in the office and reduce the strain on your body. That said, it is also true that older professors may think you are goofing off if they see you looking at your phone during a research meeting, so owning a tablet might reduce interpersonal risk.
+
+> **[ThinkPad X1 Carbon Gen 9 | Lenovo](https://www.lenovo.com/jp/ja/p/laptops/thinkpad/thinkpadx1/x1-carbon-g9/22tp2x1x1c9)**
+
+---
+
+**Scanning your books**
+
+Since doctoral students do not know where they will end up after graduating, it is best to digitize your materials as a rule. But with a ¥100,000 budget, it is hard to put together a guillotine cutter and scanner set for scanning books. Recently, though, many universities have ScanSnaps and cutters available to some extent. Both Yamagata University and Seikei University had a scanning set in a shared office of sorts, and when I was at Kyoto University there was a cutter in the library. If your budget allows, owning just a ScanSnap iX1300 would be handy.
+
+> **[ScanSnap iX1300 (Amazon.co.jp)](https://amzn.to/3supaxQ)**
+
+![](/blog/posts/2023-08-29-47394621/image-1.jpg)
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2023-08-29-47394621/).
+:::

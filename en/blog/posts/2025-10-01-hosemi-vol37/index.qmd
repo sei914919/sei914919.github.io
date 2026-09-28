@@ -1,0 +1,14 @@
+---
+title: A Case Holding that a Change in the Specifications of a Complementary Product Did Not Constitute an Unfair Trade Practice
+date: 2025-10
+description: Hogaku Seminar special issue, Sokuho Hanrei Kaisetsu no.37
+work: true
+type: Case note
+venue: Hogaku Seminar special issue, Sokuho Hanrei Kaisetsu no.37
+categories:
+- Case note
+---
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2025-10-01-hosemi-vol37/).
+:::

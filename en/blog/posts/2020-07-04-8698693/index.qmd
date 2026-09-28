@@ -1,0 +1,29 @@
+---
+title: Regulating Predatory Pricing as a Form of Private Monopolization in Japan (1) (2)
+date: '2020-07-04'
+description: My article on predatory pricing appeared in Hogaku Ronso vol.186 nos. 3 and 4.
+work: true
+type: Peer-reviewed article
+venue: Hogaku Ronso vol.186 no.3 pp.78–101 and vol.186 no.4
+categories:
+- Peer-reviewed article
+image: /blog/posts/2020-07-04-8698693/image-1.jpg
+---
+
+My article on predatory pricing appeared in vol. 186, nos. 3 and 4 of *Hogaku Ronso*, published by the Law Society of Kyoto University. Publication had been delayed for administrative reasons, so although the issues are dated December last year and January this year, the journal only reached me after June.
+
+The article reworks and expands part of my doctoral dissertation.
+
+It addresses a problem within the regulation of predatory pricing: how to identify unlawful low pricing in the range of prices where a comparison of price and cost cannot tell us whether the pricing is unlawful.
+
+The article continues through part (4).
+
+![](/blog/posts/2020-07-04-8698693/image-1.jpg)
+
+![](/blog/posts/2020-07-04-8698693/image-2.jpg)
+
+![](/blog/posts/2020-07-04-8698693/image-3.jpg)
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2020-07-04-8698693/).
+:::

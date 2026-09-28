@@ -1,0 +1,18 @@
+---
+title: A Case Holding that Restrictions by Fishery Cooperatives on Shipments outside the Cooperative System Constituted an Unfair Trade Practice
+date: '2024-09-13'
+description: Invited to the Antimonopoly Cases and Decisions Study Group, I presented on restrictions by fishery cooperatives on shipments outside the cooperative system.
+work: true
+type: Presentation
+venue: Antimonopoly Cases and Decisions Study Group
+categories:
+- Presentation
+---
+
+I was invited to the Antimonopoly Cases and Decisions Study Group and presented on a case holding that restrictions by fishery cooperatives and their federation on shipments outside the cooperative system constituted an unfair trade practice.
+
+The case note based on this presentation [appeared in *NBL* no. 1284](/en/blog/posts/2025-02-15-56396703/).
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-09-13-hanshinketsu/).
+:::

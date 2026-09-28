@@ -1,0 +1,21 @@
+---
+title: Regulating Predatory Pricing as a Form of Private Monopolization in Japan (3)
+date: '2020-07-27'
+description: The third installment of my four-part article in Hogaku Ronso has been published.
+work: true
+type: Peer-reviewed article
+venue: Hogaku Ronso vol.187 no.1 pp.104–119
+categories:
+- Peer-reviewed article
+image: /blog/posts/2020-07-27-9053419/image-1.jpg
+---
+
+The third installment of my four-part article in *Hogaku Ronso* has been published.
+
+This installment examines, mainly through U.S. scholarship, how to assess whether pricing above average variable cost is unlawful.
+
+![](/blog/posts/2020-07-27-9053419/image-1.jpg)
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2020-07-27-9053419/).
+:::

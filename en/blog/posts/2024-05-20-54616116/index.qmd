@@ -1,0 +1,22 @@
+---
+title: A Case Holding that a Change in the Specifications of Printer Ink Cartridges Did Not Constitute an Unfair Trade Practice
+date: '2024-05-20'
+description: I wrote a case commentary on the Osaka District Court judgment in Ecorica v. Canon for Jurist's Important Cases annual.
+work: true
+type: Case note
+venue: Jurist special issue, Important Cases of Reiwa 5 (2023) no.1597 pp.230–231
+categories:
+- Case note
+---
+
+I wrote a case commentary on the Osaka District Court judgment in Ecorica v. Canon for *Jurist*'s annual *Important Cases* volume.
+
+I have been studying technological tying for about two years, since the Elecom v. Brother case. It is a very enjoyable issue and seems to attract a lot of attention from practitioners too (just my impression). It is also the issue I presented at the Japan Competition Law Forum in March.
+
+I have a goal of publishing an article on this theme in the second half of this academic year, but with a family member injured and a house move, I do not know whether I will manage. I will keep plugging away.
+
+> **[Important Cases of Reiwa 5 (2023) | Yuhikaku](https://www.yuhikaku.co.jp/books/detail/9784641115989)**
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2024-05-20-54616116/).
+:::

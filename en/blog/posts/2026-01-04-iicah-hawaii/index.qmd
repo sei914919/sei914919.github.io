@@ -1,0 +1,26 @@
+---
+title: 'From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance'
+date: '2026-01-04'
+description: At IICAH Hawaii 2026, I proposed using blockchain to shift antitrust investigations and remedy monitoring from after-the-fact evidence hunting to advance recording.
+work: true
+type: Presentation
+venue: The IAFOR International Conference on Arts & Humanities in Hawaii (IICAH 2026)
+categories:
+- Presentation
+---
+
+In January I gave a presentation titled "From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance" at The IAFOR International Conference on Arts & Humanities in Hawaii (IICAH 2026). The presentation was accepted after peer review, and the conference is interdisciplinary, with many participants from outside law.
+
+The starting point was [my article on the Antimonopoly Act and blockchain in *NBL* no. 1252](/en/blog/posts/2023-10-15-51493881/). That article stopped at raising questions in the abstract, introducing the ideas and background of the technology, so this time I went a step further and built it into a concrete institutional proposal.
+
+The underlying concern is that antimonopoly enforcement is structurally reactive. The relevant data sit with the firms, and the authority has to go looking for evidence only once a violation is suspected (a "data hunt"). The information asymmetry is large, investigations take years, and harm to the market spreads in the meantime.
+
+So I proposed a mechanism (a "data vault") in which firms in a gatekeeping position record their transactions in advance on a permissioned blockchain — a closed network whose participants are limited to the authority and the firms concerned. Records cannot be altered afterwards, and the authority cannot look at the contents at will: it is designed so that access is possible only when legal conditions are met, such as the opening of a formal investigation. Competitors' data are kept invisible to one another, and changes to records require the approval of both the authority and the firm, so that neither can change them alone.
+
+My material was the remedies in the U.S. Google (search) case. Remedies such as a ban on exclusive contracts and data-sharing obligations require continuous checking that they are being complied with after the order. I showed that by automatically detecting prohibited clauses when a contract is registered, and by recording whether data requests were answered on time, one can move from periodic audits to continuous verification. As ways of imposing the obligation, I proposed two routes — making it a condition of commitments or cease-and-desist orders, and encouraging participation through incentives such as leniency — and set out a path of starting with gatekeepers and expanding in stages.
+
+Alongside the presentation, I also built a working prototype with Hyperledger Fabric. In a network of four organizations — the authority and three firms — I confirmed that conditional access control and ledger synchronization work. The prototype is introduced as "Complichain" on the [Projects page](/projects/).
+
+::: {.translation-note}
+This post was translated from the [Japanese original](/blog/posts/2026-01-04-iicah-hawaii/).
+:::
