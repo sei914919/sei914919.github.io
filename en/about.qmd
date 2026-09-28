@@ -12,7 +12,7 @@ toc-location: right
 
 Associate Professor, Department of Law, Faculty of Law, Seikei University. I specialize in economic law (antimonopoly and competition law). I received my LL.B. from Aoyama Gakuin University, my LL.M. from the Graduate School of Law at Aoyama Gakuin University (Private Law), and completed the doctoral program at the Graduate School of Law, Kyoto University (Legal and Political Theory). Ph.D. in Law.
 
-My research focuses on digital market regulation, in particular self-preferencing by platforms, adtech, and the regulation of competitive conduct mediated by algorithms, which I examine comparatively across Japan, the United States, and the EU. I also work on the goals and interpretation of competition law (formalism and competition law, neo-Brandeisianism).
+My research is organized around a question that competition law is forced to ask anew every time a new technology or business model appears: what is it that harms competition? I follow the latest developments around digital platforms and AI (self-preferencing by platforms, data lock-in, ex ante regulation, and more) through comparison of Japan, the United States, and the EU, and examine the foundational theory of competition law behind them — in particular the relationship between economic analysis and legal judgment — from the perspective of the goals and interpretation of competition law (formalism, neo-Brandeisianism, and others).
 
 ## Research interests
 
@@ -56,9 +56,9 @@ Antimonopoly law, U.S. antitrust law and EU competition law; digital platforms; 
 
 ## Current research projects
 
-**JSPS KAKENHI Grant-in-Aid for Early-Career Scientists**, "The Concept of Competition in Antimonopoly Law: Reconsidering the Place of Normative Values" (Principal Investigator, April 2026–March 2030)
+**JSPS KAKENHI Grant-in-Aid for Early-Career Scientists**, "The Concept of Competition in Antimonopoly Law: Reconsidering the Place of Normative Values" (Principal Investigator, No. 26K16239, April 2026–March 2030)
 
-**JSPS KAKENHI Grant-in-Aid for Scientific Research (S)**, "Creating a model competition law based on a Japanese antimonopoly law database open to the world" (Co-Investigator, No. 24H00013, April 2024–March 2029; Principal Investigator: Masako Wakui, Kyoto University)
+**JSPS KAKENHI Grant-in-Aid for Scientific Research (S)**, "Transcending Borders - Crafting a Global Model Competition Law Based on Japan's Antimonopoly Database" (Co-Investigator, No. 25K24616 (formerly 24H00013), April 2024–March 2029; Principal Investigator: Masako Wakui, Kyoto University)
 
 ## Past research funding
 
@@ -66,11 +66,11 @@ Antimonopoly law, U.S. antitrust law and EU competition law; digital platforms; 
 
 **KDDI Foundation, Grant for Participation in International Conferences**, "Above Cost Predatory Pricing and Private Monopolization" (June 2022–July 2022)
 
-**JSPS KAKENHI Grant-in-Aid for JSPS Fellows**, "Assessing the Leveraging of Market Power in the Regulation of Unilateral Conduct: Building on the Debate over 'Leverage'" (Principal Investigator, April 2019–March 2022)
+**JSPS KAKENHI Grant-in-Aid for JSPS Fellows**, "Assessing the Leveraging of Market Power in the Regulation of Unilateral Conduct: Building on the Debate over 'Leverage'" (Principal Investigator, No. 19J00603, April 2019–March 2022)
 
 **Aoyama Gakuin University Law Association, Joint Research Grant**, "The Role of Competition Law and Policy in Human Resources (Competition in Services Provided by Individuals)" (June 2019–June 2021)
 
-**JSPS KAKENHI Grant-in-Aid for JSPS Fellows**, "A Comparative Study of Japan, the U.S., and the EU on Identifying Unlawful Exclusion under Competition Law" (Principal Investigator, April 2017–March 2019)
+**JSPS KAKENHI Grant-in-Aid for JSPS Fellows**, "A Comparative Study of Japan, the U.S., and the EU on Identifying Unlawful Exclusion under Competition Law" (Principal Investigator, No. 17J03947, April 2017–March 2019)
 
 ## Contact
 
