@@ -1,5 +1,5 @@
 ---
-title: AIに書かせないための執筆環境──論文エディタ「原稿台」を公開しました
+title: Markdownで脚注付き論文を書くための専用エディタを公開しました
 date: '2026-09-29'
 description: 論文の脚注づけを楽にしつつ、AIに出典を「作らせない」ことにこだわって自作した論文執筆用のエディタ「原稿台（Genkōdai）」を、GitHubで公開しました。
 categories:
@@ -9,7 +9,7 @@ image: screenshot-1.png
 
 Linux/ Mac向けの論文執筆用エディタ「原稿台（Genkōdai）」を自作して、[GitHubで公開しました](https://github.com/sei914919/genkodai)。Quarto（.qmd）というMarkdownベースの形式で論文を書くための道具で、特に脚注に出典を付ける作業を楽にすることに特化しています。
 
-![原稿台のアイコン。本文は人間が書き、AI（✦）は脚注番号の位置にだけいる、というイメージです](genkodai-icon.png){width="160" fig-align="center"}
+![](genkodai-icon.png){width="160" fig-align="center" fig-alt="原稿台のアイコン"}
 
 ![原稿台で原稿を開いたところ](screenshot-1.png)
 

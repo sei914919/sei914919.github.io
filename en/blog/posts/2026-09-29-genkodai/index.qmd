@@ -1,5 +1,5 @@
 ---
-title: 'A Writing Environment That Keeps AI from Writing: I Have Released Genkōdai, an Editor for Academic Papers'
+title: I Have Released a Dedicated Editor for Writing Footnoted Papers in Markdown
 date: '2026-09-29'
 description: I have released Genkōdai on GitHub, an editor I built for writing academic papers that makes footnoting easier while taking care never to let AI invent sources.
 categories:
@@ -9,7 +9,7 @@ image: /blog/posts/2026-09-29-genkodai/screenshot-1.png
 
 I built an editor for writing academic papers on Linux and Mac, called Genkōdai (原稿台), and [released it on GitHub](https://github.com/sei914919/genkodai). It is a tool for writing papers in Quarto (.qmd), a Markdown-based format, and it is designed above all to make the work of attaching sources to footnotes easier.
 
-![Genkōdai's icon. The idea is that the human writes the text, and the AI (✦) sits only where the footnote number goes](/blog/posts/2026-09-29-genkodai/genkodai-icon.png){width="160" fig-align="center"}
+![](/blog/posts/2026-09-29-genkodai/genkodai-icon.png){width="160" fig-align="center" fig-alt="Genkōdai icon"}
 
 ![Genkōdai with a manuscript open](/blog/posts/2026-09-29-genkodai/screenshot-1.png)
 
