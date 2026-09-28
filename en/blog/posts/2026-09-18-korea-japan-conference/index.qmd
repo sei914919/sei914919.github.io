@@ -7,12 +7,12 @@ type: Presentation
 venue: 2026 Korea-Japan Competition Law Academic Research Conference (Korea University)
 categories:
 - Presentation
-image: /blog/posts/2026-09-18-korea-japan-conference/nameplate.jpg
+image: /blog/posts/2026-09-18-korea-japan-conference/conference.jpg
 ---
 
 On September 18, I gave a presentation titled "Recent Developments in Japanese Competition Law: Through the Lens of Innovation" at the "2026 Korea-Japan Competition Law Academic Research Conference (2026 한일 경쟁법연구 학술교류대회)," held at Korea University in Seoul. The conference was co-organized by the Korea Competition Law Association (KCLA) and the Japan Association of Economic Law, and doubled as an exchange between Korean and Japanese economic law scholars.
 
-![](/blog/posts/2026-09-18-korea-japan-conference/nameplate.jpg)
+![The presentation at Korea University](/blog/posts/2026-09-18-korea-japan-conference/conference.jpg)
 
 I was originally asked to speak on "recent developments in Japanese competition law and policy." But an exhaustive survey of Japanese developments would not make good material for discussion among researchers, so I chose to examine Japanese competition law enforcement critically through the lens of innovation. I chose innovation because it covers recent new issues while also giving a cross-cutting view of the whole of enforcement.
 

@@ -7,12 +7,12 @@ type: 報告
 venue: 2026 Korea-Japan Competition Law Academic Research Conference（高麗大学）
 categories:
 - 報告
-image: nameplate.jpg
+image: conference.jpg
 ---
 
 9月18日に、ソウルの高麗大学で開催された「2026 Korea-Japan Competition Law Academic Research Conference（2026 한일 경쟁법연구 학술교류대회）」で、「日本競争法の近年の展開──イノベーションを切り口に──」というタイトルの報告をしました。韓国競争法学会（KCLA）と日本経済法学会の共催で、韓国と日本の経済法研究者同士の交流を兼ねたカンファレンスです。
 
-![](nameplate.jpg)
+![高麗大学での報告の様子](conference.jpg)
 
 もともとは「日本競争法・政策の最近の展開」について話してほしい、というご依頼でした。ただ、日本の動向を網羅的に紹介するだけでは研究者同士で議論する素材になりにくいので、イノベーションを切り口にして、日本の競争法運用を批判的に検討するという形にしました。イノベーションを切り口にしたのは、近年の新しい論点をカバーしつつ、法運用の全体像も横断的に見渡せるからです。
 
