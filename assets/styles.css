@@ -74,7 +74,6 @@ main.content {
   font-family: "Crimson Pro", serif;
   font-size: 1.18rem;
   line-height: 1.55;
-  font-style: italic;
   color: var(--bs-body-color);
 }
 
