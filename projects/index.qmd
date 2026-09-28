@@ -11,15 +11,15 @@ toc-location: right
 
 ::: project-card
 ::: project-image
-![](../assets/images/projects/projects-jade-server.jpg){fig-alt="JADEサーバ筐体"}
+![](../assets/images/projects/projects-jade-server.jpg){fig-alt="JADEを動かすサーバ筐体"}
 :::
 ::: project-body
-### JADE / CLERK
+### JADE
 
-研究文献用ローカルRAGシステム。Ubuntu上で Ollama + AnythingLLM + Gradio を動かし、Obsidian vault と PDF を Syncthing 経由で同期して、オフライン環境でも文献横断検索・要約・比較分析が行えるよう構成。三法域（日米欧）比較を自動で構造化する独自の思考アルゴリズム（Anchor Analysis → Tri-Region Comparison → RAG-Synthesis）を組み込み済み。
+競争法研究（日米欧比較）のためのローカル RAG 研究基盤（再設計中）。体系書・判例などの事実参照用、自著論文・過去の評釈の文体参照用、未検証の収集資料用の3系統にコーパスを分け、新しい事例の評釈の下書き、テーマ別のリサーチ支援、コーパスへの質問応答を行う。学術引用に耐えるよう、検索結果にはすべて頁を付ける。検索品質の変更は評価セットでの実測と比べて判断し、使う道具はフレームワークに頼らず素の Python で組む。操作は Claude Code から MCP サーバー経由で行う。
 
 ::: stack
-Ubuntu · Ollama · qwen3.5 · AnythingLLM · Docker · Gradio
+Ollama · qwen3.6 · ChromaDB · Python · MCP
 :::
 :::
 :::
@@ -127,9 +127,5 @@ Obsidian · LiveSync · CouchDB · Whisper · YAML
 ::: {.callout-tip}
 ## 共通する設計思想
 
-これらはどれも、**「研究室の机のうえで自分が毎週やっていること」を、外部サービスに依存しないかたちで組み直した**ものです。サバティカルや出張で一時的にネットワークが弱くなっても止まらないこと、データが自分の手元から離れないこと、そしてLLMやAIエージェントを「研究の協働相手」として組み込めること、をいずれも要件にしています。
-:::
-
-::: {.callout-note}
-プロジェクトごとに代表となる写真を `assets/images/projects/` に追加していくと、各カード上部に画像が表示されます（現在は JADE のみ）。画像の指定がないカードは、そのまま本文だけで表示されます。
+これらはどれも、**「研究室の机のうえで自分が毎週やっていること」を、自分の手元で動く仕組みとして組み直した**ものです。文献や原稿といった中核のデータと処理はできるかぎり手元のマシンに置き、外部のサービスは連絡の窓口や予定・メールとの連携など、必要なところに限って使うこと。サバティカルや出張で一時的にネットワークが弱くなっても研究の中核が止まらないこと。そして LLM や AI エージェントを「研究の協働相手」として組み込めること。これらを共通の要件にしています。
 :::
