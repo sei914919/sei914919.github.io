@@ -6,6 +6,7 @@ project:
     - "CNAME"  # 将来カスタムドメインを使う場合に備えて
   post-render:
     - assets/hreflang.py
+    - assets/sitemap_lastmod.py
 
 lang: ja
 
