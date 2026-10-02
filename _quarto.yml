@@ -4,6 +4,10 @@ project:
   resources:
     - "assets/"
     - "CNAME"  # 将来カスタムドメインを使う場合に備えて
+  post-render:
+    - assets/hreflang.py
+
+lang: ja
 
 website:
   title: "Sei Shishido"
@@ -13,7 +17,7 @@ website:
   favicon: assets/favicon.svg
   open-graph: true
   twitter-card:
-    creator: "@sei_shishido"
+    creator: "@SeiShishido"
     card-style: summary
 
   navbar:
