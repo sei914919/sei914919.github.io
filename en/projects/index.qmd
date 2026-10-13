@@ -22,7 +22,7 @@ Systems and tools I have built for myself around research and teaching. They are
 ::: project-body
 ### JADE
 
-A local RAG research platform for comparative (Japan–U.S.–EU) competition law research (being redesigned). The corpus is split into three streams — textbooks and cases for factual reference, my own articles and case notes for style reference, and an inbox of unverified material — and the system drafts case notes on new decisions, supports thematic research, and answers questions over the corpus. Every search result carries page numbers so that it can support scholarly citation. Changes to retrieval quality are judged against measurements on an evaluation set, and everything is written in plain Python without frameworks. It is operated from Claude Code through an MCP server.
+A RAG setup I run in a local environment for comparative (Japan–U.S.–EU) competition law research; I am currently rebuilding it. I keep the corpus in three parts: treatises and cases for checking facts, my own articles and case notes as a reference for style, and collected material I have not yet verified. I use it to draft notes on new decisions, to research topics, and to answer questions about the corpus. So that results can be cited in a paper, every search result comes with page numbers. Before changing anything that affects retrieval quality, I measure it against an evaluation set, and I write the tools in plain Python without frameworks. I operate it from Claude Code through an MCP server.
 
 ::: stack
 Ollama · qwen3.6 · ChromaDB · Python · MCP
@@ -34,7 +34,7 @@ Ollama · qwen3.6 · ChromaDB · Python · MCP
 ::: project-body
 ### Arca
 
-An autonomous agent I can talk to both ways over Telegram. Built on OpenClaw and running as a systemd user service. It runs Ollama (qwen3.6:35b, with qwen3.5:9b for light replies) locally on a single GPU in my office, and exposes an OpenAI-compatible endpoint over Tailscale so that it can also be called from smart glasses (Even Realities G2). New features are added as independent Python scripts alongside the core, without modifying it.
+An always-on AI agent I can chat with over Telegram. It is built on OpenClaw and runs as a systemd user service. It uses Ollama (qwen3.6:35b, and qwen3.5:9b for light replies) locally on a single GPU in my office, and because I expose an OpenAI-compatible endpoint over Tailscale, I can also call it from my smart glasses (Even Realities G2). When I add features, I leave the core alone and add them alongside it as separate Python scripts.
 
 ::: stack
 OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
@@ -46,7 +46,7 @@ OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
 ::: project-body
 ### Secretary
 
-A system that takes over the logistics of work and life through a single point of contact, Telegram, instead of hiring a human secretary (in design). Its core is to take a commitment I have accepted, expand it into travel requests, expense paperwork, and preparation deadlines, and draft the documents; and, when work piles up, to help decide where to put my effort. Four functions form a common base — watching (email and calendar), remembering (a ledger in Notion), producing (administrative documents and draft replies), and prompting (morning and evening digests, reminders before deadlines) — and individual tasks sit on top of it as configuration. Claude Code interprets what I say, Arca handles routine jobs that need no judgment, and payments and submissions to the university always stop at the draft stage. The travel-document generator below has been folded into its paperwork role.
+Something I am designing so that, instead of hiring a secretary, I can hand off the logistics of work and life through Telegram. The main jobs are to take a commitment I have accepted, work out the travel requests, expense paperwork, and preparation deadlines that follow from it, and draft the documents; and, when things pile up, to help me decide where to put my effort. It has four common functions (checking my email and calendar, keeping records in a Notion ledger, drafting paperwork and replies, and sending morning and evening summaries and reminders before deadlines), and individual tasks are added as settings. Claude Code interprets what I say, Arca takes care of routine jobs that need no judgment, and payments and submissions to the university always stop at a draft. The travel-document generator below is now part of its paperwork role.
 
 ::: stack
 Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · Gmail · Python
@@ -58,7 +58,7 @@ Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · 
 ::: project-body
 ### Research meeting transcription pipeline
 
-A pipeline that turns recordings of competition law research meetings into minutes with speaker diarization using Whisper and pyannote.audio. A second stage uses Ollama (qwen2.5-coder:32b) to correct typos and clean up the text. A v2 that supports multitrack recording (DJI Mic 3) is in design.
+A pipeline that turns recordings of competition law research meetings into minutes, with speakers separated by Whisper and pyannote.audio. After transcription, a second pass with Ollama (qwen2.5-coder:32b) fixes typos and tidies the text. I am designing a v2 for multitrack recordings (DJI Mic 3).
 
 ::: stack
 Whisper · pyannote.audio 4 · Ollama · Python · CUDA
@@ -70,7 +70,7 @@ Whisper · pyannote.audio 4 · Ollama · Python · CUDA
 ::: project-body
 ### Travel document generator
 
-Scripts that generate KAKENHI expense requests and business-trip applications with openpyxl and python-docx from just the required fields — so that I stop losing time to the same forms I fill in many times a year.
+Scripts that produce KAKENHI expense requests and business-trip applications with openpyxl and python-docx from just the required fields. I wrote them because I did not want to keep losing time to the same forms several times a year.
 
 ::: stack
 Python · openpyxl · python-docx
@@ -82,7 +82,7 @@ Python · openpyxl · python-docx
 ::: project-body
 ### Japanese antimonopoly law history dashboard
 
-An interactive dashboard for following postwar amendments to Japan's Antimonopoly Act and major cases by period. Built with React alone (no external dependencies), with a fixed sidebar, four category filters, keyword search, and highlighting of landmark cases.
+A dashboard for following amendments to Japan's Antimonopoly Act and major cases since the war, period by period. It is built with React alone (no outside libraries) and has a fixed sidebar, filters for four categories, keyword search, and highlighting of landmark cases.
 
 [See the latest version (2025 timeline) →](https://www.mcompl.org/timeline/2025)
 
@@ -96,7 +96,7 @@ React · Vanilla CSS
 ::: project-body
 ### Complichain
 
-A prototype blockchain to support competition law enforcement. Firms record transaction data on per-firm channels, kept confidential from one another, and only when legal intervention becomes necessary does a multisignature approval give a regulator such as the Japan Fair Trade Commission time-limited access. Expired access rights lapse automatically, and every operation is kept as a tamper-proof audit trail. I presented the shift from authorities hunting for evidence after the fact (data hunt) to firms recording transactions in advance on a shared ledger that the authority consults only when conditions are met (data vault) at IICAH Hawaii 2026 in January 2026, as "[From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance](../blog/posts/2026-01-04-iicah-hawaii/index.qmd)". This prototype tests that proposal in working form; its starting point was my article "[Interplay of the Japanese Anti-monopoly Act and Blockchain](../blog/posts/2023-10-15-51493881/index.qmd)" (NBL No. 1252).
+A prototype blockchain for supporting competition law enforcement. Each firm records its transaction data on its own channel, hidden from the others, and only when legal intervention becomes necessary does a multisignature approval give a regulator such as the Japan Fair Trade Commission time-limited access. Access expires on its own, and every operation is kept as a record that cannot be altered. I proposed moving from authorities hunting for evidence after the fact (data hunt) to firms recording transactions in advance on a shared ledger that the authority looks at only when conditions are met (data vault), and presented this at IICAH Hawaii 2026 in January 2026 as "[From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance](../blog/posts/2026-01-04-iicah-hawaii/index.qmd)". The prototype is for checking that the proposal actually works; it grew out of my article "[Interplay of the Japanese Anti-monopoly Act and Blockchain](../blog/posts/2023-10-15-51493881/index.qmd)" (NBL No. 1252).
 
 ::: stack
 Hyperledger Fabric · Go (chaincode) · Node.js · Docker
@@ -108,7 +108,7 @@ Hyperledger Fabric · Go (chaincode) · Node.js · Docker
 ::: project-body
 ### Japanese–English antimonopoly glossary
 
-A glossary for standardizing how Japanese antimonopoly and competition policy terms are rendered in English. Japanese headwords follow the subject indexes of leading treatises, and English renderings are checked against my own English writing (such as the annual review on the Kluwer Competition Law Blog) and the JFTC's English materials, with sources recorded for each entry. Where renderings differ between my texts or remain unsettled, the entry is flagged and the decision deferred. I started it while preparing the English version of my presentation in Korea, and it will serve as a common standard for future English writing and international presentations.
+A glossary for keeping my English renderings of Japanese antimonopoly and competition policy terms consistent. The Japanese headwords follow the subject indexes of standard treatises, and the English renderings are checked against my own English writing (such as my annual review on the Kluwer Competition Law Blog) and the JFTC's English materials, with a source noted for each. Where my renderings have varied from piece to piece, or where I have not settled on one yet, I mark the entry and leave the decision open. I started it while preparing the English version of a presentation in Korea, and I plan to use it as the reference for my future English writing and international presentations.
 
 ::: stack
 Markdown · Claude Code
@@ -120,10 +120,23 @@ Markdown · Claude Code
 ::: project-body
 ### Obsidian LIFELOG
 
-An external memory system that feeds automatic Whisper transcriptions of what I say into an Obsidian vault and manages `epistemic_status` and `evolved_into` in YAML frontmatter, so that the development of my thinking can be traced with RAG. Synced in real time across Windows / macOS / Ubuntu / iOS with Self-hosted LiveSync.
+A note system: automatic Whisper transcriptions of what I say are saved in an Obsidian vault, and I track `epistemic_status` and `evolved_into` in YAML frontmatter so that I can follow with RAG how my thinking has changed. It is synced in real time across Windows / macOS / Ubuntu / iOS with Self-hosted LiveSync.
 
 ::: stack
 Obsidian · LiveSync · CouchDB · Whisper · YAML
+:::
+:::
+
+:::
+
+::: {.project-card data-cat="infra" data-cat-label="Research infrastructure" data-status="Running"}
+::: project-body
+### Pendant lifelog
+
+I had been using the Limitless Pendant, a small recorder worn around the neck, but the Limitless service has shut down, so I wrote an iPhone app in Swift to collect and transcribe the recordings myself. The pendant runs for about two days on a charge, so it is still a perfectly good recorder. It records all day; every fifteen minutes or so the app pulls the audio over Bluetooth in the background and sends it over Tailscale to an Ubuntu machine in my office, where faster-whisper transcribes it and the text is appended, with timestamps, to that day's log in Obsidian. The audio never goes through an outside cloud service. I worked out how to talk to the pendant by reading the code of the open-source Omi app (MIT License). Recordings deleted from the pendant cannot be recovered, so the app deletes them only after confirming they have been saved on the phone.
+
+::: stack
+Swift · SwiftUI · CoreBluetooth · Opus / Ogg · faster-whisper · Tailscale · Obsidian · Python
 :::
 :::
 :::
@@ -131,9 +144,9 @@ Obsidian · LiveSync · CouchDB · Whisper · YAML
 :::
 
 ::: {.callout-tip}
-## Shared design principles
+## What they have in common
 
-Each of these **rebuilds something I do every week at my office desk as a system that runs on my own machines**. Core data and processing — literature and manuscripts — stay on my own machines as far as possible, and external services are used only where needed, such as for a point of contact or for calendar and email integration. The core of my research should keep running even when the network is weak during a sabbatical or a trip. And LLMs and AI agents should be built in as collaborators in research. These are the requirements they all share.
+Each of them takes a task I do for my research almost every week and rebuilds it to run in a local environment, depending as little as possible on outside services or the cloud. I keep the main data and processing, such as literature and manuscripts, local, and use outside services only where I need them, for example for messaging over Telegram or to work with my calendar and email. I want to be able to do my main work even when the network is unreliable during a sabbatical or a trip, and I want to use LLMs and AI agents in my research work. Those are the ideas behind all of them.
 :::
 
 ```{=html}

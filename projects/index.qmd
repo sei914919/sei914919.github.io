@@ -22,7 +22,7 @@ page-layout: full
 ::: project-body
 ### JADE
 
-競争法研究（日米欧比較）のためのローカル RAG 研究基盤（再設計中）。体系書・判例などの事実参照用、自著論文・過去の評釈の文体参照用、未検証の収集資料用の3系統にコーパスを分け、新しい事例の評釈の下書き、テーマ別のリサーチ支援、コーパスへの質問応答を行う。学術引用に耐えるよう、検索結果にはすべて頁を付ける。検索品質の変更は評価セットでの実測と比べて判断し、使う道具はフレームワークに頼らず素の Python で組む。操作は Claude Code から MCP サーバー経由で行う。
+競争法（日米欧の比較）の研究のために、ローカル環境で動かしている RAG の研究基盤です。いまは作り直しています。体系書や判例など事実を確かめるための資料、自分の論文や評釈など文体の参考にする資料、まだ中身を確かめていない収集資料の3つにコーパスを分けていて、新しい事例の評釈の下書き、テーマごとのリサーチ、コーパスへの質問への回答に使っています。論文の引用に使えるように、検索結果には必ず頁を付けるようにしています。検索の精度に関わる変更は、評価用の問題セットで実際に測ってから入れるかどうかを決めていて、道具はフレームワークを使わずに素の Python で書いています。操作は Claude Code から MCP サーバー経由で行っています。
 
 ::: stack
 Ollama · qwen3.6 · ChromaDB · Python · MCP
@@ -34,7 +34,7 @@ Ollama · qwen3.6 · ChromaDB · Python · MCP
 ::: project-body
 ### Arca
 
-Telegram で双方向に対話できる自律エージェント。OpenClaw を基盤に、systemd ユーザサービスとして常駐。研究室の GPU 1枚で Ollama（qwen3.6:35b、軽い応答は qwen3.5:9b）をローカルに動かし、Tailscale 経由で開いた OpenAI 互換のエンドポイントから、スマートグラス（Even Realities G2）でも呼び出せる。機能を足すときは本体に手を入れず、独立した Python スクリプトとして横付けしていく。
+Telegram でやりとりできる、常駐型の AI エージェントです。OpenClaw をもとに、systemd のユーザーサービスとして動かしています。研究室の GPU 1枚で Ollama（qwen3.6:35b、軽い返事には qwen3.5:9b）をローカルに動かしていて、Tailscale 経由で OpenAI 互換のエンドポイントを開いているので、スマートグラス（Even Realities G2）からも呼び出せます。機能を足すときは本体には手を入れず、独立した Python スクリプトとして追加していくようにしています。
 
 ::: stack
 OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
@@ -46,7 +46,7 @@ OpenClaw · Ollama · qwen3.6 · Telegram Bot API · Tailscale · systemd
 ::: project-body
 ### Secretary（秘書機能）
 
-人を秘書として雇う代わりに、Telegram という一つの窓口で仕事と生活の段取りを肩代わりさせる仕組み（設計中）。引き受けた仕事から出張申請・経費書類・準備の締切を展開して書類の下書きまで作ること、仕事が重なったときにどこに力を置くかを一緒に判断することが中心。「見張る（メール・カレンダー）」「覚えておく（Notion の台帳）」「代わりに作る（事務書類・返信案）」「声をかける（朝夕のダイジェスト・期限前の催促）」の4つの機能を共通の土台にして、個々の業務はその上に設定として載せる。言葉の解釈は Claude Code、判断の要らない定期処理は Arca と役割を分け、支払いや大学への提出は最後まで下書きにとどめる。下の出張書類自動生成も、この事務書類担当に組み込んだ。
+人を秘書として雇う代わりに、Telegram を通じて、仕事と生活の段取りを任せられるようにしようとしているものです（設計中）。中心になるのは、引き受けた仕事から出張申請や経費書類、準備の締切を洗い出して書類の下書きまで作ることと、仕事が重なったときにどこに力を入れるかを一緒に考えることです。メールとカレンダーを確認する、Notion の台帳に記録しておく、事務書類や返信案を作る、朝夕のまとめや締切前の催促を送る、という4つの機能を共通にして、個々の業務は設定として追加する形にしています。言葉の解釈は Claude Code に、判断の要らない定期的な処理は Arca に任せていて、支払いや大学への提出は必ず下書きで止めるようにしています。下の出張書類の自動生成も、この事務書類の担当に組み込みました。
 
 ::: stack
 Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · Gmail · Python
@@ -58,7 +58,7 @@ Claude Code · OpenClaw · Telegram Bot API · Notion API · Google Calendar · 
 ::: project-body
 ### 研究会音声書き起こしパイプライン
 
-競争法研究会の録音から、Whisper + pyannote.audio による話者分離つきの議事録を生成するパイプライン。書き起こし後に Ollama (qwen2.5-coder:32b) で誤字訂正・整形を行う2段構成。マルチトラック録音（DJI Mic 3）に対応した v2 を設計中。
+競争法の研究会の録音から、Whisper と pyannote.audio で話者を分けた議事録を作るパイプラインです。書き起こしたあと、Ollama（qwen2.5-coder:32b）で誤字の訂正と整形をする2段構成にしています。マルチトラックの録音（DJI Mic 3）に対応した v2 を設計中です。
 
 ::: stack
 Whisper · pyannote.audio 4 · Ollama · Python · CUDA
@@ -70,7 +70,7 @@ Whisper · pyannote.audio 4 · Ollama · Python · CUDA
 ::: project-body
 ### 出張書類自動生成
 
-科研費の支出申請・出張申請書類を、定型項目だけ書けば openpyxl と python-docx で自動生成するスクリプト。年に何度も書く同じ書類のために時間を溶かさないために。
+科研費の支出申請や出張申請の書類を、決まった項目を書くだけで openpyxl と python-docx で作れるようにしたスクリプトです。年に何度も書く同じ書類に時間を取られたくなかったので作りました。
 
 ::: stack
 Python · openpyxl · python-docx
@@ -82,7 +82,7 @@ Python · openpyxl · python-docx
 ::: project-body
 ### 独占禁止法史ダッシュボード
 
-戦後日本の独禁法改正・主要判例を年代別に追えるインタラクティブダッシュボード。React 単体（外部依存なし）で構築。サイドバー固定、4カテゴリフィルタ、キーワード検索、ランドマーク事件のハイライト機能つき。
+戦後日本の独禁法の改正と主な判例を、年代ごとに追えるようにしたダッシュボードです。React だけ（外部ライブラリなし）で作っていて、サイドバーの固定、4つのカテゴリでの絞り込み、キーワード検索、重要な事件の強調表示ができます。
 
 [最新版（2025年タイムライン）を見る →](https://www.mcompl.org/timeline/2025)
 
@@ -96,7 +96,7 @@ React · Vanilla CSS
 ::: project-body
 ### Complichain
 
-競争法の執行を支えるブロックチェーンの試作。企業の取引データを各社専用のチャネルで互いに秘匿したまま記録し、法的な介入が必要になったときだけ、マルチシグの承認によって公正取引委員会などの規制当局に期限付きのアクセス権を与える。期限切れのアクセス権は自動で失効し、すべての操作は改ざんできない監査証跡として残る。当局が事後に証拠を探し回る調査（data hunt）から、事業者が取引を前もって共有台帳に記録し、当局は条件を満たしたときだけ参照する仕組み（data vault）への転換を、2026年1月に IICAH Hawaii 2026 で「[From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance](../blog/posts/2026-01-04-iicah-hawaii/index.qmd)」として報告した。その提案を実際に動く形で確かめるための試作で、出発点は論説「[独占禁止法とブロックチェーンの連関性](../blog/posts/2023-10-15-51493881/index.qmd)」（NBL 1252号）。
+競争法の執行を支えるためのブロックチェーンの試作です。企業の取引データを各社専用のチャネルに、お互いに見えない形で記録しておき、法的な介入が必要になったときだけ、マルチシグでの承認を経て、公正取引委員会などの規制当局に期限付きで閲覧の権限を与えます。期限が切れた権限は自動でなくなり、すべての操作は改ざんできない記録として残ります。当局が事後に証拠を探し回るやり方（data hunt）から、事業者があらかじめ取引を共有の台帳に記録しておき、当局は条件を満たしたときだけそれを見るやり方（data vault）に切り替える、という提案を、2026年1月の IICAH Hawaii 2026 で「[From Data Hunt to Data Vault: A Closed-Chain Solution for Antitrust Compliance](../blog/posts/2026-01-04-iicah-hawaii/index.qmd)」として報告しました。この試作は、その提案が実際に動くかを確かめるためのもので、もとになったのは論説「[独占禁止法とブロックチェーンの連関性](../blog/posts/2023-10-15-51493881/index.qmd)」（NBL 1252号）です。
 
 ::: stack
 Hyperledger Fabric · Go（chaincode） · Node.js · Docker
@@ -108,7 +108,7 @@ Hyperledger Fabric · Go（chaincode） · Node.js · Docker
 ::: project-body
 ### 日英独禁法用語対照表
 
-日本の独禁法・競争政策の用語を英語でどう表すかを揃えるための対照表。日本語の見出しは代表的な体系書の事項索引に依拠し、英訳は自分の英語論稿（Kluwer Competition Law Blog の年次回顧など）や公取委の英訳資料と突き合わせて、典拠つきで管理している。論稿ごとに訳語が揺れている箇所や、まだ定まらない訳語には印を付けて判断を保留する。韓国での報告の英語版を作るのをきっかけに作り始め、今後の英語論稿・国際報告での共通の基準にしていく。
+日本の独禁法・競争政策の用語を英語でどう書くかをそろえるための対照表です。日本語の見出しは代表的な体系書の事項索引に合わせ、英訳は自分の英語の論稿（Kluwer Competition Law Blog の年次回顧など）や公取委の英訳資料と照らし合わせて、典拠を付けて管理しています。論稿によって訳語がぶれているところや、まだ決めきれていない訳語には印を付けて、判断を保留しています。韓国での報告の英語版を作ったのをきっかけに作り始めたもので、今後の英語の論稿や国際報告でも、これを基準にしていくつもりです。
 
 ::: stack
 Markdown · Claude Code
@@ -120,10 +120,23 @@ Markdown · Claude Code
 ::: project-body
 ### Obsidian LIFELOG
 
-Whisper による発話の自動書き起こしを Obsidian vault に流し込み、YAML frontmatter で `epistemic_status` や `evolved_into` を管理することで、思考の発展史を RAG で追跡可能にする外部記憶システム。Self-hosted LiveSync で Windows / macOS / Ubuntu / iOS をリアルタイム同期。
+Whisper で自動的に書き起こした自分の発話を Obsidian の vault に保存し、YAML frontmatter で `epistemic_status` や `evolved_into` を管理して、考えがどう変わってきたかを RAG で追えるようにしているメモの仕組みです。Self-hosted LiveSync で Windows / macOS / Ubuntu / iOS の間をリアルタイムで同期しています。
 
 ::: stack
 Obsidian · LiveSync · CouchDB · Whisper · YAML
+:::
+:::
+
+:::
+
+::: {.project-card data-cat="infra" data-cat-label="研究基盤" data-status="稼働中"}
+::: project-body
+### Pendant ライフログ
+
+Limitless Pendant という首から下げる録音機を使っていたのですが、Limitless のサービスが終わってしまったので、録音を自分で回収して文字起こしするための iPhone アプリを Swift で作りました。Pendant は充電なしで2日ほど持つので、録音機としてはまだ十分に使えます。Pendant に一日中録音させておき、アプリがバックグラウンドで15分おきくらいに Bluetooth 経由で音声を吸い出して、Tailscale 経由で研究室の ubuntu に送ります。ubuntu 側では faster-whisper で文字起こしをして、Obsidian のその日のログに時刻付きで追記しています。音声は外部のクラウドを通りません。Pendant との通信の仕方は、オープンソースの Omi アプリ（MIT ライセンス）のコードを読んで調べました。Pendant 側の録音は一度消すと戻せないので、iPhone に保存できたことを確かめてから消すようにしています。
+
+::: stack
+Swift · SwiftUI · CoreBluetooth · Opus / Ogg · faster-whisper · Tailscale · Obsidian · Python
 :::
 :::
 :::
@@ -131,9 +144,9 @@ Obsidian · LiveSync · CouchDB · Whisper · YAML
 :::
 
 ::: {.callout-tip}
-## 共通する設計思想
+## 共通していること
 
-これらはどれも、**「研究室の机のうえで自分が毎週やっていること」を、自分の手元で動く仕組みとして組み直した**ものです。文献や原稿といった中核のデータと処理はできるかぎり手元のマシンに置き、外部のサービスは連絡の窓口や予定・メールとの連携など、必要なところに限って使うこと。サバティカルや出張で一時的にネットワークが弱くなっても研究の中核が止まらないこと。そして LLM や AI エージェントを「研究の協働相手」として組み込めること。これらを共通の要件にしています。
+どれも、研究で毎週のようにやっている作業を、外部のサービスやクラウドにできるだけ依存せず、ローカル環境で動くように作り直したものです。文献や原稿などの主なデータとその処理はローカル環境に置き、外部のサービスは、Telegram でのやりとりやカレンダー・メールとの連携など、必要なところだけで使っています。サバティカルや出張でネットワークがつながりにくいときでも主な作業ができるようにしたいことと、研究の作業に LLM や AI エージェントを使えるようにしたいことが、どれにも共通する考えです。
 :::
 
 ```{=html}
